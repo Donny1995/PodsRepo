@@ -812,226 +812,221 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "GenericTableViewCellSeparatorStyle",
+        "printedName": "GenericTableViewCellSeparatorStyle",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "none",
+            "printedName": "none",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GenericTableViewToolKit.GenericTableViewCellSeparatorStyle.Type) -> GenericTableViewToolKit.GenericTableViewCellSeparatorStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTableViewCellSeparatorStyle",
+                    "printedName": "GenericTableViewToolKit.GenericTableViewCellSeparatorStyle",
+                    "usr": "s:23GenericTableViewToolKit0abC18CellSeparatorStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GenericTableViewToolKit.GenericTableViewCellSeparatorStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTableViewCellSeparatorStyle",
+                        "printedName": "GenericTableViewToolKit.GenericTableViewCellSeparatorStyle",
+                        "usr": "s:23GenericTableViewToolKit0abC18CellSeparatorStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23GenericTableViewToolKit0abC18CellSeparatorStyleO4noneyA2CmF",
+            "mangledName": "$s23GenericTableViewToolKit0abC18CellSeparatorStyleO4noneyA2CmF",
+            "moduleName": "GenericTableViewToolKit"
+          },
+          {
+            "kind": "Var",
+            "name": "top",
+            "printedName": "top",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GenericTableViewToolKit.GenericTableViewCellSeparatorStyle.Type) -> (UIKit.UIEdgeInsets) -> GenericTableViewToolKit.GenericTableViewCellSeparatorStyle",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIEdgeInsets) -> GenericTableViewToolKit.GenericTableViewCellSeparatorStyle",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTableViewCellSeparatorStyle",
+                        "printedName": "GenericTableViewToolKit.GenericTableViewCellSeparatorStyle",
+                        "usr": "s:23GenericTableViewToolKit0abC18CellSeparatorStyleO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(metrics: UIKit.UIEdgeInsets)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIEdgeInsets",
+                            "printedName": "UIKit.UIEdgeInsets",
+                            "usr": "c:@S@UIEdgeInsets"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GenericTableViewToolKit.GenericTableViewCellSeparatorStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTableViewCellSeparatorStyle",
+                        "printedName": "GenericTableViewToolKit.GenericTableViewCellSeparatorStyle",
+                        "usr": "s:23GenericTableViewToolKit0abC18CellSeparatorStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23GenericTableViewToolKit0abC18CellSeparatorStyleO3topyACSo12UIEdgeInsetsV_tcACmF",
+            "mangledName": "$s23GenericTableViewToolKit0abC18CellSeparatorStyleO3topyACSo12UIEdgeInsetsV_tcACmF",
+            "moduleName": "GenericTableViewToolKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bottom",
+            "printedName": "bottom",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GenericTableViewToolKit.GenericTableViewCellSeparatorStyle.Type) -> (UIKit.UIEdgeInsets) -> GenericTableViewToolKit.GenericTableViewCellSeparatorStyle",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIEdgeInsets) -> GenericTableViewToolKit.GenericTableViewCellSeparatorStyle",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTableViewCellSeparatorStyle",
+                        "printedName": "GenericTableViewToolKit.GenericTableViewCellSeparatorStyle",
+                        "usr": "s:23GenericTableViewToolKit0abC18CellSeparatorStyleO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(metrics: UIKit.UIEdgeInsets)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIEdgeInsets",
+                            "printedName": "UIKit.UIEdgeInsets",
+                            "usr": "c:@S@UIEdgeInsets"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GenericTableViewToolKit.GenericTableViewCellSeparatorStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTableViewCellSeparatorStyle",
+                        "printedName": "GenericTableViewToolKit.GenericTableViewCellSeparatorStyle",
+                        "usr": "s:23GenericTableViewToolKit0abC18CellSeparatorStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23GenericTableViewToolKit0abC18CellSeparatorStyleO6bottomyACSo12UIEdgeInsetsV_tcACmF",
+            "mangledName": "$s23GenericTableViewToolKit0abC18CellSeparatorStyleO6bottomyACSo12UIEdgeInsetsV_tcACmF",
+            "moduleName": "GenericTableViewToolKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTableViewCellSeparatorStyle",
+                "printedName": "GenericTableViewToolKit.GenericTableViewCellSeparatorStyle",
+                "usr": "s:23GenericTableViewToolKit0abC18CellSeparatorStyleO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTableViewCellSeparatorStyle",
+                "printedName": "GenericTableViewToolKit.GenericTableViewCellSeparatorStyle",
+                "usr": "s:23GenericTableViewToolKit0abC18CellSeparatorStyleO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23GenericTableViewToolKit0abC18CellSeparatorStyleO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s23GenericTableViewToolKit0abC18CellSeparatorStyleO2eeoiySbAC_ACtFZ",
+            "moduleName": "GenericTableViewToolKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:23GenericTableViewToolKit0abC18CellSeparatorStyleO",
+        "mangledName": "$s23GenericTableViewToolKit0abC18CellSeparatorStyleO",
+        "moduleName": "GenericTableViewToolKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "GenericTableViewCell",
         "printedName": "GenericTableViewCell",
         "children": [
-          {
-            "kind": "TypeDecl",
-            "name": "SeparatorStyle",
-            "printedName": "SeparatorStyle",
-            "children": [
-              {
-                "kind": "Var",
-                "name": "none",
-                "printedName": "none",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "GenericFunction",
-                    "printedName": "<τ_0_0 where τ_0_0 : UIKit.UIView> (GenericTableViewToolKit.GenericTableViewCell<τ_0_0>.SeparatorStyle.Type) -> GenericTableViewToolKit.GenericTableViewCell<τ_0_0>.SeparatorStyle",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "SeparatorStyle",
-                        "printedName": "GenericTableViewToolKit.GenericTableViewCell<τ_0_0>.SeparatorStyle",
-                        "usr": "s:23GenericTableViewToolKit0abC4CellC14SeparatorStyleO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "GenericTableViewToolKit.GenericTableViewCell<τ_0_0>.SeparatorStyle.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "SeparatorStyle",
-                            "printedName": "GenericTableViewToolKit.GenericTableViewCell<τ_0_0>.SeparatorStyle",
-                            "usr": "s:23GenericTableViewToolKit0abC4CellC14SeparatorStyleO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:23GenericTableViewToolKit0abC4CellC14SeparatorStyleO4noneyAEyx_GAGmSo6UIViewCRbzlF",
-                "mangledName": "$s23GenericTableViewToolKit0abC4CellC14SeparatorStyleO4noneyAEyx_GAGmSo6UIViewCRbzlF",
-                "moduleName": "GenericTableViewToolKit"
-              },
-              {
-                "kind": "Var",
-                "name": "top",
-                "printedName": "top",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "GenericFunction",
-                    "printedName": "<τ_0_0 where τ_0_0 : UIKit.UIView> (GenericTableViewToolKit.GenericTableViewCell<τ_0_0>.SeparatorStyle.Type) -> (UIKit.UIEdgeInsets) -> GenericTableViewToolKit.GenericTableViewCell<τ_0_0>.SeparatorStyle",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(UIKit.UIEdgeInsets) -> GenericTableViewToolKit.GenericTableViewCell<τ_0_0>.SeparatorStyle",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "SeparatorStyle",
-                            "printedName": "GenericTableViewToolKit.GenericTableViewCell<τ_0_0>.SeparatorStyle",
-                            "usr": "s:23GenericTableViewToolKit0abC4CellC14SeparatorStyleO"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Tuple",
-                            "printedName": "(metrics: UIKit.UIEdgeInsets)",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "UIEdgeInsets",
-                                "printedName": "UIKit.UIEdgeInsets",
-                                "usr": "c:@S@UIEdgeInsets"
-                              }
-                            ]
-                          }
-                        ]
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "GenericTableViewToolKit.GenericTableViewCell<τ_0_0>.SeparatorStyle.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "SeparatorStyle",
-                            "printedName": "GenericTableViewToolKit.GenericTableViewCell<τ_0_0>.SeparatorStyle",
-                            "usr": "s:23GenericTableViewToolKit0abC4CellC14SeparatorStyleO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:23GenericTableViewToolKit0abC4CellC14SeparatorStyleO3topyAEyx_GSo12UIEdgeInsetsV_tcAGmSo6UIViewCRbzlF",
-                "mangledName": "$s23GenericTableViewToolKit0abC4CellC14SeparatorStyleO3topyAEyx_GSo12UIEdgeInsetsV_tcAGmSo6UIViewCRbzlF",
-                "moduleName": "GenericTableViewToolKit",
-                "declAttributes": [
-                  "RawDocComment"
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "bottom",
-                "printedName": "bottom",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "GenericFunction",
-                    "printedName": "<τ_0_0 where τ_0_0 : UIKit.UIView> (GenericTableViewToolKit.GenericTableViewCell<τ_0_0>.SeparatorStyle.Type) -> (UIKit.UIEdgeInsets) -> GenericTableViewToolKit.GenericTableViewCell<τ_0_0>.SeparatorStyle",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(UIKit.UIEdgeInsets) -> GenericTableViewToolKit.GenericTableViewCell<τ_0_0>.SeparatorStyle",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "SeparatorStyle",
-                            "printedName": "GenericTableViewToolKit.GenericTableViewCell<τ_0_0>.SeparatorStyle",
-                            "usr": "s:23GenericTableViewToolKit0abC4CellC14SeparatorStyleO"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Tuple",
-                            "printedName": "(metrics: UIKit.UIEdgeInsets)",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "UIEdgeInsets",
-                                "printedName": "UIKit.UIEdgeInsets",
-                                "usr": "c:@S@UIEdgeInsets"
-                              }
-                            ]
-                          }
-                        ]
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "GenericTableViewToolKit.GenericTableViewCell<τ_0_0>.SeparatorStyle.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "SeparatorStyle",
-                            "printedName": "GenericTableViewToolKit.GenericTableViewCell<τ_0_0>.SeparatorStyle",
-                            "usr": "s:23GenericTableViewToolKit0abC4CellC14SeparatorStyleO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:23GenericTableViewToolKit0abC4CellC14SeparatorStyleO6bottomyAEyx_GSo12UIEdgeInsetsV_tcAGmSo6UIViewCRbzlF",
-                "mangledName": "$s23GenericTableViewToolKit0abC4CellC14SeparatorStyleO6bottomyAEyx_GSo12UIEdgeInsetsV_tcAGmSo6UIViewCRbzlF",
-                "moduleName": "GenericTableViewToolKit",
-                "declAttributes": [
-                  "RawDocComment"
-                ]
-              },
-              {
-                "kind": "Function",
-                "name": "==",
-                "printedName": "==(_:_:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SeparatorStyle",
-                    "printedName": "GenericTableViewToolKit.GenericTableViewCell<τ_0_0>.SeparatorStyle",
-                    "usr": "s:23GenericTableViewToolKit0abC4CellC14SeparatorStyleO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SeparatorStyle",
-                    "printedName": "GenericTableViewToolKit.GenericTableViewCell<τ_0_0>.SeparatorStyle",
-                    "usr": "s:23GenericTableViewToolKit0abC4CellC14SeparatorStyleO"
-                  }
-                ],
-                "declKind": "Func",
-                "usr": "s:23GenericTableViewToolKit0abC4CellC14SeparatorStyleO2eeoiySbAEyx_G_AGtFZ",
-                "mangledName": "$s23GenericTableViewToolKit0abC4CellC14SeparatorStyleO2eeoiySbAEyx_G_AGtFZ",
-                "moduleName": "GenericTableViewToolKit",
-                "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIView>",
-                "sugared_genericSig": "<T where T : UIKit.UIView>",
-                "static": true,
-                "implicit": true,
-                "funcSelfKind": "NonMutating"
-              }
-            ],
-            "declKind": "Enum",
-            "usr": "s:23GenericTableViewToolKit0abC4CellC14SeparatorStyleO",
-            "mangledName": "$s23GenericTableViewToolKit0abC4CellC14SeparatorStyleO",
-            "moduleName": "GenericTableViewToolKit",
-            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIView>",
-            "sugared_genericSig": "<T where T : UIKit.UIView>",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
-              }
-            ]
-          },
           {
             "kind": "Var",
             "name": "separatorColor",
@@ -1053,7 +1048,8 @@
               "Custom",
               "HasStorage",
               "AccessControl",
-              "Dynamic"
+              "Dynamic",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1166,14 +1162,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "SeparatorStyle",
-                "printedName": "GenericTableViewToolKit.GenericTableViewCell<τ_0_0>.SeparatorStyle",
-                "usr": "s:23GenericTableViewToolKit0abC4CellC14SeparatorStyleO"
+                "name": "GenericTableViewCellSeparatorStyle",
+                "printedName": "GenericTableViewToolKit.GenericTableViewCellSeparatorStyle",
+                "usr": "s:23GenericTableViewToolKit0abC18CellSeparatorStyleO"
               }
             ],
             "declKind": "Var",
-            "usr": "s:23GenericTableViewToolKit0abC4CellC14separatorStyleAC09SeparatorH0Oyx_Gvp",
-            "mangledName": "$s23GenericTableViewToolKit0abC4CellC14separatorStyleAC09SeparatorH0Oyx_Gvp",
+            "usr": "s:23GenericTableViewToolKit0abC4CellC14separatorStyleAA0abcf9SeparatorH0Ovp",
+            "mangledName": "$s23GenericTableViewToolKit0abC4CellC14separatorStyleAA0abcf9SeparatorH0Ovp",
             "moduleName": "GenericTableViewToolKit",
             "declAttributes": [
               "HasInitialValue",
@@ -1191,14 +1187,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "SeparatorStyle",
-                    "printedName": "GenericTableViewToolKit.GenericTableViewCell<τ_0_0>.SeparatorStyle",
-                    "usr": "s:23GenericTableViewToolKit0abC4CellC14SeparatorStyleO"
+                    "name": "GenericTableViewCellSeparatorStyle",
+                    "printedName": "GenericTableViewToolKit.GenericTableViewCellSeparatorStyle",
+                    "usr": "s:23GenericTableViewToolKit0abC18CellSeparatorStyleO"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:23GenericTableViewToolKit0abC4CellC14separatorStyleAC09SeparatorH0Oyx_Gvg",
-                "mangledName": "$s23GenericTableViewToolKit0abC4CellC14separatorStyleAC09SeparatorH0Oyx_Gvg",
+                "usr": "s:23GenericTableViewToolKit0abC4CellC14separatorStyleAA0abcf9SeparatorH0Ovg",
+                "mangledName": "$s23GenericTableViewToolKit0abC4CellC14separatorStyleAA0abcf9SeparatorH0Ovg",
                 "moduleName": "GenericTableViewToolKit",
                 "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIView>",
                 "sugared_genericSig": "<T where T : UIKit.UIView>",
@@ -1217,14 +1213,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "SeparatorStyle",
-                    "printedName": "GenericTableViewToolKit.GenericTableViewCell<τ_0_0>.SeparatorStyle",
-                    "usr": "s:23GenericTableViewToolKit0abC4CellC14SeparatorStyleO"
+                    "name": "GenericTableViewCellSeparatorStyle",
+                    "printedName": "GenericTableViewToolKit.GenericTableViewCellSeparatorStyle",
+                    "usr": "s:23GenericTableViewToolKit0abC18CellSeparatorStyleO"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:23GenericTableViewToolKit0abC4CellC14separatorStyleAC09SeparatorH0Oyx_Gvs",
-                "mangledName": "$s23GenericTableViewToolKit0abC4CellC14separatorStyleAC09SeparatorH0Oyx_Gvs",
+                "usr": "s:23GenericTableViewToolKit0abC4CellC14separatorStyleAA0abcf9SeparatorH0Ovs",
+                "mangledName": "$s23GenericTableViewToolKit0abC4CellC14separatorStyleAA0abcf9SeparatorH0Ovs",
                 "moduleName": "GenericTableViewToolKit",
                 "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIView>",
                 "sugared_genericSig": "<T where T : UIKit.UIView>",
@@ -1243,8 +1239,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:23GenericTableViewToolKit0abC4CellC14separatorStyleAC09SeparatorH0Oyx_GvM",
-                "mangledName": "$s23GenericTableViewToolKit0abC4CellC14separatorStyleAC09SeparatorH0Oyx_GvM",
+                "usr": "s:23GenericTableViewToolKit0abC4CellC14separatorStyleAA0abcf9SeparatorH0OvM",
+                "mangledName": "$s23GenericTableViewToolKit0abC4CellC14separatorStyleAA0abcf9SeparatorH0OvM",
                 "moduleName": "GenericTableViewToolKit",
                 "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIView>",
                 "sugared_genericSig": "<T where T : UIKit.UIView>",
@@ -1843,8 +1839,8 @@
         "sugared_genericSig": "<T where T : UIKit.UIView>",
         "isOpen": true,
         "declAttributes": [
-          "Custom",
           "AccessControl",
+          "Custom",
           "RawDocComment"
         ],
         "superclassUsr": "c:objc(cs)UITableViewCell",
@@ -2368,112 +2364,112 @@
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/GenericTableViewToolKit\/GenericTableViewToolKit\/Classes\/GenericTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 936,
+      "offset": 685,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/GenericTableViewToolKit\/GenericTableViewToolKit\/Classes\/GenericTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 965,
+      "offset": 714,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/GenericTableViewToolKit\/GenericTableViewToolKit\/Classes\/GenericTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 977,
+      "offset": 726,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/GenericTableViewToolKit\/GenericTableViewToolKit\/Classes\/GenericTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1007,
+      "offset": 756,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/GenericTableViewToolKit\/GenericTableViewToolKit\/Classes\/GenericTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1327,
+      "offset": 1068,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/GenericTableViewToolKit\/GenericTableViewToolKit\/Classes\/GenericTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1356,
+      "offset": 1097,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/GenericTableViewToolKit\/GenericTableViewToolKit\/Classes\/GenericTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1368,
+      "offset": 1109,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/GenericTableViewToolKit\/GenericTableViewToolKit\/Classes\/GenericTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1398,
+      "offset": 1139,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/GenericTableViewToolKit\/GenericTableViewToolKit\/Classes\/GenericTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 2568,
+      "offset": 2573,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/GenericTableViewToolKit\/GenericTableViewToolKit\/Classes\/GenericTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 3478,
+      "offset": 3483,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/GenericTableViewToolKit\/GenericTableViewToolKit\/Classes\/GenericTableViewCell.swift",
       "kind": "Array",
-      "offset": 3651,
+      "offset": 3656,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/GenericTableViewToolKit\/GenericTableViewToolKit\/Classes\/GenericTableViewCell.swift",
       "kind": "Array",
-      "offset": 3713,
+      "offset": 3718,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/GenericTableViewToolKit\/GenericTableViewToolKit\/Classes\/GenericTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 4220,
+      "offset": 4225,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/GenericTableViewToolKit\/GenericTableViewToolKit\/Classes\/GenericTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 6602,
+      "offset": 6607,
       "length": 3,
       "value": "999"
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/GenericTableViewToolKit\/GenericTableViewToolKit\/Classes\/GenericTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 6855,
+      "offset": 6860,
       "length": 3,
       "value": "999"
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/GenericTableViewToolKit\/GenericTableViewToolKit\/Classes\/GenericTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 7098,
+      "offset": 7103,
       "length": 3,
       "value": "999"
     },

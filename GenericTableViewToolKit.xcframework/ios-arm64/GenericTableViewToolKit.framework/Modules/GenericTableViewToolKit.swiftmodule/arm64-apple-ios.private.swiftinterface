@@ -33,39 +33,39 @@ import _SwiftConcurrencyShims
 }
 public var defaultGenericTableViewCellSeparatorColor: UIKit.UIColor
 public var defaultGenericTableViewCellBackViewColor: UIKit.UIColor
-@_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class GenericTableViewCell<T> : UIKit.UITableViewCell where T : UIKit.UIView {
-  public enum SeparatorStyle : Swift.Equatable {
-    case none
-    case top(metrics: UIKit.UIEdgeInsets = .init(top: 1/UIScreen.main.scale, left: 20, bottom: 1/UIScreen.main.scale, right: 20))
-    case bottom(metrics: UIKit.UIEdgeInsets = .init(top: 1/UIScreen.main.scale, left: 20, bottom: 1/UIScreen.main.scale, right: 20))
-    public static func == (a: GenericTableViewToolKit.GenericTableViewCell<T>.SeparatorStyle, b: GenericTableViewToolKit.GenericTableViewCell<T>.SeparatorStyle) -> Swift.Bool
-  }
-  @_Concurrency.MainActor(unsafe) dynamic public var separatorColor: UIKit.UIColor {
+public enum GenericTableViewCellSeparatorStyle : Swift.Equatable {
+  case none
+  case top(metrics: UIKit.UIEdgeInsets = .init(top: 1/UIScreen.main.scale, left: 20, bottom: 1/UIScreen.main.scale, right: 20))
+  case bottom(metrics: UIKit.UIEdgeInsets = .init(top: 1/UIScreen.main.scale, left: 20, bottom: 1/UIScreen.main.scale, right: 20))
+  public static func == (a: GenericTableViewToolKit.GenericTableViewCellSeparatorStyle, b: GenericTableViewToolKit.GenericTableViewCellSeparatorStyle) -> Swift.Bool
+}
+@_inheritsConvenienceInitializers @_Concurrency.MainActor open class GenericTableViewCell<T> : UIKit.UITableViewCell where T : UIKit.UIView {
+  @_Concurrency.MainActor dynamic public var separatorColor: UIKit.UIColor {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open class func appearance() -> Self
-  @_Concurrency.MainActor(unsafe) public var separatorStyle: GenericTableViewToolKit.GenericTableViewCell<T>.SeparatorStyle {
+  @_Concurrency.MainActor @objc override dynamic open class func appearance() -> Self
+  @_Concurrency.MainActor public var separatorStyle: GenericTableViewToolKit.GenericTableViewCellSeparatorStyle {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @_Concurrency.MainActor(unsafe) open var contentInset: UIKit.UIEdgeInsets {
+  @_Concurrency.MainActor @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @_Concurrency.MainActor @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor open var contentInset: UIKit.UIEdgeInsets {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) public var mViewContent: T {
+  @_Concurrency.MainActor public var mViewContent: T {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func updateConstraints()
+  @_Concurrency.MainActor @objc override dynamic open func updateConstraints()
   public typealias SelectionBlock = ((_ cell: GenericTableViewToolKit.GenericTableViewCell<T>, _ selected: Swift.Bool, _ animated: Swift.Bool) -> Swift.Void)
-  @_Concurrency.MainActor(unsafe) public func setSelectionBlock(_ block: GenericTableViewToolKit.GenericTableViewCell<T>.SelectionBlock?)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func setSelected(_ selected: Swift.Bool, animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) public func setHighlightBlock(_ block: GenericTableViewToolKit.GenericTableViewCell<T>.SelectionBlock?)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func setHighlighted(_ highlighted: Swift.Bool, animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func prepareForReuse()
+  @_Concurrency.MainActor public func setSelectionBlock(_ block: GenericTableViewToolKit.GenericTableViewCell<T>.SelectionBlock?)
+  @_Concurrency.MainActor @objc override dynamic open func setSelected(_ selected: Swift.Bool, animated: Swift.Bool)
+  @_Concurrency.MainActor public func setHighlightBlock(_ block: GenericTableViewToolKit.GenericTableViewCell<T>.SelectionBlock?)
+  @_Concurrency.MainActor @objc override dynamic open func setHighlighted(_ highlighted: Swift.Bool, animated: Swift.Bool)
+  @_Concurrency.MainActor @objc override dynamic open func prepareForReuse()
   @objc deinit
 }
 extension UIKit.UITableView {
