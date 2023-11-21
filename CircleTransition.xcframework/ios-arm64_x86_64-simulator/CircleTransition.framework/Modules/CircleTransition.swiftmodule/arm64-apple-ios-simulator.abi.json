@@ -1,0 +1,638 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CircleTransition",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CircleTransition"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CircleTransitioner",
+        "printedName": "CircleTransitioner",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "animate",
+            "printedName": "animate(fromView:toView:duration:fromPath:toPath:changeBlock:configurePlacholder:isBlockBefore:finalize:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGPath",
+                "printedName": "CoreGraphics.CGPath",
+                "usr": "c:@T@CGPathRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGPath",
+                "printedName": "CoreGraphics.CGPath",
+                "usr": "c:@T@CGPathRef"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UIKit.UIView) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((UIKit.UIView) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIView) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((UIKit.UIView) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIView) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16CircleTransition0A12TransitionerC7animate8fromView02toF08duration0E4Path0gI011changeBlock19configurePlacholder02isK6Before8finalize10completionySo6UIViewC_APSgSdSo9CGPathRefaASyAPXEyAPcSgSbATyycSgtFZ",
+            "mangledName": "$s16CircleTransition0A12TransitionerC7animate8fromView02toF08duration0E4Path0gI011changeBlock19configurePlacholder02isK6Before8finalize10completionySo6UIViewC_APSgSdSo9CGPathRefaASyAPXEyAPcSgSbATyycSgtFZ",
+            "moduleName": "CircleTransition",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "animateCircleIn",
+            "printedName": "animateCircleIn(onView:toView:duration:center:circleRadius:configurePlacholder:changeBlock:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreFoundation.CGPoint?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGPoint",
+                    "printedName": "CoreFoundation.CGPoint",
+                    "usr": "c:@S@CGPoint"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((UIKit.UIView) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIView) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UIKit.UIView) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16CircleTransition0A12TransitionerC07animateA2In6onView02toG08duration6center12circleRadius19configurePlacholder11changeBlock10completionySo6UIViewC_ANSgSdSo7CGPointVSg14CoreFoundation7CGFloatVyANcSgyANXEyycSgtFZ",
+            "mangledName": "$s16CircleTransition0A12TransitionerC07animateA2In6onView02toG08duration6center12circleRadius19configurePlacholder11changeBlock10completionySo6UIViewC_ANSgSdSo7CGPointVSg12CoreGraphics7CGFloatVyANcSgyANXEyycSgtFZ",
+            "moduleName": "CircleTransition",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "animateCircleOut",
+            "printedName": "animateCircleOut(onView:toView:duration:center:circleRadius:configurePlacholder:changeBlock:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreFoundation.CGPoint?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGPoint",
+                    "printedName": "CoreFoundation.CGPoint",
+                    "usr": "c:@S@CGPoint"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((UIKit.UIView) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIView) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UIKit.UIView) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16CircleTransition0A12TransitionerC07animateA3Out6onView02toG08duration6center12circleRadius19configurePlacholder11changeBlock10completionySo6UIViewC_ANSdSo7CGPointVSg14CoreFoundation7CGFloatVyANcSgyANcyycSgtFZ",
+            "mangledName": "$s16CircleTransition0A12TransitionerC07animateA3Out6onView02toG08duration6center12circleRadius19configurePlacholder11changeBlock10completionySo6UIViewC_ANSdSo7CGPointVSg12CoreGraphics7CGFloatVyANcSgyANcyycSgtFZ",
+            "moduleName": "CircleTransition",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16CircleTransition0A12TransitionerC",
+        "mangledName": "$s16CircleTransition0A12TransitionerC",
+        "moduleName": "CircleTransition",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CircleTransition\/CircleTransition\/Classes\/CircleTransition.swift",
+      "kind": "BooleanLiteral",
+      "offset": 656,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CircleTransition\/CircleTransition\/Classes\/CircleTransition.swift",
+      "kind": "StringLiteral",
+      "offset": 1188,
+      "length": 6,
+      "value": "\"path\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CircleTransition\/CircleTransition\/Classes\/CircleTransition.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1315,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CircleTransition\/CircleTransition\/Classes\/CircleTransition.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1507,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CircleTransition\/CircleTransition\/Classes\/CircleTransition.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1520,
+      "length": 3,
+      "value": "120"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CircleTransition\/CircleTransition\/Classes\/CircleTransition.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1538,
+      "length": 3,
+      "value": "120"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CircleTransition\/CircleTransition\/Classes\/CircleTransition.swift",
+      "kind": "StringLiteral",
+      "offset": 1589,
+      "length": 6,
+      "value": "\"path\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CircleTransition\/CircleTransition\/Classes\/CircleTransition.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1936,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CircleTransition\/CircleTransition\/Classes\/CircleTransition.swift",
+      "kind": "FloatLiteral",
+      "offset": 2422,
+      "length": 4,
+      "value": "3.14"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CircleTransition\/CircleTransition\/Classes\/CircleTransition.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2466,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CircleTransition\/CircleTransition\/Classes\/CircleTransition.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2589,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CircleTransition\/CircleTransition\/Classes\/CircleTransition.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2623,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CircleTransition\/CircleTransition\/Classes\/CircleTransition.swift",
+      "kind": "FloatLiteral",
+      "offset": 3196,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CircleTransition\/CircleTransition\/Classes\/CircleTransition.swift",
+      "kind": "FloatLiteral",
+      "offset": 3244,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CircleTransition\/CircleTransition\/Classes\/CircleTransition.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3589,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CircleTransition\/CircleTransition\/Classes\/CircleTransition.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3828,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CircleTransition\/CircleTransition\/Classes\/CircleTransition.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4374,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CircleTransition\/CircleTransition\/Classes\/CircleTransition.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4497,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CircleTransition\/CircleTransition\/Classes\/CircleTransition.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4531,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CircleTransition\/CircleTransition\/Classes\/CircleTransition.swift",
+      "kind": "FloatLiteral",
+      "offset": 5104,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CircleTransition\/CircleTransition\/Classes\/CircleTransition.swift",
+      "kind": "FloatLiteral",
+      "offset": 5152,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CircleTransition\/CircleTransition\/Classes\/CircleTransition.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5495,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

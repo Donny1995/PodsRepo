@@ -1,0 +1,4 @@
+framework module PredicateBuilderKit {
+  header "PredicateBuilderKit-Swift.h"
+  requires objc
+}

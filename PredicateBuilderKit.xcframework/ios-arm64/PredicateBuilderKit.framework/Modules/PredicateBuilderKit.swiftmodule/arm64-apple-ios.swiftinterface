@@ -1,0 +1,63 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PredicateBuilderKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import CoreData
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers public class PredicateBuilder : PredicateBuilderKit.ImmutablePredicateBuilder {
+  public init(conjuction: Foundation.NSCompoundPredicate.LogicalType = .and)
+  public enum Relation {
+    case equal, notEqual, less, greater, lessOrEqual, greaterOrEqual
+    case `in`
+    public static func == (a: PredicateBuilderKit.PredicateBuilder.Relation, b: PredicateBuilderKit.PredicateBuilder.Relation) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum RelationForString {
+    case contains(caseInsensitive: Swift.Bool = false, diacritic: Swift.Bool = false)
+    case like(caseInsensitive: Swift.Bool = false, diacritic: Swift.Bool = false)
+    case beginsWith(caseInsensitive: Swift.Bool = false, diacritic: Swift.Bool = false)
+    case endsWith(caseInsensitive: Swift.Bool = false, diacritic: Swift.Bool = false)
+    case matches(caseInsensitive: Swift.Bool = false, diacritic: Swift.Bool = false)
+  }
+  public enum Aggregation : Swift.String {
+    case ANY
+    case SOME
+    case ALL
+    case NONE
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  @discardableResult
+  public func add<T>(key: Swift.String, subKey: Swift.String? = nil, relation: PredicateBuilderKit.PredicateBuilder.Relation = .equal, value: T?) -> Self where T : Swift.CVarArg
+  @discardableResult
+  public func add(key: Swift.String, subKey: Swift.String? = nil, relation: PredicateBuilderKit.PredicateBuilder.RelationForString, value: Swift.String) -> Self
+  @discardableResult
+  public func addAggregation<T>(aggregation: PredicateBuilderKit.PredicateBuilder.Aggregation = .ANY, key: Swift.String, subKey: Swift.String? = nil, relation: PredicateBuilderKit.PredicateBuilder.Relation = .equal, value: T?) -> Self where T : Swift.CVarArg
+  @discardableResult
+  public func addRaw(_ predicate: Foundation.NSPredicate) -> Self
+  public func wrapIntoSubquery(key: Swift.String, relation: PredicateBuilderKit.PredicateBuilder.Relation = .greater, count: Swift.Int = 0) -> PredicateBuilderKit.PredicateBuilder
+  public func wrapIntoNegation() -> PredicateBuilderKit.PredicateBuilder
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class ImmutablePredicateBuilder {
+  public func build() -> Foundation.NSPredicate
+  public func combining(conjunction: Foundation.NSCompoundPredicate.LogicalType, with: PredicateBuilderKit.ImmutablePredicateBuilder) -> PredicateBuilderKit.PredicateBuilder
+  public static func + (lhs: PredicateBuilderKit.ImmutablePredicateBuilder, rhs: PredicateBuilderKit.ImmutablePredicateBuilder) -> PredicateBuilderKit.PredicateBuilder
+  public static func || (lhs: PredicateBuilderKit.ImmutablePredicateBuilder, rhs: PredicateBuilderKit.ImmutablePredicateBuilder) -> PredicateBuilderKit.PredicateBuilder
+  public static func combine(conjunction: Foundation.NSCompoundPredicate.LogicalType, builders: [PredicateBuilderKit.ImmutablePredicateBuilder]) -> PredicateBuilderKit.PredicateBuilder
+  @objc deinit
+}
+extension PredicateBuilderKit.PredicateBuilder.Relation : Swift.Equatable {}
+extension PredicateBuilderKit.PredicateBuilder.Relation : Swift.Hashable {}
+extension PredicateBuilderKit.PredicateBuilder.Aggregation : Swift.Equatable {}
+extension PredicateBuilderKit.PredicateBuilder.Aggregation : Swift.Hashable {}
+extension PredicateBuilderKit.PredicateBuilder.Aggregation : Swift.RawRepresentable {}

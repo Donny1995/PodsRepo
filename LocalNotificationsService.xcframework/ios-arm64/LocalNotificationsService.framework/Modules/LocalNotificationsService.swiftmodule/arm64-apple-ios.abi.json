@@ -1,0 +1,1748 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LocalNotificationsService",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LocalNotificationsService"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LocalNotificationBannerService",
+        "printedName": "LocalNotificationBannerService",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "interBannerSpacing",
+            "printedName": "interBannerSpacing",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25LocalNotificationsService0a18NotificationBannerC0C05interE7Spacing14CoreFoundation7CGFloatVvpZ",
+            "mangledName": "$s25LocalNotificationsService0a18NotificationBannerC0C05interE7Spacing12CoreGraphics7CGFloatVvpZ",
+            "moduleName": "LocalNotificationsService",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25LocalNotificationsService0a18NotificationBannerC0C05interE7Spacing14CoreFoundation7CGFloatVvgZ",
+                "mangledName": "$s25LocalNotificationsService0a18NotificationBannerC0C05interE7Spacing12CoreGraphics7CGFloatVvgZ",
+                "moduleName": "LocalNotificationsService",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25LocalNotificationsService0a18NotificationBannerC0C05interE7Spacing14CoreFoundation7CGFloatVvsZ",
+                "mangledName": "$s25LocalNotificationsService0a18NotificationBannerC0C05interE7Spacing12CoreGraphics7CGFloatVvsZ",
+                "moduleName": "LocalNotificationsService",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25LocalNotificationsService0a18NotificationBannerC0C05interE7Spacing14CoreFoundation7CGFloatVvMZ",
+                "mangledName": "$s25LocalNotificationsService0a18NotificationBannerC0C05interE7Spacing12CoreGraphics7CGFloatVvMZ",
+                "moduleName": "LocalNotificationsService",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "push",
+            "printedName": "push(banner:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.UUID?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LocalNotificationBannerView",
+                "printedName": "LocalNotificationsService.LocalNotificationBannerView",
+                "usr": "c:@M@LocalNotificationsService@objc(cs)LocalNotificationBannerView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25LocalNotificationsService0a18NotificationBannerC0C4push6banner10Foundation4UUIDVSgAA0adE4ViewC_tFZ",
+            "mangledName": "$s25LocalNotificationsService0a18NotificationBannerC0C4push6banner10Foundation4UUIDVSgAA0adE4ViewC_tFZ",
+            "moduleName": "LocalNotificationsService",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "suspend",
+            "printedName": "suspend(banner:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LocalNotificationBannerView",
+                "printedName": "LocalNotificationsService.LocalNotificationBannerView",
+                "usr": "c:@M@LocalNotificationsService@objc(cs)LocalNotificationBannerView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25LocalNotificationsService0a18NotificationBannerC0C7suspend6banneryAA0adE4ViewC_tFZ",
+            "mangledName": "$s25LocalNotificationsService0a18NotificationBannerC0C7suspend6banneryAA0adE4ViewC_tFZ",
+            "moduleName": "LocalNotificationsService",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "suspend",
+            "printedName": "suspend(bannerID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25LocalNotificationsService0a18NotificationBannerC0C7suspend8bannerIDSb10Foundation4UUIDV_tFZ",
+            "mangledName": "$s25LocalNotificationsService0a18NotificationBannerC0C7suspend8bannerIDSb10Foundation4UUIDV_tFZ",
+            "moduleName": "LocalNotificationsService",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:25LocalNotificationsService0a18NotificationBannerC0C",
+        "mangledName": "$s25LocalNotificationsService0a18NotificationBannerC0C",
+        "moduleName": "LocalNotificationsService",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LocalNotificationsService",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LocalNotificationsService"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LocalNotificationBannerView",
+        "printedName": "LocalNotificationBannerView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LocalNotificationBannerView",
+                "printedName": "LocalNotificationsService.LocalNotificationBannerView",
+                "usr": "c:@M@LocalNotificationsService@objc(cs)LocalNotificationBannerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@LocalNotificationsService@objc(cs)LocalNotificationBannerView(im)initWithFrame:",
+            "mangledName": "$s25LocalNotificationsService0A22NotificationBannerViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "LocalNotificationsService",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LocalNotificationsService.LocalNotificationBannerView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LocalNotificationBannerView",
+                    "printedName": "LocalNotificationsService.LocalNotificationBannerView",
+                    "usr": "c:@M@LocalNotificationsService@objc(cs)LocalNotificationBannerView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@LocalNotificationsService@objc(cs)LocalNotificationBannerView(im)initWithCoder:",
+            "mangledName": "$s25LocalNotificationsService0A22NotificationBannerViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "LocalNotificationsService",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "contentView",
+            "printedName": "contentView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC07contentF0So6UIViewCvp",
+            "mangledName": "$s25LocalNotificationsService0A22NotificationBannerViewC07contentF0So6UIViewCvp",
+            "moduleName": "LocalNotificationsService",
+            "declAttributes": [
+              "Custom",
+              "Lazy",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC07contentF0So6UIViewCvg",
+                "mangledName": "$s25LocalNotificationsService0A22NotificationBannerViewC07contentF0So6UIViewCvg",
+                "moduleName": "LocalNotificationsService",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "loadContentView",
+            "printedName": "loadContentView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC011loadContentF0So6UIViewCyF",
+            "mangledName": "$s25LocalNotificationsService0A22NotificationBannerViewC011loadContentF0So6UIViewCyF",
+            "moduleName": "LocalNotificationsService",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "autoDismissMode",
+            "printedName": "autoDismissMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AutoDissmissMode",
+                "printedName": "LocalNotificationsService.LocalNotificationBannerView.AutoDissmissMode",
+                "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC16AutoDissmissModeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC15autoDismissModeAC012AutoDissmissI0Ovp",
+            "mangledName": "$s25LocalNotificationsService0A22NotificationBannerViewC15autoDismissModeAC012AutoDissmissI0Ovp",
+            "moduleName": "LocalNotificationsService",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AutoDissmissMode",
+                    "printedName": "LocalNotificationsService.LocalNotificationBannerView.AutoDissmissMode",
+                    "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC16AutoDissmissModeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC15autoDismissModeAC012AutoDissmissI0Ovg",
+                "mangledName": "$s25LocalNotificationsService0A22NotificationBannerViewC15autoDismissModeAC012AutoDissmissI0Ovg",
+                "moduleName": "LocalNotificationsService",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AutoDissmissMode",
+                    "printedName": "LocalNotificationsService.LocalNotificationBannerView.AutoDissmissMode",
+                    "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC16AutoDissmissModeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC15autoDismissModeAC012AutoDissmissI0Ovs",
+                "mangledName": "$s25LocalNotificationsService0A22NotificationBannerViewC15autoDismissModeAC012AutoDissmissI0Ovs",
+                "moduleName": "LocalNotificationsService",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC15autoDismissModeAC012AutoDissmissI0OvM",
+                "mangledName": "$s25LocalNotificationsService0A22NotificationBannerViewC15autoDismissModeAC012AutoDissmissI0OvM",
+                "moduleName": "LocalNotificationsService",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "AutoDissmissMode",
+            "printedName": "AutoDissmissMode",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "none",
+                "printedName": "none",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(LocalNotificationsService.LocalNotificationBannerView.AutoDissmissMode.Type) -> LocalNotificationsService.LocalNotificationBannerView.AutoDissmissMode",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AutoDissmissMode",
+                        "printedName": "LocalNotificationsService.LocalNotificationBannerView.AutoDissmissMode",
+                        "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC16AutoDissmissModeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "LocalNotificationsService.LocalNotificationBannerView.AutoDissmissMode.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AutoDissmissMode",
+                            "printedName": "LocalNotificationsService.LocalNotificationBannerView.AutoDissmissMode",
+                            "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC16AutoDissmissModeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC16AutoDissmissModeO4noneyA2EmF",
+                "mangledName": "$s25LocalNotificationsService0A22NotificationBannerViewC16AutoDissmissModeO4noneyA2EmF",
+                "moduleName": "LocalNotificationsService"
+              },
+              {
+                "kind": "Var",
+                "name": "after",
+                "printedName": "after",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(LocalNotificationsService.LocalNotificationBannerView.AutoDissmissMode.Type) -> (Swift.Double) -> LocalNotificationsService.LocalNotificationBannerView.AutoDissmissMode",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Double) -> LocalNotificationsService.LocalNotificationBannerView.AutoDissmissMode",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AutoDissmissMode",
+                            "printedName": "LocalNotificationsService.LocalNotificationBannerView.AutoDissmissMode",
+                            "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC16AutoDissmissModeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(time: Swift.Double)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Double",
+                                "printedName": "Swift.Double",
+                                "usr": "s:Sd"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "LocalNotificationsService.LocalNotificationBannerView.AutoDissmissMode.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AutoDissmissMode",
+                            "printedName": "LocalNotificationsService.LocalNotificationBannerView.AutoDissmissMode",
+                            "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC16AutoDissmissModeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC16AutoDissmissModeO5afteryAESd_tcAEmF",
+                "mangledName": "$s25LocalNotificationsService0A22NotificationBannerViewC16AutoDissmissModeO5afteryAESd_tcAEmF",
+                "moduleName": "LocalNotificationsService"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC16AutoDissmissModeO",
+            "mangledName": "$s25LocalNotificationsService0A22NotificationBannerViewC16AutoDissmissModeO",
+            "moduleName": "LocalNotificationsService",
+            "declAttributes": [
+              "AccessControl"
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "DismissOrigin",
+            "printedName": "DismissOrigin",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "auto",
+                "printedName": "auto",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(LocalNotificationsService.LocalNotificationBannerView.DismissOrigin.Type) -> LocalNotificationsService.LocalNotificationBannerView.DismissOrigin",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DismissOrigin",
+                        "printedName": "LocalNotificationsService.LocalNotificationBannerView.DismissOrigin",
+                        "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC13DismissOriginO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "LocalNotificationsService.LocalNotificationBannerView.DismissOrigin.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DismissOrigin",
+                            "printedName": "LocalNotificationsService.LocalNotificationBannerView.DismissOrigin",
+                            "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC13DismissOriginO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC13DismissOriginO4autoyA2EmF",
+                "mangledName": "$s25LocalNotificationsService0A22NotificationBannerViewC13DismissOriginO4autoyA2EmF",
+                "moduleName": "LocalNotificationsService",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "hand",
+                "printedName": "hand",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(LocalNotificationsService.LocalNotificationBannerView.DismissOrigin.Type) -> LocalNotificationsService.LocalNotificationBannerView.DismissOrigin",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DismissOrigin",
+                        "printedName": "LocalNotificationsService.LocalNotificationBannerView.DismissOrigin",
+                        "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC13DismissOriginO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "LocalNotificationsService.LocalNotificationBannerView.DismissOrigin.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DismissOrigin",
+                            "printedName": "LocalNotificationsService.LocalNotificationBannerView.DismissOrigin",
+                            "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC13DismissOriginO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC13DismissOriginO4handyA2EmF",
+                "mangledName": "$s25LocalNotificationsService0A22NotificationBannerViewC13DismissOriginO4handyA2EmF",
+                "moduleName": "LocalNotificationsService",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "suspended",
+                "printedName": "suspended",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(LocalNotificationsService.LocalNotificationBannerView.DismissOrigin.Type) -> LocalNotificationsService.LocalNotificationBannerView.DismissOrigin",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DismissOrigin",
+                        "printedName": "LocalNotificationsService.LocalNotificationBannerView.DismissOrigin",
+                        "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC13DismissOriginO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "LocalNotificationsService.LocalNotificationBannerView.DismissOrigin.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DismissOrigin",
+                            "printedName": "LocalNotificationsService.LocalNotificationBannerView.DismissOrigin",
+                            "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC13DismissOriginO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC13DismissOriginO9suspendedyA2EmF",
+                "mangledName": "$s25LocalNotificationsService0A22NotificationBannerViewC13DismissOriginO9suspendedyA2EmF",
+                "moduleName": "LocalNotificationsService",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DismissOrigin",
+                    "printedName": "LocalNotificationsService.LocalNotificationBannerView.DismissOrigin",
+                    "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC13DismissOriginO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DismissOrigin",
+                    "printedName": "LocalNotificationsService.LocalNotificationBannerView.DismissOrigin",
+                    "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC13DismissOriginO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC13DismissOriginO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s25LocalNotificationsService0A22NotificationBannerViewC13DismissOriginO2eeoiySbAE_AEtFZ",
+                "moduleName": "LocalNotificationsService",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC13DismissOriginO9hashValueSivp",
+                "mangledName": "$s25LocalNotificationsService0A22NotificationBannerViewC13DismissOriginO9hashValueSivp",
+                "moduleName": "LocalNotificationsService",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC13DismissOriginO9hashValueSivg",
+                    "mangledName": "$s25LocalNotificationsService0A22NotificationBannerViewC13DismissOriginO9hashValueSivg",
+                    "moduleName": "LocalNotificationsService",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC13DismissOriginO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s25LocalNotificationsService0A22NotificationBannerViewC13DismissOriginO4hash4intoys6HasherVz_tF",
+                "moduleName": "LocalNotificationsService",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC13DismissOriginO",
+            "mangledName": "$s25LocalNotificationsService0A22NotificationBannerViewC13DismissOriginO",
+            "moduleName": "LocalNotificationsService",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dismissOrigin",
+            "printedName": "dismissOrigin",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LocalNotificationsService.LocalNotificationBannerView.DismissOrigin?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DismissOrigin",
+                    "printedName": "LocalNotificationsService.LocalNotificationBannerView.DismissOrigin",
+                    "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC13DismissOriginO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC13dismissOriginAC07DismissH0OSgvp",
+            "mangledName": "$s25LocalNotificationsService0A22NotificationBannerViewC13dismissOriginAC07DismissH0OSgvp",
+            "moduleName": "LocalNotificationsService",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "LocalNotificationsService.LocalNotificationBannerView.DismissOrigin?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DismissOrigin",
+                        "printedName": "LocalNotificationsService.LocalNotificationBannerView.DismissOrigin",
+                        "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC13DismissOriginO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC13dismissOriginAC07DismissH0OSgvg",
+                "mangledName": "$s25LocalNotificationsService0A22NotificationBannerViewC13dismissOriginAC07DismissH0OSgvg",
+                "moduleName": "LocalNotificationsService",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "dismiss",
+            "printedName": "dismiss()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC7dismissyyF",
+            "mangledName": "$s25LocalNotificationsService0A22NotificationBannerViewC7dismissyyF",
+            "moduleName": "LocalNotificationsService",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "suspend",
+            "printedName": "suspend()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC7suspendyyF",
+            "mangledName": "$s25LocalNotificationsService0A22NotificationBannerViewC7suspendyyF",
+            "moduleName": "LocalNotificationsService",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didAppear",
+            "printedName": "didAppear()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC9didAppearyyF",
+            "mangledName": "$s25LocalNotificationsService0A22NotificationBannerViewC9didAppearyyF",
+            "moduleName": "LocalNotificationsService",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didDisappear",
+            "printedName": "didDisappear()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC12didDisappearyyF",
+            "mangledName": "$s25LocalNotificationsService0A22NotificationBannerViewC12didDisappearyyF",
+            "moduleName": "LocalNotificationsService",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "preformTemporaryReleasingHeightLock",
+            "printedName": "preformTemporaryReleasingHeightLock(block:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC35preformTemporaryReleasingHeightLock5blockyyyXE_tF",
+            "mangledName": "$s25LocalNotificationsService0A22NotificationBannerViewC35preformTemporaryReleasingHeightLock5blockyyyXE_tF",
+            "moduleName": "LocalNotificationsService",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "isDismissableByPanGesture",
+            "printedName": "isDismissableByPanGesture",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC25isDismissableByPanGestureSbvp",
+            "mangledName": "$s25LocalNotificationsService0A22NotificationBannerViewC25isDismissableByPanGestureSbvp",
+            "moduleName": "LocalNotificationsService",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC25isDismissableByPanGestureSbvg",
+                "mangledName": "$s25LocalNotificationsService0A22NotificationBannerViewC25isDismissableByPanGestureSbvg",
+                "moduleName": "LocalNotificationsService",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC25isDismissableByPanGestureSbvs",
+                "mangledName": "$s25LocalNotificationsService0A22NotificationBannerViewC25isDismissableByPanGestureSbvs",
+                "moduleName": "LocalNotificationsService",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25LocalNotificationsService0A22NotificationBannerViewC25isDismissableByPanGestureSbvM",
+                "mangledName": "$s25LocalNotificationsService0A22NotificationBannerViewC25isDismissableByPanGestureSbvM",
+                "moduleName": "LocalNotificationsService",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@LocalNotificationsService@objc(cs)LocalNotificationBannerView",
+        "mangledName": "$s25LocalNotificationsService0A22NotificationBannerViewC",
+        "moduleName": "LocalNotificationsService",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 963,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1063,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1258,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1950,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2151,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2218,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2381,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2674,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2774,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerService.swift",
+      "kind": "Array",
+      "offset": 3149,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerService.swift",
+      "kind": "Array",
+      "offset": 3228,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3276,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3341,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerService.swift",
+      "kind": "FloatLiteral",
+      "offset": 3576,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3734,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3812,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3873,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerService.swift",
+      "kind": "Array",
+      "offset": 3954,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerService.swift",
+      "kind": "Array",
+      "offset": 4010,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4105,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4546,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4931,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5660,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5976,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerService.swift",
+      "kind": "FloatLiteral",
+      "offset": 6075,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerService.swift",
+      "kind": "FloatLiteral",
+      "offset": 6087,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerService.swift",
+      "kind": "Array",
+      "offset": 6101,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerService.swift",
+      "kind": "FloatLiteral",
+      "offset": 6177,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerService.swift",
+      "kind": "FloatLiteral",
+      "offset": 6592,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerService.swift",
+      "kind": "FloatLiteral",
+      "offset": 6604,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerService.swift",
+      "kind": "FloatLiteral",
+      "offset": 6633,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerService.swift",
+      "kind": "FloatLiteral",
+      "offset": 6661,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerService.swift",
+      "kind": "Array",
+      "offset": 6675,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7091,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7366,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7532,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7570,
+      "length": 6,
+      "value": "100000"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerView.swift",
+      "kind": "StringLiteral",
+      "offset": 496,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 600,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 836,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerView.swift",
+      "kind": "StringLiteral",
+      "offset": 1719,
+      "length": 61,
+      "value": "\"LocalNotificationBannerView must override loadContentView()\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1914,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2481,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2655,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3037,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3161,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3352,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3538,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3544,
+      "length": 4,
+      "value": "-100"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3739,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3784,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4024,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4068,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4133,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5033,
+      "length": 3,
+      "value": "1.5"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5051,
+      "length": 3,
+      "value": "1.5"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5296,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5388,
+      "length": 6,
+      "value": "100001"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5652,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5683,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5692,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5697,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5817,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6010,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6048,
+      "length": 3,
+      "value": "800"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6138,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6189,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 6244,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 6256,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerView.swift",
+      "kind": "Array",
+      "offset": 6270,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6329,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6514,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 6612,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 6624,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerView.swift",
+      "kind": "Array",
+      "offset": 6638,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 6697,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/SberDoma\/LocalNotificationsService\/LocalNotificationsService\/Classes\/LocalNotificationBannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6946,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}

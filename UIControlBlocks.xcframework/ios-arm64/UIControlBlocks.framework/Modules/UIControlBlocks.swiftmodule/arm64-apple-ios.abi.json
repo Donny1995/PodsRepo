@@ -1,0 +1,669 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UIControlBlocks",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UIControlBlocks"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ActionBlockWrapper",
+        "printedName": "ActionBlockWrapper",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ActionBlockWrapper",
+                "printedName": "UIControlBlocks.ActionBlockWrapper<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:15UIControlBlocks18ActionBlockWrapperC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15UIControlBlocks18ActionBlockWrapperCACyxGycfc",
+            "mangledName": "$s15UIControlBlocks18ActionBlockWrapperCACyxGycfc",
+            "moduleName": "UIControlBlocks",
+            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIControl>",
+            "sugared_genericSig": "<T where T : UIKit.UIControl>",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15UIControlBlocks18ActionBlockWrapperC",
+        "mangledName": "$s15UIControlBlocks18ActionBlockWrapperC",
+        "moduleName": "UIControlBlocks",
+        "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIControl>",
+        "sugared_genericSig": "<T where T : UIKit.UIControl>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIControlClosureActionable",
+        "printedName": "UIControlClosureActionable",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setBlock",
+            "printedName": "setBlock(block:forEvent:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Event",
+                "printedName": "UIKit.UIControl.Event",
+                "usr": "c:@E@UIControlEvents"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15UIControlBlocks0A17ClosureActionablePAAE8setBlock5block8forEventyyxc_So0A6EventsVtF",
+            "mangledName": "$s15UIControlBlocks0A17ClosureActionablePAAE8setBlock5block8forEventyyxc_So0A6EventsVtF",
+            "moduleName": "UIControlBlocks",
+            "genericSig": "<τ_0_0 where τ_0_0 : UIControlBlocks.UIControlClosureActionable>",
+            "sugared_genericSig": "<Self where Self : UIControlBlocks.UIControlClosureActionable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeBlock",
+            "printedName": "removeBlock(forEvent:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Event",
+                "printedName": "UIKit.UIControl.Event",
+                "usr": "c:@E@UIControlEvents"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15UIControlBlocks0A17ClosureActionablePAAE11removeBlock8forEventySo0A6EventsV_tF",
+            "mangledName": "$s15UIControlBlocks0A17ClosureActionablePAAE11removeBlock8forEventySo0A6EventsV_tF",
+            "moduleName": "UIControlBlocks",
+            "genericSig": "<τ_0_0 where τ_0_0 : UIControlBlocks.UIControlClosureActionable>",
+            "sugared_genericSig": "<Self where Self : UIControlBlocks.UIControlClosureActionable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeBlocksForAllEvents",
+            "printedName": "removeBlocksForAllEvents()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15UIControlBlocks0A17ClosureActionablePAAE06removeB12ForAllEventsyyF",
+            "mangledName": "$s15UIControlBlocks0A17ClosureActionablePAAE06removeB12ForAllEventsyyF",
+            "moduleName": "UIControlBlocks",
+            "genericSig": "<τ_0_0 where τ_0_0 : UIControlBlocks.UIControlClosureActionable>",
+            "sugared_genericSig": "<Self where Self : UIControlBlocks.UIControlClosureActionable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:15UIControlBlocks0A17ClosureActionableP",
+        "mangledName": "$s15UIControlBlocks0A17ClosureActionableP",
+        "moduleName": "UIControlBlocks",
+        "genericSig": "<τ_0_0 : UIKit.UIControl>",
+        "sugared_genericSig": "<Self : UIKit.UIControl>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UIControlBlocks",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UIControlBlocks"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIGestureRecognizerClosureActionable",
+        "printedName": "UIGestureRecognizerClosureActionable",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setBlock",
+            "printedName": "setBlock(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15UIControlBlocks36UIGestureRecognizerClosureActionablePAAE8setBlockyyyxcF",
+            "mangledName": "$s15UIControlBlocks36UIGestureRecognizerClosureActionablePAAE8setBlockyyyxcF",
+            "moduleName": "UIControlBlocks",
+            "genericSig": "<τ_0_0 where τ_0_0 : UIControlBlocks.UIGestureRecognizerClosureActionable>",
+            "sugared_genericSig": "<Self where Self : UIControlBlocks.UIGestureRecognizerClosureActionable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:15UIControlBlocks36UIGestureRecognizerClosureActionableP",
+        "mangledName": "$s15UIControlBlocks36UIGestureRecognizerClosureActionableP",
+        "moduleName": "UIControlBlocks",
+        "genericSig": "<τ_0_0 : UIKit.UIGestureRecognizer>",
+        "sugared_genericSig": "<Self : UIKit.UIGestureRecognizer>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIControl",
+        "printedName": "UIControl",
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIControl",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIControl",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UIControlClosureActionable",
+            "printedName": "UIControlClosureActionable",
+            "usr": "s:15UIControlBlocks0A17ClosureActionableP",
+            "mangledName": "$s15UIControlBlocks0A17ClosureActionableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIGestureRecognizer",
+        "printedName": "UIGestureRecognizer",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "recognizerBlockAssociatedKey",
+            "printedName": "recognizerBlockAssociatedKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So19UIGestureRecognizerC15UIControlBlocksE28recognizerBlockAssociatedKeySSvpZ",
+            "mangledName": "$sSo19UIGestureRecognizerC15UIControlBlocksE28recognizerBlockAssociatedKeySSvpZ",
+            "moduleName": "UIControlBlocks",
+            "static": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So19UIGestureRecognizerC15UIControlBlocksE28recognizerBlockAssociatedKeySSvgZ",
+                "mangledName": "$sSo19UIGestureRecognizerC15UIControlBlocksE28recognizerBlockAssociatedKeySSvgZ",
+                "moduleName": "UIControlBlocks",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So19UIGestureRecognizerC15UIControlBlocksE28recognizerBlockAssociatedKeySSvsZ",
+                "mangledName": "$sSo19UIGestureRecognizerC15UIControlBlocksE28recognizerBlockAssociatedKeySSvsZ",
+                "moduleName": "UIControlBlocks",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So19UIGestureRecognizerC15UIControlBlocksE28recognizerBlockAssociatedKeySSvMZ",
+                "mangledName": "$sSo19UIGestureRecognizerC15UIControlBlocksE28recognizerBlockAssociatedKeySSvMZ",
+                "moduleName": "UIControlBlocks",
+                "static": true,
+                "implicit": true,
+                "intro_iOS": "3.2",
+                "declAttributes": [
+                  "Available",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "handleGestureAction",
+            "printedName": "handleGestureAction(sender:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIGestureRecognizer",
+                "printedName": "UIKit.UIGestureRecognizer",
+                "usr": "c:objc(cs)UIGestureRecognizer"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@UIControlBlocks@@objc(cs)UIGestureRecognizer(im)handleGestureActionWithSender:",
+            "mangledName": "$sSo19UIGestureRecognizerC15UIControlBlocksE19handleGestureAction6senderyAB_tF",
+            "moduleName": "UIControlBlocks",
+            "objc_name": "handleGestureActionWithSender:",
+            "declAttributes": [
+              "Dynamic",
+              "Custom",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIGestureRecognizer",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "3.2",
+        "objc_name": "UIGestureRecognizer",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UIGestureRecognizerClosureActionable",
+            "printedName": "UIGestureRecognizerClosureActionable",
+            "usr": "s:15UIControlBlocks36UIGestureRecognizerClosureActionableP",
+            "mangledName": "$s15UIControlBlocks36UIGestureRecognizerClosureActionableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/UIControlBlocks\/UIControlBlocks\/Classes\/UIControl+Block.swift",
+      "kind": "StringLiteral",
+      "offset": 259,
+      "length": 18,
+      "value": "\"UIControlBlocks.ActionBlockWrapper\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/UIControlBlocks\/UIControlBlocks\/Classes\/GestureRecognizer+Block.swift",
+      "kind": "StringLiteral",
+      "offset": 326,
+      "length": 29,
+      "value": "\"UIControlBlocks.GestureRecognizerBlockWrapper\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/UIControlBlocks\/UIControlBlocks\/Classes\/GestureRecognizer+Block.swift",
+      "kind": "StringLiteral",
+      "offset": 1438,
+      "length": 40,
+      "value": "\"kUIGestureRecognizerBlockAssociatedKey\""
+    }
+  ]
+}

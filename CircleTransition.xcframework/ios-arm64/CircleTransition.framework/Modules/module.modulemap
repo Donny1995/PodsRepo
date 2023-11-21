@@ -1,0 +1,4 @@
+framework module CircleTransition {
+  header "CircleTransition-Swift.h"
+  requires objc
+}

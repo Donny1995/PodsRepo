@@ -1,0 +1,136 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name CoreDatabaseStorage
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import CoreData
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol NSManagedObjectEditable : CoreDatabaseStorage.NSManagedObjectIdentifiable {
+  var child: Self? { get set }
+  var parent: Self? { get set }
+  var localID: Swift.String? { get set }
+  var isPendingOfflineChangesUpload: Swift.Bool { get }
+  func replicateValues(from: Self, accessor: CoreDatabaseStorage.Database.WriteableAccessor)
+  static func afterCreatingMutableCopy(old: Self, new: Self, accessor: CoreDatabaseStorage.Database.WriteableAccessor)
+  static func mergeMutableCopyBackToOriginal(original: Self, copy: Self, accessor: CoreDatabaseStorage.Database.WriteableAccessor)
+}
+extension CoreDatabaseStorage.NSManagedObjectEditable {
+  public static func fetchTopLevelRecordByLocalID(localID: Swift.String, accessor: CoreDatabaseStorage.Database.ReadableAccessor) -> Self?
+  public static func fetchDeepLevelRecordByLocalID(localID: Swift.String, accessor: CoreDatabaseStorage.Database.ReadableAccessor) -> Self?
+  public static func fetchOrCreateMutableCopyOfRecord(localID: Swift.String, accessor: CoreDatabaseStorage.Database.WriteableAccessor) -> (existed: Swift.Bool, object: Self?)
+  public static func decodePatchMap(from: Foundation.Data?) -> Swift.Set<Swift.String>
+  public static func encodePatchMap(map: Swift.Set<Swift.String>) -> Foundation.Data?
+}
+@_hasMissingDesignatedInitializers final public class Database {
+  @_hasMissingDesignatedInitializers final public class Storage {
+    final public let persistentContainer: CoreData.NSPersistentContainer
+    final public let backgroundManagedObjectContext: CoreData.NSManagedObjectContext
+    final public let identifier: Swift.String
+    final public var newObjectHook: (() -> Swift.Void)?
+    public static func initialize(identifier: Swift.String, model: CoreData.NSManagedObjectModel, cleanStart: Swift.Bool = false, completion: @escaping (_ cleared: Swift.Bool, _ result: Swift.Result<CoreDatabaseStorage.Database.Storage, any Swift.Error>) -> Swift.Void)
+    final public var mainManagedObjectContext: CoreData.NSManagedObjectContext {
+      get
+    }
+    @objc deinit
+  }
+  final public let identifier: Swift.String
+  final public var storage: CoreDatabaseStorage.Database.Storage? {
+    get
+  }
+  public static func initialize(identifier: Swift.String, model: CoreData.NSManagedObjectModel, cleanStart: Swift.Bool = false, completion: @escaping (_ cleared: Swift.Bool, _ result: Swift.Result<CoreDatabaseStorage.Database, any Swift.Error>) -> Swift.Void)
+  final public func erase(completion: @escaping (_ error: (any Swift.Error)?) -> Swift.Void)
+  final public func read() -> CoreDatabaseStorage.Database.ReadableAccessor?
+  final public func read<T>(_ block: @escaping (_ accessor: CoreDatabaseStorage.Database.ReadableAccessor) -> T, completion: ((_ readResult: T) -> Swift.Void)? = nil)
+  final public func write<T>(_ block: @escaping ((_ accessor: CoreDatabaseStorage.Database.WriteableAccessor) -> Swift.Void), read: @escaping ((_ accessor: CoreDatabaseStorage.Database.ReadableAccessor) -> T), completion: ((_ readResult: T) -> Swift.Void)? = nil)
+  final public func write(_ block: @escaping ((_ accessor: CoreDatabaseStorage.Database.WriteableAccessor) -> Swift.Void), completion: @escaping () -> Swift.Void)
+  @inlinable final public func controller<T>(ofType recordType: T.Type, withPredicate predicate: Foundation.NSPredicate? = nil, sortDescriptors descriptors: [Foundation.NSSortDescriptor] = [], sectionNameKeyPath keyPath: Swift.String? = nil) -> CoreData.NSFetchedResultsController<T>? where T : CoreData.NSManagedObject {
+        return read()?.controller(ofType: recordType, withPredicate: predicate, sortDescriptors: descriptors, sectionNameKeyPath: keyPath)
+    }
+  @inlinable final public func singleObject<T>(ofType recordType: T.Type, predicate: Foundation.NSPredicate? = nil, sortDescriptors descriptors: [Foundation.NSSortDescriptor] = []) -> T? where T : CoreData.NSManagedObject {
+        return read()?.singleObject(ofType: recordType, predicate: predicate, sortDescriptors: descriptors)
+    }
+  @inlinable final public func countObjects<T>(ofType recordType: T.Type, withPredicate predicate: Foundation.NSPredicate? = nil, sortDescriptors descriptors: [Foundation.NSSortDescriptor] = []) -> Swift.Int? where T : CoreData.NSManagedObject {
+        return read()?.countObjects(ofType: recordType, withPredicate: predicate, sortDescriptors: descriptors)
+    }
+  @_hasMissingDesignatedInitializers public class ReadableAccessor {
+    final public let storage: CoreDatabaseStorage.Database.Storage
+    public var objectContext: CoreData.NSManagedObjectContext {
+      get
+    }
+    public func perform(_ block: @escaping () -> Swift.Void)
+    public func fetchRequestAndEntity<T>(ofType recordType: T.Type) -> (fetchRequest: CoreData.NSFetchRequest<T>, entity: CoreData.NSEntityDescription) where T : CoreData.NSManagedObject
+    public func singleObject<T>(ofType recordType: T.Type, predicate: Foundation.NSPredicate? = nil, sortDescriptors descriptors: [Foundation.NSSortDescriptor] = []) -> T? where T : CoreData.NSManagedObject
+    public func objects<T>(ofType recordType: T.Type, withPredicate predicate: Foundation.NSPredicate? = nil, sortDescriptors descriptors: [Foundation.NSSortDescriptor] = [], range: (skip: Swift.Int, first: Swift.Int)? = nil) -> [T]? where T : CoreData.NSManagedObject
+    public func fetchIdentifiers<T>(ofType recordType: T.Type, key: Swift.String = "idd", predicate: Foundation.NSPredicate? = nil) -> Swift.Set<Swift.String> where T : CoreData.NSManagedObject
+    public struct SectionDescriptor {
+      public let count: Swift.Int
+      public let value: Any
+    }
+    public func fetchUniqueValues<T>(ofType recordType: T.Type, predicate: Foundation.NSPredicate? = nil, sectionNameKeyPath: Swift.String) -> [CoreDatabaseStorage.Database.ReadableAccessor.SectionDescriptor] where T : CoreData.NSManagedObject
+    public func controller<T>(ofType recordType: T.Type, withPredicate predicate: Foundation.NSPredicate? = nil, sortDescriptors descriptors: [Foundation.NSSortDescriptor] = [], sectionNameKeyPath keyPath: Swift.String? = nil) -> CoreData.NSFetchedResultsController<T>? where T : CoreData.NSManagedObject
+    public func countObjects<T>(ofType recordType: T.Type, withPredicate predicate: Foundation.NSPredicate? = nil, sortDescriptors descriptors: [Foundation.NSSortDescriptor] = []) -> Swift.Int? where T : CoreData.NSManagedObject
+    public func objectExists(ofType recordType: CoreData.NSManagedObject.Type, predicate: Foundation.NSPredicate? = nil, sortDescriptors descriptors: [Foundation.NSSortDescriptor] = []) -> Swift.Bool?
+    @objc deinit
+  }
+  @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class WriteableAccessor : CoreDatabaseStorage.Database.ReadableAccessor {
+    override final public var objectContext: CoreData.NSManagedObjectContext {
+      get
+    }
+    final public func insert<T>(ofType recordType: T.Type) -> T where T : CoreData.NSManagedObject
+    final public func delete(record: CoreData.NSManagedObject)
+    final public func batchDelete<T>(ofType recordType: T.Type, with predicate: Foundation.NSPredicate? = nil) where T : CoreData.NSManagedObject
+    final public func batchInsert<T>(ofType recordType: T.Type, with objects: [[Swift.String : Any]]) where T : CoreData.NSManagedObject
+    final public func batchUpdate<T>(ofType recordType: T.Type, with predicate: Foundation.NSPredicate? = nil, unsafeValues: [Swift.String : Any]) where T : CoreData.NSManagedObject
+    @objc deinit
+  }
+  @objc deinit
+}
+public protocol NSManagedObjectWriteable : CoreData.NSManagedObject {
+}
+extension CoreData.NSManagedObject : CoreDatabaseStorage.NSManagedObjectWriteable {
+}
+extension CoreDatabaseStorage.NSManagedObjectWriteable {
+  @discardableResult
+  public func updateValueIfNeeded<T>(path: Swift.ReferenceWritableKeyPath<Self, T>, value: T) -> Swift.Bool where T : Swift.Equatable
+  @discardableResult
+  public func updateValueIfNeeded(path: Swift.ReferenceWritableKeyPath<Self, Foundation.Data?>, value: [Swift.String : Any]?) -> Swift.Bool
+  @discardableResult
+  public func updateValueIfNeeded(path: Swift.ReferenceWritableKeyPath<Self, Foundation.Data?>, value: Foundation.Data?) -> Swift.Bool
+}
+public protocol NSManagedObjectCreatable : CoreDatabaseStorage.NSManagedObjectIdentifiable {
+  var localID: Swift.String? { get set }
+  var isPendingOfflineChangesUpload: Swift.Bool { get }
+}
+extension CoreDatabaseStorage.NSManagedObjectCreatable {
+  public static func create(localID: Swift.String = UUID().uuidString, accessor: CoreDatabaseStorage.Database.WriteableAccessor) -> Self
+}
+public let idnull: Swift.String
+public protocol NSManagedObjectIdentifiablePublic : CoreData.NSManagedObject, Swift.Identifiable where Self.ID == Swift.String {
+  var identifier: Swift.String { get }
+  static var creationSchedulesUpdate: Swift.Bool { get }
+}
+public protocol NSManagedObjectIdentifiable : CoreDatabaseStorage.NSManagedObjectIdentifiablePublic {
+  static func fetchPredicate(id: Swift.String, identifierField: Swift.String) -> Foundation.NSPredicate
+  static func fetchOrCreate(byID: Swift.String, accessor: CoreDatabaseStorage.Database.WriteableAccessor) -> (existed: Swift.Bool, object: Self)
+  static func fetchOrCreate(byID: Swift.String, identifierField: Swift.String, accessor: CoreDatabaseStorage.Database.WriteableAccessor) -> (existed: Swift.Bool, object: Self)
+  static func fetch(byID: Swift.String, identifierField: Swift.String, accessor: CoreDatabaseStorage.Database.ReadableAccessor) -> Self?
+}
+extension CoreDatabaseStorage.NSManagedObjectIdentifiable {
+  public static var creationSchedulesUpdate: Swift.Bool {
+    get
+  }
+  public var identifier: Swift.String {
+    get
+  }
+  public var id: Swift.String {
+    get
+  }
+  public static func fetchPredicate(id: Swift.String, identifierField: Swift.String = "idd") -> Foundation.NSPredicate
+  public static func fetchOrCreate(byID: Swift.String, identifierField: Swift.String = "idd", accessor: CoreDatabaseStorage.Database.WriteableAccessor) -> (existed: Swift.Bool, object: Self)
+  public static func fetchOrCreate(byID: Swift.String, accessor: CoreDatabaseStorage.Database.WriteableAccessor) -> (existed: Swift.Bool, object: Self)
+  public static func fetchOrCreate(equalityPredicate: Foundation.NSPredicate, accessor: CoreDatabaseStorage.Database.WriteableAccessor) -> (existed: Swift.Bool, object: Self)
+  public static func fetch(byID: Swift.String, identifierField: Swift.String = "idd", accessor: CoreDatabaseStorage.Database.ReadableAccessor) -> Self?
+}

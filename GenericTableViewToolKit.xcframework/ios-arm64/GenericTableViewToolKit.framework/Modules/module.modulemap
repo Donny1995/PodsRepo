@@ -1,0 +1,4 @@
+framework module GenericTableViewToolKit {
+  header "GenericTableViewToolKit-Swift.h"
+  requires objc
+}

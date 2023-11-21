@@ -1,0 +1,663 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TimeSyncService",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TimeService",
+        "printedName": "TimeService",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "TimeCheckError",
+            "printedName": "TimeCheckError",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "noLocalTimeCursor",
+                "printedName": "noLocalTimeCursor",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TimeSyncService.TimeService.TimeCheckError.Type) -> TimeSyncService.TimeService.TimeCheckError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TimeCheckError",
+                        "printedName": "TimeSyncService.TimeService.TimeCheckError",
+                        "usr": "s:15TimeSyncService0aC0C0A10CheckErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TimeSyncService.TimeService.TimeCheckError.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "TimeCheckError",
+                            "printedName": "TimeSyncService.TimeService.TimeCheckError",
+                            "usr": "s:15TimeSyncService0aC0C0A10CheckErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:15TimeSyncService0aC0C0A10CheckErrorO07noLocalA6CursoryA2EmF",
+                "mangledName": "$s15TimeSyncService0aC0C0A10CheckErrorO07noLocalA6CursoryA2EmF",
+                "moduleName": "TimeSyncService"
+              },
+              {
+                "kind": "Var",
+                "name": "unableToFetchKernelBootTime",
+                "printedName": "unableToFetchKernelBootTime",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TimeSyncService.TimeService.TimeCheckError.Type) -> TimeSyncService.TimeService.TimeCheckError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TimeCheckError",
+                        "printedName": "TimeSyncService.TimeService.TimeCheckError",
+                        "usr": "s:15TimeSyncService0aC0C0A10CheckErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TimeSyncService.TimeService.TimeCheckError.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "TimeCheckError",
+                            "printedName": "TimeSyncService.TimeService.TimeCheckError",
+                            "usr": "s:15TimeSyncService0aC0C0A10CheckErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:15TimeSyncService0aC0C0A10CheckErrorO023unableToFetchKernelBootA0yA2EmF",
+                "mangledName": "$s15TimeSyncService0aC0C0A10CheckErrorO023unableToFetchKernelBootA0yA2EmF",
+                "moduleName": "TimeSyncService"
+              },
+              {
+                "kind": "Var",
+                "name": "localTimeCursorIsOutOfSync",
+                "printedName": "localTimeCursorIsOutOfSync",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TimeSyncService.TimeService.TimeCheckError.Type) -> TimeSyncService.TimeService.TimeCheckError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TimeCheckError",
+                        "printedName": "TimeSyncService.TimeService.TimeCheckError",
+                        "usr": "s:15TimeSyncService0aC0C0A10CheckErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TimeSyncService.TimeService.TimeCheckError.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "TimeCheckError",
+                            "printedName": "TimeSyncService.TimeService.TimeCheckError",
+                            "usr": "s:15TimeSyncService0aC0C0A10CheckErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:15TimeSyncService0aC0C0A10CheckErrorO05locala13CursorIsOutOfB0yA2EmF",
+                "mangledName": "$s15TimeSyncService0aC0C0A10CheckErrorO05locala13CursorIsOutOfB0yA2EmF",
+                "moduleName": "TimeSyncService"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TimeCheckError",
+                    "printedName": "TimeSyncService.TimeService.TimeCheckError",
+                    "usr": "s:15TimeSyncService0aC0C0A10CheckErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TimeCheckError",
+                    "printedName": "TimeSyncService.TimeService.TimeCheckError",
+                    "usr": "s:15TimeSyncService0aC0C0A10CheckErrorO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:15TimeSyncService0aC0C0A10CheckErrorO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s15TimeSyncService0aC0C0A10CheckErrorO2eeoiySbAE_AEtFZ",
+                "moduleName": "TimeSyncService",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15TimeSyncService0aC0C0A10CheckErrorO9hashValueSivp",
+                "mangledName": "$s15TimeSyncService0aC0C0A10CheckErrorO9hashValueSivp",
+                "moduleName": "TimeSyncService",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15TimeSyncService0aC0C0A10CheckErrorO9hashValueSivg",
+                    "mangledName": "$s15TimeSyncService0aC0C0A10CheckErrorO9hashValueSivg",
+                    "moduleName": "TimeSyncService",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:15TimeSyncService0aC0C0A10CheckErrorO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s15TimeSyncService0aC0C0A10CheckErrorO4hash4intoys6HasherVz_tF",
+                "moduleName": "TimeSyncService",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:15TimeSyncService0aC0C0A10CheckErrorO",
+            "mangledName": "$s15TimeSyncService0aC0C0A10CheckErrorO",
+            "moduleName": "TimeSyncService",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "LocalizedError",
+                "printedName": "LocalizedError",
+                "usr": "s:10Foundation14LocalizedErrorP",
+                "mangledName": "$s10Foundation14LocalizedErrorP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Error",
+                "printedName": "Error",
+                "usr": "s:s5ErrorP",
+                "mangledName": "$ss5ErrorP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TimeService",
+                "printedName": "TimeSyncService.TimeService",
+                "usr": "s:15TimeSyncService0aC0C"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15TimeSyncService0aC0CACycfc",
+            "mangledName": "$s15TimeSyncService0aC0CACycfc",
+            "moduleName": "TimeSyncService",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "syncTime",
+            "printedName": "syncTime(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15TimeSyncService0aC0C04syncA010completionyySbc_tF",
+            "mangledName": "$s15TimeSyncService0aC0C04syncA010completionyySbc_tF",
+            "moduleName": "TimeSyncService",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getSynchronizedNowTime",
+            "printedName": "getSynchronizedNowTime(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.Date?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15TimeSyncService0aC0C018getSynchronizedNowA010completionyy10Foundation4DateVSgc_tF",
+            "mangledName": "$s15TimeSyncService0aC0C018getSynchronizedNowA010completionyy10Foundation4DateVSgc_tF",
+            "moduleName": "TimeSyncService",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchSynchronizedNowTime",
+            "printedName": "fetchSynchronizedNowTime()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15TimeSyncService0aC0C020fetchSynchronizedNowA010Foundation4DateVyKF",
+            "mangledName": "$s15TimeSyncService0aC0C020fetchSynchronizedNowA010Foundation4DateVyKF",
+            "moduleName": "TimeSyncService",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "invalidateLocalTime",
+            "printedName": "invalidateLocalTime()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15TimeSyncService0aC0C015invalidateLocalA0yyF",
+            "mangledName": "$s15TimeSyncService0aC0C015invalidateLocalA0yyF",
+            "moduleName": "TimeSyncService",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "isLocalTimeIntegrityFine",
+            "printedName": "isLocalTimeIntegrityFine",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15TimeSyncService0aC0C07isLocalA13IntegrityFineSbvp",
+            "mangledName": "$s15TimeSyncService0aC0C07isLocalA13IntegrityFineSbvp",
+            "moduleName": "TimeSyncService",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15TimeSyncService0aC0C07isLocalA13IntegrityFineSbvg",
+                "mangledName": "$s15TimeSyncService0aC0C07isLocalA13IntegrityFineSbvg",
+                "moduleName": "TimeSyncService",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15TimeSyncService0aC0C",
+        "mangledName": "$s15TimeSyncService0aC0C",
+        "moduleName": "TimeSyncService",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TimeServiceDelegate",
+        "printedName": "TimeServiceDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "timeService",
+            "printedName": "timeService(requestsToLoadRealTime:)",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.Date?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15TimeSyncService0aC8DelegateP04timeC0018requestsToLoadRealA0yycy10Foundation4DateVSgc_tF",
+            "mangledName": "$s15TimeSyncService0aC8DelegateP04timeC0018requestsToLoadRealA0yycy10Foundation4DateVSgc_tF",
+            "moduleName": "TimeSyncService",
+            "genericSig": "<τ_0_0 where τ_0_0 : TimeSyncService.TimeServiceDelegate>",
+            "sugared_genericSig": "<Self where Self : TimeSyncService.TimeServiceDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:15TimeSyncService0aC8DelegateP",
+        "mangledName": "$s15TimeSyncService0aC8DelegateP",
+        "moduleName": "TimeSyncService",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/TimeSyncService\/TimeSyncService\/Classes\/TimeSyncService.swift",
+      "kind": "StringLiteral",
+      "offset": 481,
+      "length": 26,
+      "value": "\"kTimeServiceKernBootTime\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/TimeSyncService\/TimeSyncService\/Classes\/TimeSyncService.swift",
+      "kind": "StringLiteral",
+      "offset": 591,
+      "length": 26,
+      "value": "\"kTimeServiceKernBootTime\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/TimeSyncService\/TimeSyncService\/Classes\/TimeSyncService.swift",
+      "kind": "StringLiteral",
+      "offset": 732,
+      "length": 24,
+      "value": "\"kTimeServiceKernOffset\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/TimeSyncService\/TimeSyncService\/Classes\/TimeSyncService.swift",
+      "kind": "StringLiteral",
+      "offset": 840,
+      "length": 24,
+      "value": "\"kTimeServiceKernOffset\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/TimeSyncService\/TimeSyncService\/Classes\/TimeSyncService.swift",
+      "kind": "FloatLiteral",
+      "offset": 2222,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/TimeSyncService\/TimeSyncService\/Classes\/TimeSyncService.swift",
+      "kind": "StringLiteral",
+      "offset": 2392,
+      "length": 28,
+      "value": "\"TIME: offset: \""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/TimeSyncService\/TimeSyncService\/Classes\/TimeSyncService.swift",
+      "kind": "StringLiteral",
+      "offset": 2419,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/TimeSyncService\/TimeSyncService\/Classes\/TimeSyncService.swift",
+      "kind": "FloatLiteral",
+      "offset": 3402,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/TimeSyncService\/TimeSyncService\/Classes\/TimeSyncService.swift",
+      "kind": "StringLiteral",
+      "offset": 3819,
+      "length": 15,
+      "value": "\"kern.boottime\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/TimeSyncService\/TimeSyncService\/Classes\/TimeSyncService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3855,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/TimeSyncService\/TimeSyncService\/Classes\/TimeSyncService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3880,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/TimeSyncService\/TimeSyncService\/Classes\/TimeSyncService.swift",
+      "kind": "FloatLiteral",
+      "offset": 4053,
+      "length": 11,
+      "value": "1000000.0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/TimeSyncService\/TimeSyncService\/Classes\/TimeSyncService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4345,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/TimeSyncService\/TimeSyncService\/Classes\/TimeSyncService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4939,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}

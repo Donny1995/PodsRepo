@@ -1,0 +1,61 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name LocalNotificationsService
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import LocalNotificationsService
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers open class LocalNotificationBannerService {
+  public static var interBannerSpacing: CoreFoundation.CGFloat {
+    get
+    set
+  }
+  @discardableResult
+  public static func push(banner: LocalNotificationsService.LocalNotificationBannerView) -> Foundation.UUID?
+  public static func suspend(banner: LocalNotificationsService.LocalNotificationBannerView)
+  @discardableResult
+  public static func suspend(bannerID: Foundation.UUID) -> Swift.Bool
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class LocalNotificationBannerView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public var contentView: UIKit.UIView {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) open func loadContentView() -> UIKit.UIView
+  @_Concurrency.MainActor(unsafe) open var autoDismissMode: LocalNotificationsService.LocalNotificationBannerView.AutoDissmissMode
+  public enum AutoDissmissMode {
+    case none
+    case after(time: Foundation.TimeInterval)
+  }
+  public enum DismissOrigin {
+    case auto
+    case hand
+    case suspended
+    public static func == (a: LocalNotificationsService.LocalNotificationBannerView.DismissOrigin, b: LocalNotificationsService.LocalNotificationBannerView.DismissOrigin) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @_Concurrency.MainActor(unsafe) public var dismissOrigin: LocalNotificationsService.LocalNotificationBannerView.DismissOrigin? {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public func dismiss()
+  @_Concurrency.MainActor(unsafe) public func suspend()
+  @_Concurrency.MainActor(unsafe) open func didAppear()
+  @_Concurrency.MainActor(unsafe) open func didDisappear()
+  @_Concurrency.MainActor(unsafe) public func preformTemporaryReleasingHeightLock(block: () -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public var isDismissableByPanGesture: Swift.Bool {
+    get
+    set
+  }
+  @objc deinit
+}
+extension LocalNotificationsService.LocalNotificationBannerView.DismissOrigin : Swift.Equatable {}
+extension LocalNotificationsService.LocalNotificationBannerView.DismissOrigin : Swift.Hashable {}

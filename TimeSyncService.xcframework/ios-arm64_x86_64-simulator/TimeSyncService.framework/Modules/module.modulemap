@@ -1,0 +1,4 @@
+framework module TimeSyncService {
+  header "TimeSyncService-Swift.h"
+  requires objc
+}

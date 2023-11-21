@@ -1,0 +1,4 @@
+framework module AutoheightComponents {
+  header "AutoheightComponents-Swift.h"
+  requires objc
+}

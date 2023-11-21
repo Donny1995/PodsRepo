@@ -1,0 +1,137 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name UIPopupMenu
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import CoreGraphics
+import Foundation
+import Swift
+import UIKit
+@_exported import UIPopupMenu
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol ASPickableListViewDataSource : AnyObject {
+  func numberOfSections(in picker: UIPopupMenu.ASPickableListView) -> Swift.Int
+  func pickerView(_ picker: UIPopupMenu.ASPickableListView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  func pickerView(_ picker: UIPopupMenu.ASPickableListView, titleForHeaderIn section: Swift.Int) -> Swift.String?
+  func pickerView(_ picker: UIPopupMenu.ASPickableListView, cellItemFor indexPath: Foundation.IndexPath) -> UIPopupMenu.ASPickableListView.CellItem
+}
+public protocol ASPickableListViewDelegate : AnyObject {
+  func pickerView(_ picker: UIPopupMenu.ASPickableListView, didSelectItem item: UIPopupMenu.ASPickableListView.CellItem, at indexPath: Foundation.IndexPath)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) final public class ASPickableListView : UIPopupMenu.ASTableTrackingView {
+  @_Concurrency.MainActor(unsafe) final public var dismissesOnSelection: Swift.Bool
+  @_Concurrency.MainActor(unsafe) final public var isMultipleSelectionAllowed: Swift.Bool {
+    get
+    set
+  }
+  public struct CellItem {
+    public let identifier: Swift.String
+    public let title: Swift.String
+    public let image: UIKit.UIImage?
+    public let subTitle: Swift.String?
+    public let attributes: UIPopupMenu.ASPickableListView.CellItem.Attributes
+    public let isSelected: Swift.Bool
+    public let selectionType: UIPopupMenu.ASPickableListView.CellItem.SelectionType
+    public init(identifier: Swift.String = UUID().uuidString, title: Swift.String, image: UIKit.UIImage? = nil, subTitle: Swift.String? = nil, attributes: UIPopupMenu.ASPickableListView.CellItem.Attributes = [], isSelected: Swift.Bool = false, seletionType: UIPopupMenu.ASPickableListView.CellItem.SelectionType = .tick)
+    public struct Attributes : Swift.OptionSet {
+      public let rawValue: Swift.UInt
+      public init(rawValue: Swift.UInt)
+      public static let destructive: UIPopupMenu.ASPickableListView.CellItem.Attributes
+      public static let disabled: UIPopupMenu.ASPickableListView.CellItem.Attributes
+      public typealias ArrayLiteralElement = UIPopupMenu.ASPickableListView.CellItem.Attributes
+      public typealias Element = UIPopupMenu.ASPickableListView.CellItem.Attributes
+      public typealias RawValue = Swift.UInt
+    }
+    public enum SelectionType {
+      case tick
+      case gray
+      public static func == (a: UIPopupMenu.ASPickableListView.CellItem.SelectionType, b: UIPopupMenu.ASPickableListView.CellItem.SelectionType) -> Swift.Bool
+      public func hash(into hasher: inout Swift.Hasher)
+      public var hashValue: Swift.Int {
+        get
+      }
+    }
+  }
+  @_Concurrency.MainActor(unsafe) weak final public var delegate: (any UIPopupMenu.ASPickableListViewDelegate)?
+  @_Concurrency.MainActor(unsafe) weak final public var dataSource: (any UIPopupMenu.ASPickableListViewDataSource)? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) override final public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) final public var isLoading: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) final public func setLoading(loading: Swift.Bool, animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension UIPopupMenu.ASPickableListView : UIKit.UITableViewDataSource, UIKit.UITableViewDelegate {
+  @_Concurrency.MainActor(unsafe) @objc final public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, willDisplay cell: UIKit.UITableViewCell, forRowAt indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, viewForHeaderInSection section: Swift.Int) -> UIKit.UIView?
+  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, willDisplayHeaderView view: UIKit.UIView, forSection section: Swift.Int)
+  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, willSelectRowAt indexPath: Foundation.IndexPath) -> Foundation.IndexPath?
+  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, didDeselectRowAt indexPath: Foundation.IndexPath)
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class ASPopupPresentationView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public static let presentAnimationDuration: Swift.Double
+  @_Concurrency.MainActor(unsafe) final public let contentView: UIKit.UIView
+  @_Concurrency.MainActor(unsafe) final public let interactionPoint: CoreFoundation.CGPoint?
+  @_Concurrency.MainActor(unsafe) weak public var originView: UIKit.UIView? {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var canOverlapSourceViewRect: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public var overlapSourceViewRectScaleFactor: CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) public init?(contentView: UIKit.UIView, originView: UIKit.UIView, interactionPoint: CoreFoundation.CGPoint? = nil)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func didMoveToWindow()
+  @_Concurrency.MainActor(unsafe) public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) public var isBeingPresented: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public func present(animated: Swift.Bool, completion: ((_ success: Swift.Bool) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) public var isBeingDismissed: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public func dismiss(animated: Swift.Bool, completion: ((_ success: Swift.Bool) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func hitTest(_ point: CoreFoundation.CGPoint, with event: UIKit.UIEvent?) -> UIKit.UIView?
+  @objc deinit
+}
+public protocol ASPopupPresentationViewContentDynamicSize : UIKit.UIView {
+  var preferredContentSizeDidChange: ((_ newSize: CoreFoundation.CGSize) -> Swift.Void)? { get set }
+  var preferredContentSize: CoreFoundation.CGSize { get }
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class ASTableTrackingView : UIKit.UIView, UIPopupMenu.ASPopupPresentationViewContentDynamicSize {
+  @_Concurrency.MainActor(unsafe) public var title: Swift.String?
+  @_Concurrency.MainActor(unsafe) open var isFlashingScrollIndicatorsOnAppear: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public var tableView: UIKit.UITableView {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public func updatePreferredContentSize()
+  @_Concurrency.MainActor(unsafe) public var preferredContentSizeDidChange: ((CoreFoundation.CGSize) -> Swift.Void)?
+  @_Concurrency.MainActor(unsafe) public var preferredContentSize: CoreFoundation.CGSize {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func didMoveToWindow()
+  @_Concurrency.MainActor(unsafe) open func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) weak public var headerView: UIKit.UIView? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) weak public var footerView: UIKit.UIView? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func updateConstraints()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension UIPopupMenu.ASPickableListView.CellItem.SelectionType : Swift.Equatable {}
+extension UIPopupMenu.ASPickableListView.CellItem.SelectionType : Swift.Hashable {}

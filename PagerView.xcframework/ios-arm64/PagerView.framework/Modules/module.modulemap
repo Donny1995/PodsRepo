@@ -1,0 +1,11 @@
+framework module PagerView {
+  umbrella header "PagerView-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module PagerView.Swift {
+  header "PagerView-Swift.h"
+  requires objc
+}

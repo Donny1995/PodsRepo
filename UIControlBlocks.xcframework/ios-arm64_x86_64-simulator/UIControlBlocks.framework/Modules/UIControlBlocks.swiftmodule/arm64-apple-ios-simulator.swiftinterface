@@ -1,0 +1,33 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name UIControlBlocks
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers public class ActionBlockWrapper<T> : ObjectiveC.NSObject where T : UIKit.UIControl {
+  @objc deinit
+}
+public protocol UIControlClosureActionable : UIKit.UIControl {
+}
+extension UIControlBlocks.UIControlClosureActionable {
+  public func setBlock(block: @escaping (_ sender: Self) -> Swift.Void, forEvent event: UIKit.UIControl.Event)
+  public func removeBlock(forEvent event: UIKit.UIControl.Event)
+  public func removeBlocksForAllEvents()
+}
+extension UIKit.UIControl : UIControlBlocks.UIControlClosureActionable {
+}
+public protocol UIGestureRecognizerClosureActionable : UIKit.UIGestureRecognizer {
+}
+extension UIControlBlocks.UIGestureRecognizerClosureActionable {
+  public func setBlock(_ block: @escaping ((_ sender: Self) -> Swift.Void))
+}
+extension UIKit.UIGestureRecognizer : UIControlBlocks.UIGestureRecognizerClosureActionable {
+}
+extension UIKit.UIGestureRecognizer {
+  @_Concurrency.MainActor(unsafe) public static var recognizerBlockAssociatedKey: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func handleGestureAction(sender: UIKit.UIGestureRecognizer)
+}

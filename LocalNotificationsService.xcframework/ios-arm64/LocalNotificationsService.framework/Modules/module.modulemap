@@ -1,0 +1,11 @@
+framework module LocalNotificationsService {
+  umbrella header "LocalNotificationsService-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module LocalNotificationsService.Swift {
+  header "LocalNotificationsService-Swift.h"
+  requires objc
+}

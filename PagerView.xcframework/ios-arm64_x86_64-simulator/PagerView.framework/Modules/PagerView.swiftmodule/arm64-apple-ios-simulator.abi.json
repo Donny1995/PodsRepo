@@ -1,0 +1,3275 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PagerView",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PagerView"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PagerView",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PagerView",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIPagerViewDelegate",
+        "printedName": "UIPagerViewDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "pagerView",
+            "printedName": "pagerView(_:didSelect:at:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIPagerView",
+                "printedName": "PagerView.UIPagerView",
+                "usr": "c:@M@PagerView@objc(cs)UIPagerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIPagerViewItem",
+                "printedName": "PagerView.UIPagerViewItem",
+                "usr": "c:@M@PagerView@objc(cs)UIPagerViewItem"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9PagerView07UIPagerB8DelegateP05pagerB0_9didSelect2atyAA0cB0C_AA0cB4ItemCSitF",
+            "mangledName": "$s9PagerView07UIPagerB8DelegateP05pagerB0_9didSelect2atyAA0cB0C_AA0cB4ItemCSitF",
+            "moduleName": "PagerView",
+            "genericSig": "<τ_0_0 where τ_0_0 : PagerView.UIPagerViewDelegate>",
+            "sugared_genericSig": "<Self where Self : PagerView.UIPagerViewDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:9PagerView07UIPagerB8DelegateP",
+        "mangledName": "$s9PagerView07UIPagerB8DelegateP",
+        "moduleName": "PagerView",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIPagerViewDataSource",
+        "printedName": "UIPagerViewDataSource",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "pagerView",
+            "printedName": "pagerView(numberOfElementsInt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIPagerView",
+                "printedName": "PagerView.UIPagerView",
+                "usr": "c:@M@PagerView@objc(cs)UIPagerView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9PagerView07UIPagerB10DataSourceP05pagerB019numberOfElementsIntSiAA0cB0C_tF",
+            "mangledName": "$s9PagerView07UIPagerB10DataSourceP05pagerB019numberOfElementsIntSiAA0cB0C_tF",
+            "moduleName": "PagerView",
+            "genericSig": "<τ_0_0 where τ_0_0 : PagerView.UIPagerViewDataSource>",
+            "sugared_genericSig": "<Self where Self : PagerView.UIPagerViewDataSource>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pagerView",
+            "printedName": "pagerView(_:viewFor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PagerView.UIPagerViewItem?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIPagerViewItem",
+                    "printedName": "PagerView.UIPagerViewItem",
+                    "usr": "c:@M@PagerView@objc(cs)UIPagerViewItem"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIPagerView",
+                "printedName": "PagerView.UIPagerView",
+                "usr": "c:@M@PagerView@objc(cs)UIPagerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9PagerView07UIPagerB10DataSourceP05pagerB0_7viewForAA0cB4ItemCSgAA0cB0C_SitF",
+            "mangledName": "$s9PagerView07UIPagerB10DataSourceP05pagerB0_7viewForAA0cB4ItemCSgAA0cB0C_SitF",
+            "moduleName": "PagerView",
+            "genericSig": "<τ_0_0 where τ_0_0 : PagerView.UIPagerViewDataSource>",
+            "sugared_genericSig": "<Self where Self : PagerView.UIPagerViewDataSource>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:9PagerView07UIPagerB10DataSourceP",
+        "mangledName": "$s9PagerView07UIPagerB10DataSourceP",
+        "moduleName": "PagerView",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIPagerView",
+        "printedName": "UIPagerView",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Axis",
+            "printedName": "Axis",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "horizontal",
+                "printedName": "horizontal",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PagerView.UIPagerView.Axis.Type) -> PagerView.UIPagerView.Axis",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Axis",
+                        "printedName": "PagerView.UIPagerView.Axis",
+                        "usr": "s:9PagerView07UIPagerB0C4AxisO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PagerView.UIPagerView.Axis.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Axis",
+                            "printedName": "PagerView.UIPagerView.Axis",
+                            "usr": "s:9PagerView07UIPagerB0C4AxisO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:9PagerView07UIPagerB0C4AxisO10horizontalyA2EmF",
+                "mangledName": "$s9PagerView07UIPagerB0C4AxisO10horizontalyA2EmF",
+                "moduleName": "PagerView"
+              },
+              {
+                "kind": "Var",
+                "name": "vertical",
+                "printedName": "vertical",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PagerView.UIPagerView.Axis.Type) -> PagerView.UIPagerView.Axis",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Axis",
+                        "printedName": "PagerView.UIPagerView.Axis",
+                        "usr": "s:9PagerView07UIPagerB0C4AxisO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PagerView.UIPagerView.Axis.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Axis",
+                            "printedName": "PagerView.UIPagerView.Axis",
+                            "usr": "s:9PagerView07UIPagerB0C4AxisO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:9PagerView07UIPagerB0C4AxisO8verticalyA2EmF",
+                "mangledName": "$s9PagerView07UIPagerB0C4AxisO8verticalyA2EmF",
+                "moduleName": "PagerView"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Axis",
+                    "printedName": "PagerView.UIPagerView.Axis",
+                    "usr": "s:9PagerView07UIPagerB0C4AxisO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Axis",
+                    "printedName": "PagerView.UIPagerView.Axis",
+                    "usr": "s:9PagerView07UIPagerB0C4AxisO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9PagerView07UIPagerB0C4AxisO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s9PagerView07UIPagerB0C4AxisO2eeoiySbAE_AEtFZ",
+                "moduleName": "PagerView",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9PagerView07UIPagerB0C4AxisO9hashValueSivp",
+                "mangledName": "$s9PagerView07UIPagerB0C4AxisO9hashValueSivp",
+                "moduleName": "PagerView",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9PagerView07UIPagerB0C4AxisO9hashValueSivg",
+                    "mangledName": "$s9PagerView07UIPagerB0C4AxisO9hashValueSivg",
+                    "moduleName": "PagerView",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9PagerView07UIPagerB0C4AxisO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s9PagerView07UIPagerB0C4AxisO4hash4intoys6HasherVz_tF",
+                "moduleName": "PagerView",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:9PagerView07UIPagerB0C4AxisO",
+            "mangledName": "$s9PagerView07UIPagerB0C4AxisO",
+            "moduleName": "PagerView",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "scrollView",
+            "printedName": "scrollView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIScrollView",
+                "printedName": "UIKit.UIScrollView",
+                "usr": "c:objc(cs)UIScrollView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PagerView07UIPagerB0C06scrollB0So08UIScrollB0Cvp",
+            "mangledName": "$s9PagerView07UIPagerB0C06scrollB0So08UIScrollB0Cvp",
+            "moduleName": "PagerView",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIScrollView",
+                    "printedName": "UIKit.UIScrollView",
+                    "usr": "c:objc(cs)UIScrollView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PagerView07UIPagerB0C06scrollB0So08UIScrollB0Cvg",
+                "mangledName": "$s9PagerView07UIPagerB0C06scrollB0So08UIScrollB0Cvg",
+                "moduleName": "PagerView",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "scrollViewConstraints",
+            "printedName": "scrollViewConstraints",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.NSLayoutConstraint]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSLayoutConstraint",
+                    "printedName": "UIKit.NSLayoutConstraint",
+                    "usr": "c:objc(cs)NSLayoutConstraint"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PagerView07UIPagerB0C06scrollB11ConstraintsSaySo18NSLayoutConstraintCGvp",
+            "mangledName": "$s9PagerView07UIPagerB0C06scrollB11ConstraintsSaySo18NSLayoutConstraintCGvp",
+            "moduleName": "PagerView",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[UIKit.NSLayoutConstraint]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSLayoutConstraint",
+                        "printedName": "UIKit.NSLayoutConstraint",
+                        "usr": "c:objc(cs)NSLayoutConstraint"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PagerView07UIPagerB0C06scrollB11ConstraintsSaySo18NSLayoutConstraintCGvg",
+                "mangledName": "$s9PagerView07UIPagerB0C06scrollB11ConstraintsSaySo18NSLayoutConstraintCGvg",
+                "moduleName": "PagerView",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[UIKit.NSLayoutConstraint]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSLayoutConstraint",
+                        "printedName": "UIKit.NSLayoutConstraint",
+                        "usr": "c:objc(cs)NSLayoutConstraint"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PagerView07UIPagerB0C06scrollB11ConstraintsSaySo18NSLayoutConstraintCGvs",
+                "mangledName": "$s9PagerView07UIPagerB0C06scrollB11ConstraintsSaySo18NSLayoutConstraintCGvs",
+                "moduleName": "PagerView",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PagerView07UIPagerB0C06scrollB11ConstraintsSaySo18NSLayoutConstraintCGvM",
+                "mangledName": "$s9PagerView07UIPagerB0C06scrollB11ConstraintsSaySo18NSLayoutConstraintCGvM",
+                "moduleName": "PagerView",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(axis:frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIPagerView",
+                "printedName": "PagerView.UIPagerView",
+                "usr": "c:@M@PagerView@objc(cs)UIPagerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Axis",
+                "printedName": "PagerView.UIPagerView.Axis",
+                "usr": "s:9PagerView07UIPagerB0C4AxisO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9PagerView07UIPagerB0C4axis5frameA2C4AxisO_So6CGRectVtcfc",
+            "mangledName": "$s9PagerView07UIPagerB0C4axis5frameA2C4AxisO_So6CGRectVtcfc",
+            "moduleName": "PagerView",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PagerView.UIPagerView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIPagerView",
+                    "printedName": "PagerView.UIPagerView",
+                    "usr": "c:@M@PagerView@objc(cs)UIPagerView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PagerView@objc(cs)UIPagerView(im)initWithCoder:",
+            "mangledName": "$s9PagerView07UIPagerB0C5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "PagerView",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "PagerView.UIPagerViewDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PagerView07UIPagerB0C8delegateAA0cB8Delegate_pSgvp",
+            "mangledName": "$s9PagerView07UIPagerB0C8delegateAA0cB8Delegate_pSgvp",
+            "moduleName": "PagerView",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PagerView.UIPagerViewDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIPagerViewDelegate",
+                        "printedName": "PagerView.UIPagerViewDelegate",
+                        "usr": "s:9PagerView07UIPagerB8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PagerView07UIPagerB0C8delegateAA0cB8Delegate_pSgvg",
+                "mangledName": "$s9PagerView07UIPagerB0C8delegateAA0cB8Delegate_pSgvg",
+                "moduleName": "PagerView",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PagerView.UIPagerViewDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIPagerViewDelegate",
+                        "printedName": "PagerView.UIPagerViewDelegate",
+                        "usr": "s:9PagerView07UIPagerB8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PagerView07UIPagerB0C8delegateAA0cB8Delegate_pSgvs",
+                "mangledName": "$s9PagerView07UIPagerB0C8delegateAA0cB8Delegate_pSgvs",
+                "moduleName": "PagerView",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PagerView07UIPagerB0C8delegateAA0cB8Delegate_pSgvM",
+                "mangledName": "$s9PagerView07UIPagerB0C8delegateAA0cB8Delegate_pSgvM",
+                "moduleName": "PagerView",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "datasource",
+            "printedName": "datasource",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "PagerView.UIPagerViewDataSource?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PagerView07UIPagerB0C10datasourceAA0cB10DataSource_pSgvp",
+            "mangledName": "$s9PagerView07UIPagerB0C10datasourceAA0cB10DataSource_pSgvp",
+            "moduleName": "PagerView",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PagerView.UIPagerViewDataSource?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIPagerViewDataSource",
+                        "printedName": "PagerView.UIPagerViewDataSource",
+                        "usr": "s:9PagerView07UIPagerB10DataSourceP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PagerView07UIPagerB0C10datasourceAA0cB10DataSource_pSgvg",
+                "mangledName": "$s9PagerView07UIPagerB0C10datasourceAA0cB10DataSource_pSgvg",
+                "moduleName": "PagerView",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PagerView.UIPagerViewDataSource?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIPagerViewDataSource",
+                        "printedName": "PagerView.UIPagerViewDataSource",
+                        "usr": "s:9PagerView07UIPagerB10DataSourceP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PagerView07UIPagerB0C10datasourceAA0cB10DataSource_pSgvs",
+                "mangledName": "$s9PagerView07UIPagerB0C10datasourceAA0cB10DataSource_pSgvs",
+                "moduleName": "PagerView",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PagerView07UIPagerB0C10datasourceAA0cB10DataSource_pSgvM",
+                "mangledName": "$s9PagerView07UIPagerB0C10datasourceAA0cB10DataSource_pSgvM",
+                "moduleName": "PagerView",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "axis",
+            "printedName": "axis",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Axis",
+                "printedName": "PagerView.UIPagerView.Axis",
+                "usr": "s:9PagerView07UIPagerB0C4AxisO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PagerView07UIPagerB0C4axisAC4AxisOvp",
+            "mangledName": "$s9PagerView07UIPagerB0C4axisAC4AxisOvp",
+            "moduleName": "PagerView",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Axis",
+                    "printedName": "PagerView.UIPagerView.Axis",
+                    "usr": "s:9PagerView07UIPagerB0C4AxisO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PagerView07UIPagerB0C4axisAC4AxisOvg",
+                "mangledName": "$s9PagerView07UIPagerB0C4axisAC4AxisOvg",
+                "moduleName": "PagerView",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pageInsets",
+            "printedName": "pageInsets",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIEdgeInsets",
+                "printedName": "UIKit.UIEdgeInsets",
+                "usr": "c:@S@UIEdgeInsets"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PagerView07UIPagerB0C10pageInsetsSo06UIEdgeE0Vvp",
+            "mangledName": "$s9PagerView07UIPagerB0C10pageInsetsSo06UIEdgeE0Vvp",
+            "moduleName": "PagerView",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIEdgeInsets",
+                    "printedName": "UIKit.UIEdgeInsets",
+                    "usr": "c:@S@UIEdgeInsets"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PagerView07UIPagerB0C10pageInsetsSo06UIEdgeE0Vvg",
+                "mangledName": "$s9PagerView07UIPagerB0C10pageInsetsSo06UIEdgeE0Vvg",
+                "moduleName": "PagerView",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIEdgeInsets",
+                    "printedName": "UIKit.UIEdgeInsets",
+                    "usr": "c:@S@UIEdgeInsets"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PagerView07UIPagerB0C10pageInsetsSo06UIEdgeE0Vvs",
+                "mangledName": "$s9PagerView07UIPagerB0C10pageInsetsSo06UIEdgeE0Vvs",
+                "moduleName": "PagerView",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PagerView07UIPagerB0C10pageInsetsSo06UIEdgeE0VvM",
+                "mangledName": "$s9PagerView07UIPagerB0C10pageInsetsSo06UIEdgeE0VvM",
+                "moduleName": "PagerView",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "middleItemScaleFactor",
+            "printedName": "middleItemScaleFactor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PagerView07UIPagerB0C21middleItemScaleFactor14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s9PagerView07UIPagerB0C21middleItemScaleFactor12CoreGraphics7CGFloatVvp",
+            "moduleName": "PagerView",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PagerView07UIPagerB0C21middleItemScaleFactor14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s9PagerView07UIPagerB0C21middleItemScaleFactor12CoreGraphics7CGFloatVvg",
+                "moduleName": "PagerView",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PagerView07UIPagerB0C21middleItemScaleFactor14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s9PagerView07UIPagerB0C21middleItemScaleFactor12CoreGraphics7CGFloatVvs",
+                "moduleName": "PagerView",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PagerView07UIPagerB0C21middleItemScaleFactor14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s9PagerView07UIPagerB0C21middleItemScaleFactor12CoreGraphics7CGFloatVvM",
+                "moduleName": "PagerView",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "managedViews",
+            "printedName": "managedViews",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[PagerView.UIPagerViewItem]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIPagerViewItem",
+                    "printedName": "PagerView.UIPagerViewItem",
+                    "usr": "c:@M@PagerView@objc(cs)UIPagerViewItem"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PagerView07UIPagerB0C12managedViewsSayAA0cB4ItemCGvp",
+            "mangledName": "$s9PagerView07UIPagerB0C12managedViewsSayAA0cB4ItemCGvp",
+            "moduleName": "PagerView",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[PagerView.UIPagerViewItem]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIPagerViewItem",
+                        "printedName": "PagerView.UIPagerViewItem",
+                        "usr": "c:@M@PagerView@objc(cs)UIPagerViewItem"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PagerView07UIPagerB0C12managedViewsSayAA0cB4ItemCGvg",
+                "mangledName": "$s9PagerView07UIPagerB0C12managedViewsSayAA0cB4ItemCGvg",
+                "moduleName": "PagerView",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "reloadData",
+            "printedName": "reloadData(selectedIndex:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9PagerView07UIPagerB0C10reloadData13selectedIndexySiSg_tF",
+            "mangledName": "$s9PagerView07UIPagerB0C10reloadData13selectedIndexySiSg_tF",
+            "moduleName": "PagerView",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "view",
+            "printedName": "view(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(view: PagerView.UIPagerViewItem, index: Swift.Int)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(view: PagerView.UIPagerViewItem, index: Swift.Int)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIPagerViewItem",
+                        "printedName": "PagerView.UIPagerViewItem",
+                        "usr": "c:@M@PagerView@objc(cs)UIPagerViewItem"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9PagerView07UIPagerB0C4view3forAA0cB4ItemCAD_Si5indextSgSi_tF",
+            "mangledName": "$s9PagerView07UIPagerB0C4view3forAA0cB4ItemCAD_Si5indextSgSi_tF",
+            "moduleName": "PagerView",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCurrentVisibleIndexesBounds",
+            "printedName": "getCurrentVisibleIndexesBounds()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(before: Swift.Int, after: Swift.Int)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9PagerView07UIPagerB0C30getCurrentVisibleIndexesBoundsSi6before_Si5aftertyF",
+            "mangledName": "$s9PagerView07UIPagerB0C30getCurrentVisibleIndexesBoundsSi6before_Si5aftertyF",
+            "moduleName": "PagerView",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "currentNumberOfElements",
+            "printedName": "currentNumberOfElements",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PagerView07UIPagerB0C23currentNumberOfElementsSivp",
+            "mangledName": "$s9PagerView07UIPagerB0C23currentNumberOfElementsSivp",
+            "moduleName": "PagerView",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PagerView07UIPagerB0C23currentNumberOfElementsSivg",
+                "mangledName": "$s9PagerView07UIPagerB0C23currentNumberOfElementsSivg",
+                "moduleName": "PagerView",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "selectedIndex",
+            "printedName": "selectedIndex",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PagerView07UIPagerB0C13selectedIndexSivp",
+            "mangledName": "$s9PagerView07UIPagerB0C13selectedIndexSivp",
+            "moduleName": "PagerView",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PagerView07UIPagerB0C13selectedIndexSivg",
+                "mangledName": "$s9PagerView07UIPagerB0C13selectedIndexSivg",
+                "moduleName": "PagerView",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setSelected",
+            "printedName": "setSelected(index:animated:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9PagerView07UIPagerB0C11setSelected5index8animatedySi_SbtF",
+            "mangledName": "$s9PagerView07UIPagerB0C11setSelected5index8animatedySi_SbtF",
+            "moduleName": "PagerView",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adjustScrollViewFrame",
+            "printedName": "adjustScrollViewFrame(scaleFactor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9PagerView07UIPagerB0C012adjustScrollB5Frame11scaleFactory14CoreFoundation7CGFloatV_tF",
+            "mangledName": "$s9PagerView07UIPagerB0C012adjustScrollB5Frame11scaleFactory12CoreGraphics7CGFloatV_tF",
+            "moduleName": "PagerView",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dequeueReusableView",
+            "printedName": "dequeueReusableView(prefix:viewClass:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9PagerView07UIPagerB0C015dequeueReusableB06prefix9viewClass3forxSSSg_xmSitAA0cB4ItemCRbzlF",
+            "mangledName": "$s9PagerView07UIPagerB0C015dequeueReusableB06prefix9viewClass3forxSSSg_xmSitAA0cB4ItemCRbzlF",
+            "moduleName": "PagerView",
+            "genericSig": "<τ_0_0 where τ_0_0 : PagerView.UIPagerViewItem>",
+            "sugared_genericSig": "<T where T : PagerView.UIPagerViewItem>",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "scrollViewDidScroll",
+            "printedName": "scrollViewDidScroll(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIScrollView",
+                "printedName": "UIKit.UIScrollView",
+                "usr": "c:objc(cs)UIScrollView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PagerView@objc(cs)UIPagerView(im)scrollViewDidScroll:",
+            "mangledName": "$s9PagerView07UIPagerB0C06scrollB9DidScrollyySo08UIScrollB0CF",
+            "moduleName": "PagerView",
+            "objc_name": "scrollViewDidScroll:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "scrollViewDidZoom",
+            "printedName": "scrollViewDidZoom(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIScrollView",
+                "printedName": "UIKit.UIScrollView",
+                "usr": "c:objc(cs)UIScrollView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PagerView@objc(cs)UIPagerView(im)scrollViewDidZoom:",
+            "mangledName": "$s9PagerView07UIPagerB0C06scrollB7DidZoomyySo08UIScrollB0CF",
+            "moduleName": "PagerView",
+            "objc_name": "scrollViewDidZoom:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "scrollViewWillBeginZooming",
+            "printedName": "scrollViewWillBeginZooming(_:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIScrollView",
+                "printedName": "UIKit.UIScrollView",
+                "usr": "c:objc(cs)UIScrollView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PagerView@objc(cs)UIPagerView(im)scrollViewWillBeginZooming:withView:",
+            "mangledName": "$s9PagerView07UIPagerB0C06scrollB16WillBeginZooming_4withySo08UIScrollB0C_So6UIViewCSgtF",
+            "moduleName": "PagerView",
+            "objc_name": "scrollViewWillBeginZooming:withView:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "scrollViewDidEndZooming",
+            "printedName": "scrollViewDidEndZooming(_:with:atScale:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIScrollView",
+                "printedName": "UIKit.UIScrollView",
+                "usr": "c:objc(cs)UIScrollView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PagerView@objc(cs)UIPagerView(im)scrollViewDidEndZooming:withView:atScale:",
+            "mangledName": "$s9PagerView07UIPagerB0C06scrollB13DidEndZooming_4with7atScaleySo08UIScrollB0C_So6UIViewCSg12CoreGraphics7CGFloatVtF",
+            "moduleName": "PagerView",
+            "objc_name": "scrollViewDidEndZooming:withView:atScale:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewForZooming",
+            "printedName": "viewForZooming(in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIScrollView",
+                "printedName": "UIKit.UIScrollView",
+                "usr": "c:objc(cs)UIScrollView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PagerView@objc(cs)UIPagerView(im)viewForZoomingInScrollView:",
+            "mangledName": "$s9PagerView07UIPagerB0C14viewForZooming2inSo6UIViewCSgSo08UIScrollB0C_tF",
+            "moduleName": "PagerView",
+            "objc_name": "viewForZoomingInScrollView:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "insertItem",
+            "printedName": "insertItem(at:animated:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9PagerView07UIPagerB0C10insertItem2at8animatedySi_SbtF",
+            "mangledName": "$s9PagerView07UIPagerB0C10insertItem2at8animatedySi_SbtF",
+            "moduleName": "PagerView",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reloadItem",
+            "printedName": "reloadItem(at:animated:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9PagerView07UIPagerB0C10reloadItem2at8animatedySi_SbtF",
+            "mangledName": "$s9PagerView07UIPagerB0C10reloadItem2at8animatedySi_SbtF",
+            "moduleName": "PagerView",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteItem",
+            "printedName": "deleteItem(at:animated:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9PagerView07UIPagerB0C10deleteItem2at8animatedySi_SbtF",
+            "mangledName": "$s9PagerView07UIPagerB0C10deleteItem2at8animatedySi_SbtF",
+            "moduleName": "PagerView",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "performBatchUpdates",
+            "printedName": "performBatchUpdates(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9PagerView07UIPagerB0C19performBatchUpdates_10completionyyyXE_ySbcSgtF",
+            "mangledName": "$s9PagerView07UIPagerB0C19performBatchUpdates_10completionyyyXE_ySbcSgtF",
+            "moduleName": "PagerView",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIPagerView",
+                "printedName": "PagerView.UIPagerView",
+                "usr": "c:@M@PagerView@objc(cs)UIPagerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PagerView@objc(cs)UIPagerView(im)initWithFrame:",
+            "mangledName": "$s9PagerView07UIPagerB0C5frameACSo6CGRectV_tcfc",
+            "moduleName": "PagerView",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PagerView@objc(cs)UIPagerView",
+        "mangledName": "$s9PagerView07UIPagerB0C",
+        "moduleName": "PagerView",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PagerView",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIPagerViewItem",
+        "printedName": "UIPagerViewItem",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "index",
+            "printedName": "index",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PagerView07UIPagerB4ItemC5indexSivp",
+            "mangledName": "$s9PagerView07UIPagerB4ItemC5indexSivp",
+            "moduleName": "PagerView",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PagerView07UIPagerB4ItemC5indexSivg",
+                "mangledName": "$s9PagerView07UIPagerB4ItemC5indexSivg",
+                "moduleName": "PagerView",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIPagerViewItem",
+                "printedName": "PagerView.UIPagerViewItem",
+                "usr": "c:@M@PagerView@objc(cs)UIPagerViewItem"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PagerView@objc(cs)UIPagerViewItem(im)initWithFrame:",
+            "mangledName": "$s9PagerView07UIPagerB4ItemC5frameACSo6CGRectV_tcfc",
+            "moduleName": "PagerView",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PagerView.UIPagerViewItem?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIPagerViewItem",
+                    "printedName": "PagerView.UIPagerViewItem",
+                    "usr": "c:@M@PagerView@objc(cs)UIPagerViewItem"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PagerView@objc(cs)UIPagerViewItem(im)initWithCoder:",
+            "mangledName": "$s9PagerView07UIPagerB4ItemC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "PagerView",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "willDisplayView",
+            "printedName": "willDisplayView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9PagerView07UIPagerB4ItemC011willDisplayB0yyF",
+            "mangledName": "$s9PagerView07UIPagerB4ItemC011willDisplayB0yyF",
+            "moduleName": "PagerView",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didEndDisplayingView",
+            "printedName": "didEndDisplayingView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9PagerView07UIPagerB4ItemC016didEndDisplayingB0yyF",
+            "mangledName": "$s9PagerView07UIPagerB4ItemC016didEndDisplayingB0yyF",
+            "moduleName": "PagerView",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PagerView@objc(cs)UIPagerViewItem",
+        "mangledName": "$s9PagerView07UIPagerB4ItemC",
+        "moduleName": "PagerView",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GenericUIPagerViewItem",
+        "printedName": "GenericUIPagerViewItem",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericUIPagerViewItem",
+                "printedName": "PagerView.GenericUIPagerViewItem<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:9PagerView014GenericUIPagerB4ItemC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9PagerView014GenericUIPagerB4ItemC5frameACyxGSo6CGRectV_tcfc",
+            "mangledName": "$s9PagerView014GenericUIPagerB4ItemC5frameACyxGSo6CGRectV_tcfc",
+            "moduleName": "PagerView",
+            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIView>",
+            "sugared_genericSig": "<T where T : UIKit.UIView>",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PagerView.GenericUIPagerViewItem<τ_0_0>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericUIPagerViewItem",
+                    "printedName": "PagerView.GenericUIPagerViewItem<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:9PagerView014GenericUIPagerB4ItemC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9PagerView014GenericUIPagerB4ItemC5coderACyxGSgSo7NSCoderC_tcfc",
+            "mangledName": "$s9PagerView014GenericUIPagerB4ItemC5coderACyxGSgSo7NSCoderC_tcfc",
+            "moduleName": "PagerView",
+            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIView>",
+            "sugared_genericSig": "<T where T : UIKit.UIView>",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "contentInset",
+            "printedName": "contentInset",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIEdgeInsets",
+                "printedName": "UIKit.UIEdgeInsets",
+                "usr": "c:@S@UIEdgeInsets"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PagerView014GenericUIPagerB4ItemC12contentInsetSo12UIEdgeInsetsVvp",
+            "mangledName": "$s9PagerView014GenericUIPagerB4ItemC12contentInsetSo12UIEdgeInsetsVvp",
+            "moduleName": "PagerView",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIEdgeInsets",
+                    "printedName": "UIKit.UIEdgeInsets",
+                    "usr": "c:@S@UIEdgeInsets"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PagerView014GenericUIPagerB4ItemC12contentInsetSo12UIEdgeInsetsVvg",
+                "mangledName": "$s9PagerView014GenericUIPagerB4ItemC12contentInsetSo12UIEdgeInsetsVvg",
+                "moduleName": "PagerView",
+                "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIView>",
+                "sugared_genericSig": "<T where T : UIKit.UIView>",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIEdgeInsets",
+                    "printedName": "UIKit.UIEdgeInsets",
+                    "usr": "c:@S@UIEdgeInsets"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PagerView014GenericUIPagerB4ItemC12contentInsetSo12UIEdgeInsetsVvs",
+                "mangledName": "$s9PagerView014GenericUIPagerB4ItemC12contentInsetSo12UIEdgeInsetsVvs",
+                "moduleName": "PagerView",
+                "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIView>",
+                "sugared_genericSig": "<T where T : UIKit.UIView>",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PagerView014GenericUIPagerB4ItemC12contentInsetSo12UIEdgeInsetsVvM",
+                "mangledName": "$s9PagerView014GenericUIPagerB4ItemC12contentInsetSo12UIEdgeInsetsVvM",
+                "moduleName": "PagerView",
+                "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIView>",
+                "sugared_genericSig": "<T where T : UIKit.UIView>",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mViewContent",
+            "printedName": "mViewContent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9PagerView014GenericUIPagerB4ItemC01mB7Contentxvp",
+            "mangledName": "$s9PagerView014GenericUIPagerB4ItemC01mB7Contentxvp",
+            "moduleName": "PagerView",
+            "declAttributes": [
+              "Custom",
+              "Lazy",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PagerView014GenericUIPagerB4ItemC01mB7Contentxvg",
+                "mangledName": "$s9PagerView014GenericUIPagerB4ItemC01mB7Contentxvg",
+                "moduleName": "PagerView",
+                "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIView>",
+                "sugared_genericSig": "<T where T : UIKit.UIView>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PagerView014GenericUIPagerB4ItemC01mB7Contentxvs",
+                "mangledName": "$s9PagerView014GenericUIPagerB4ItemC01mB7Contentxvs",
+                "moduleName": "PagerView",
+                "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIView>",
+                "sugared_genericSig": "<T where T : UIKit.UIView>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9PagerView014GenericUIPagerB4ItemC01mB7ContentxvM",
+                "mangledName": "$s9PagerView014GenericUIPagerB4ItemC01mB7ContentxvM",
+                "moduleName": "PagerView",
+                "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIView>",
+                "sugared_genericSig": "<T where T : UIKit.UIView>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "updateConstraints",
+            "printedName": "updateConstraints()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9PagerView014GenericUIPagerB4ItemC17updateConstraintsyyF",
+            "mangledName": "$s9PagerView014GenericUIPagerB4ItemC17updateConstraintsyyF",
+            "moduleName": "PagerView",
+            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIView>",
+            "sugared_genericSig": "<T where T : UIKit.UIView>",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "updateConstraints",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9PagerView014GenericUIPagerB4ItemC",
+        "mangledName": "$s9PagerView014GenericUIPagerB4ItemC",
+        "moduleName": "PagerView",
+        "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIView>",
+        "sugared_genericSig": "<T where T : UIKit.UIView>",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:@M@PagerView@objc(cs)UIPagerViewItem",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "PagerView.UIPagerViewItem",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/ExtendedIntaractionAreaScrollView.swift",
+      "kind": "StringLiteral",
+      "offset": 430,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/ExtendedIntaractionAreaScrollView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 639,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/ExtendedIntaractionAreaScrollView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 746,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/ExtendedIntaractionAreaScrollView.swift",
+      "kind": "StringLiteral",
+      "offset": 155,
+      "length": 33,
+      "value": "\"PagerView.ExtendedIntaractionAreaScrollView\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/RandomAccessCollection + Range.swift",
+      "kind": "IntegerLiteral",
+      "offset": 504,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/RandomAccessCollection + Range.swift",
+      "kind": "IntegerLiteral",
+      "offset": 716,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/RandomAccessCollection + Range.swift",
+      "kind": "IntegerLiteral",
+      "offset": 729,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1687,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1734,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1777,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1828,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1896,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1940,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1982,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2071,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2127,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2236,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "StringLiteral",
+      "offset": 2382,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3183,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3465,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3474,
+      "length": 4,
+      "value": "0.01"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3409,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "Array",
+      "offset": 3874,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4063,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4269,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5037,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5070,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5092,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5119,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5124,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5231,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5437,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "StringLiteral",
+      "offset": 5749,
+      "length": 43,
+      "value": "\"pagingView: selected view has no content!\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5280,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6263,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6437,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6714,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6972,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7112,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8426,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8574,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8597,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9269,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9385,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10580,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11683,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11842,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12505,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12616,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "Array",
+      "offset": 12891,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12992,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "StringLiteral",
+      "offset": 13334,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14181,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 14273,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14320,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18989,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "Array",
+      "offset": 19031,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "Array",
+      "offset": 19069,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "Array",
+      "offset": 19108,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19156,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19316,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 19393,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19548,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19578,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19750,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19785,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19814,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20443,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20758,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20889,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21128,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21157,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21165,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22124,
+      "length": 5,
+      "value": "-1000"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 22165,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 22261,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22308,
+      "length": 5,
+      "value": "-1000"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22493,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22495,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 22661,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22959,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23168,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 23327,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 23379,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23557,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23599,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23634,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23824,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerView.swift",
+      "kind": "StringLiteral",
+      "offset": 482,
+      "length": 11,
+      "value": "\"PagerView.UIPagerView\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerViewItem.swift",
+      "kind": "IntegerLiteral",
+      "offset": 355,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerViewItem.swift",
+      "kind": "StringLiteral",
+      "offset": 521,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerViewItem.swift",
+      "kind": "StringLiteral",
+      "offset": 1045,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/m3\/PagerView\/PagerView\/Classes\/UIPagerViewItem.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1945,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

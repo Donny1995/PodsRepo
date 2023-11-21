@@ -1,0 +1,35 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TimeSyncService
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+final public class TimeService {
+  public enum TimeCheckError : Foundation.LocalizedError {
+    case noLocalTimeCursor
+    case unableToFetchKernelBootTime
+    case localTimeCursorIsOutOfSync
+    public static func == (a: TimeSyncService.TimeService.TimeCheckError, b: TimeSyncService.TimeService.TimeCheckError) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public init()
+  final public func syncTime(completion: @escaping (_ success: Swift.Bool) -> Swift.Void)
+  final public func getSynchronizedNowTime(completion: @escaping (_ now: Foundation.Date?) -> Swift.Void)
+  final public func fetchSynchronizedNowTime() throws -> Foundation.Date
+  final public func invalidateLocalTime()
+  final public var isLocalTimeIntegrityFine: Swift.Bool {
+    get
+  }
+  @objc deinit
+}
+public protocol TimeServiceDelegate : AnyObject {
+  func timeService(requestsToLoadRealTime withCompletion: @escaping (Foundation.Date?) -> Swift.Void) -> (() -> Swift.Void)
+}
+extension TimeSyncService.TimeService.TimeCheckError : Swift.Equatable {}
+extension TimeSyncService.TimeService.TimeCheckError : Swift.Hashable {}

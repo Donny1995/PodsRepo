@@ -1,0 +1,4 @@
+framework module UIControlBlocks {
+  header "UIControlBlocks-Swift.h"
+  requires objc
+}

@@ -1,0 +1,4 @@
+framework module DependencyResolver {
+  header "DependencyResolver-Swift.h"
+  requires objc
+}

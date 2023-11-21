@@ -1,0 +1,91 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AutoheightComponents
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol AutoHeightTextViewDelegate : UIKit.UITextViewDelegate {
+  func textViewHeightDidChange(_ textView: AutoheightComponents.AutoHeightTextView, newHeight: CoreFoundation.CGFloat)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class AutoHeightTextView : UIKit.UITextView {
+  @_Concurrency.MainActor(unsafe) final public let mLabelPlaceHolder: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) final public let heightAnchorId: Swift.String
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect, textContainer: UIKit.NSTextContainer?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var bounds: CoreFoundation.CGRect {
+    @objc get
+    @objc set
+  }
+  @objc deinit
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var text: Swift.String! {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var attributedText: Foundation.NSAttributedString! {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) open func attributedStringHeight(string: Foundation.NSAttributedString?, fittringWidth: CoreFoundation.CGFloat) -> CoreFoundation.CGFloat
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class AutoresizableScrollStackView : UIKit.UIScrollView {
+  @_Concurrency.MainActor(unsafe) public var mStackView: UIKit.UIStackView! {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var contentInset: UIKit.UIEdgeInsets {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) open func loadStackView(frame: CoreFoundation.CGRect) -> UIKit.UIStackView
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class AutoHeightCollectionView : UIKit.UICollectionView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect, collectionViewLayout layout: UIKit.UICollectionViewLayout)
+  @_Concurrency.MainActor(unsafe) public var isScrollDisabledWhenHeightIsSufficient: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public var maxHeight: CoreFoundation.CGFloat {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func reloadData()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func performBatchUpdates(_ updates: (() -> Swift.Void)?, completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class AutoHeightTableView : UIKit.UITableView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect, style: UIKit.UITableView.Style)
+  @_Concurrency.MainActor(unsafe) public var isScrollDisabledWhenHeightIsSufficient: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public var maxHeight: CoreFoundation.CGFloat {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func reloadData()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func endUpdates()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func performBatchUpdates(_ updates: (() -> Swift.Void)?, completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func invalidateIntrinsicContentSize()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @objc deinit
+}

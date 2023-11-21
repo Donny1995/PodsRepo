@@ -1,0 +1,95 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PagerView
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import PagerView
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol UIPagerViewDelegate : AnyObject {
+  func pagerView(_ pager: PagerView.UIPagerView, didSelect view: PagerView.UIPagerViewItem, at index: Swift.Int)
+}
+public protocol UIPagerViewDataSource : AnyObject {
+  func pagerView(numberOfElementsInt pagerView: PagerView.UIPagerView) -> Swift.Int
+  func pagerView(_ pagerView: PagerView.UIPagerView, viewFor index: Swift.Int) -> PagerView.UIPagerViewItem?
+}
+@objc @_Concurrency.MainActor(unsafe) open class UIPagerView : UIKit.UIView, UIKit.UIScrollViewDelegate {
+  public enum Axis {
+    case horizontal
+    case vertical
+    public static func == (a: PagerView.UIPagerView.Axis, b: PagerView.UIPagerView.Axis) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @_Concurrency.MainActor(unsafe) final public let scrollView: UIKit.UIScrollView
+  @_Concurrency.MainActor(unsafe) public var scrollViewConstraints: [UIKit.NSLayoutConstraint]
+  @_Concurrency.MainActor(unsafe) public init(axis: PagerView.UIPagerView.Axis, frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any PagerView.UIPagerViewDelegate)?
+  @_Concurrency.MainActor(unsafe) weak public var datasource: (any PagerView.UIPagerViewDataSource)?
+  @_Concurrency.MainActor(unsafe) final public let axis: PagerView.UIPagerView.Axis
+  @_Concurrency.MainActor(unsafe) public var pageInsets: UIKit.UIEdgeInsets {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var middleItemScaleFactor: CoreFoundation.CGFloat {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var managedViews: [PagerView.UIPagerViewItem] {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public func reloadData(selectedIndex: Swift.Int? = nil)
+  @_Concurrency.MainActor(unsafe) public func view(for index: Swift.Int) -> (view: PagerView.UIPagerViewItem, index: Swift.Int)?
+  @_Concurrency.MainActor(unsafe) open func getCurrentVisibleIndexesBounds() -> (before: Swift.Int, after: Swift.Int)
+  @_Concurrency.MainActor(unsafe) public var currentNumberOfElements: Swift.Int {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) open var selectedIndex: Swift.Int {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public func setSelected(index: Swift.Int, animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) open func adjustScrollViewFrame(scaleFactor: CoreFoundation.CGFloat)
+  @_Concurrency.MainActor(unsafe) public func dequeueReusableView<T>(prefix: Swift.String? = nil, viewClass: T.Type, for index: Swift.Int) -> T where T : PagerView.UIPagerViewItem
+  @_Concurrency.MainActor(unsafe) @objc public func scrollViewDidScroll(_ scrollView: UIKit.UIScrollView)
+  @_Concurrency.MainActor(unsafe) @objc public func scrollViewDidZoom(_ scrollView: UIKit.UIScrollView)
+  @_Concurrency.MainActor(unsafe) @objc public func scrollViewWillBeginZooming(_ scrollView: UIKit.UIScrollView, with view: UIKit.UIView?)
+  @_Concurrency.MainActor(unsafe) @objc public func scrollViewDidEndZooming(_ scrollView: UIKit.UIScrollView, with view: UIKit.UIView?, atScale scale: CoreFoundation.CGFloat)
+  @_Concurrency.MainActor(unsafe) @objc public func viewForZooming(in scrollView: UIKit.UIScrollView) -> UIKit.UIView?
+  @_Concurrency.MainActor(unsafe) open func insertItem(at index: Swift.Int, animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) open func reloadItem(at index: Swift.Int, animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) open func deleteItem(at index: Swift.Int, animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) open func performBatchUpdates(_ updates: (() -> Swift.Void), completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class UIPagerViewItem : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public var index: Swift.Int {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) @objc required override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) open func willDisplayView()
+  @_Concurrency.MainActor(unsafe) open func didEndDisplayingView()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class GenericUIPagerViewItem<T> : PagerView.UIPagerViewItem where T : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) open var contentInset: UIKit.UIEdgeInsets {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var mViewContent: T {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func updateConstraints()
+  @objc deinit
+}
+extension PagerView.UIPagerView.Axis : Swift.Equatable {}
+extension PagerView.UIPagerView.Axis : Swift.Hashable {}

@@ -1,0 +1,64 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DependencyResolver
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol TaskDependencyInterface {
+  typealias Identifier = Swift.String
+  static var dependencyIdentifier: Self.Identifier { get }
+}
+extension DependencyResolver.TaskDependencyInterface {
+  public var dependencyIdentifier: Self.Identifier {
+    get
+  }
+}
+public protocol TaskDependency : DependencyResolver.TaskDependencyInterface {
+  associatedtype Value
+  var value: Self.Value { get }
+}
+public protocol DependableTask : AnyObject {
+  func providesDependencyIdentifiers() -> Swift.Set<Swift.String>?
+  func requiredDependencies() -> Swift.Set<Swift.String>?
+  @discardableResult
+  func preformTask(dependencies: [any DependencyResolver.TaskDependencyInterface], completion: @escaping (_ result: Swift.Result<[any DependencyResolver.TaskDependencyInterface], [any Swift.Error]>) -> Swift.Void) -> DependencyResolver.BetterProgress?
+}
+public enum DependableTaskErrors : Foundation.LocalizedError {
+  case incorrectDependency
+  case unresovableDependency(identifier: Swift.String)
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+extension Swift.Array : Swift.Error where Element : Swift.Error {
+}
+@_hasMissingDesignatedInitializers final public class DependencyResolverImpl {
+  public static func resolve(tasks: [any DependencyResolver.DependableTask], context: [any DependencyResolver.TaskDependencyInterface] = [], autoResolve: ((_ identifier: Swift.String) -> (any DependencyResolver.TaskDependencyInterface)?)? = nil, completion: @escaping (_ values: [Swift.String : any DependencyResolver.TaskDependencyInterface], _ errors: [any Swift.Error]) -> Swift.Void) -> DependencyResolver.BetterProgress
+  @objc deinit
+}
+@objc final public class BetterProgress : ObjectiveC.NSObject {
+  final public var tasksCount: Swift.Int {
+    get
+  }
+  @objc override final public var description: Swift.String {
+    @objc get
+  }
+  public init(tasksCount: Swift.Int, updateMode: DependencyResolver.BetterProgress.ProgressCalculationMode = .instant)
+  @objc deinit
+  final public var completedTasksCount: Swift.Int {
+    get
+    set
+  }
+  final public func addChild(progress: DependencyResolver.BetterProgress, andOccupyNumberOfTasksByIt: Swift.Int? = nil)
+  @objc dynamic final public var progress: Swift.Float {
+    @objc get
+  }
+  public enum ProgressCalculationMode : Swift.Equatable {
+    case instant
+    case every(interval: Foundation.TimeInterval)
+    public static func == (a: DependencyResolver.BetterProgress.ProgressCalculationMode, b: DependencyResolver.BetterProgress.ProgressCalculationMode) -> Swift.Bool
+  }
+}

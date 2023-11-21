@@ -1,0 +1,2628 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AutoheightComponents",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AutoHeightTextViewDelegate",
+        "printedName": "AutoHeightTextViewDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "textViewHeightDidChange",
+            "printedName": "textViewHeightDidChange(_:newHeight:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AutoHeightTextView",
+                "printedName": "AutoheightComponents.AutoHeightTextView",
+                "usr": "c:@M@AutoheightComponents@objc(cs)AutoHeightTextView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AutoheightComponents26AutoHeightTextViewDelegateP04textfD9DidChange_03newD0yAA0cdeF0C_14CoreFoundation7CGFloatVtF",
+            "mangledName": "$s20AutoheightComponents26AutoHeightTextViewDelegateP04textfD9DidChange_03newD0yAA0cdeF0C_12CoreGraphics7CGFloatVtF",
+            "moduleName": "AutoheightComponents",
+            "genericSig": "<τ_0_0 where τ_0_0 : AutoheightComponents.AutoHeightTextViewDelegate>",
+            "sugared_genericSig": "<Self where Self : AutoheightComponents.AutoHeightTextViewDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:20AutoheightComponents26AutoHeightTextViewDelegateP",
+        "mangledName": "$s20AutoheightComponents26AutoHeightTextViewDelegateP",
+        "moduleName": "AutoheightComponents",
+        "genericSig": "<τ_0_0 : UIKit.UITextViewDelegate>",
+        "sugared_genericSig": "<Self : UIKit.UITextViewDelegate>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AutoHeightTextView",
+        "printedName": "AutoHeightTextView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "mLabelPlaceHolder",
+            "printedName": "mLabelPlaceHolder",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UILabel",
+                "printedName": "UIKit.UILabel",
+                "usr": "c:objc(cs)UILabel"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20AutoheightComponents18AutoHeightTextViewC17mLabelPlaceHolderSo7UILabelCvp",
+            "mangledName": "$s20AutoheightComponents18AutoHeightTextViewC17mLabelPlaceHolderSo7UILabelCvp",
+            "moduleName": "AutoheightComponents",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AutoheightComponents18AutoHeightTextViewC17mLabelPlaceHolderSo7UILabelCvg",
+                "mangledName": "$s20AutoheightComponents18AutoHeightTextViewC17mLabelPlaceHolderSo7UILabelCvg",
+                "moduleName": "AutoheightComponents",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "heightAnchorId",
+            "printedName": "heightAnchorId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20AutoheightComponents18AutoHeightTextViewC14heightAnchorIdSSvp",
+            "mangledName": "$s20AutoheightComponents18AutoHeightTextViewC14heightAnchorIdSSvp",
+            "moduleName": "AutoheightComponents",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AutoheightComponents18AutoHeightTextViewC14heightAnchorIdSSvg",
+                "mangledName": "$s20AutoheightComponents18AutoHeightTextViewC14heightAnchorIdSSvg",
+                "moduleName": "AutoheightComponents",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:textContainer:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AutoHeightTextView",
+                "printedName": "AutoheightComponents.AutoHeightTextView",
+                "usr": "c:@M@AutoheightComponents@objc(cs)AutoHeightTextView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.NSTextContainer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSTextContainer",
+                    "printedName": "UIKit.NSTextContainer",
+                    "usr": "c:objc(cs)NSTextContainer"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AutoheightComponents@objc(cs)AutoHeightTextView(im)initWithFrame:textContainer:",
+            "mangledName": "$s20AutoheightComponents18AutoHeightTextViewC5frame13textContainerACSo6CGRectV_So06NSTextI0CSgtcfc",
+            "moduleName": "AutoheightComponents",
+            "overriding": true,
+            "objc_name": "initWithFrame:textContainer:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "bounds",
+            "printedName": "bounds",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AutoheightComponents@objc(cs)AutoHeightTextView(py)bounds",
+            "mangledName": "$s20AutoheightComponents18AutoHeightTextViewC6boundsSo6CGRectVvp",
+            "moduleName": "AutoheightComponents",
+            "overriding": true,
+            "objc_name": "bounds",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGRect",
+                    "printedName": "CoreFoundation.CGRect",
+                    "usr": "c:@S@CGRect"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AutoheightComponents@objc(cs)AutoHeightTextView(im)bounds",
+                "mangledName": "$s20AutoheightComponents18AutoHeightTextViewC6boundsSo6CGRectVvg",
+                "moduleName": "AutoheightComponents",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "bounds",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGRect",
+                    "printedName": "CoreFoundation.CGRect",
+                    "usr": "c:@S@CGRect"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AutoheightComponents@objc(cs)AutoHeightTextView(im)setBounds:",
+                "mangledName": "$s20AutoheightComponents18AutoHeightTextViewC6boundsSo6CGRectVvs",
+                "moduleName": "AutoheightComponents",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "setBounds:",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "text",
+            "printedName": "text",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AutoheightComponents@objc(cs)AutoHeightTextView(py)text",
+            "mangledName": "$s20AutoheightComponents18AutoHeightTextViewC4textSSSgvp",
+            "moduleName": "AutoheightComponents",
+            "overriding": true,
+            "objc_name": "text",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AutoheightComponents@objc(cs)AutoHeightTextView(im)text",
+                "mangledName": "$s20AutoheightComponents18AutoHeightTextViewC4textSSSgvg",
+                "moduleName": "AutoheightComponents",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "text",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AutoheightComponents@objc(cs)AutoHeightTextView(im)setText:",
+                "mangledName": "$s20AutoheightComponents18AutoHeightTextViewC4textSSSgvs",
+                "moduleName": "AutoheightComponents",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "setText:",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "attributedText",
+            "printedName": "attributedText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Foundation.NSAttributedString?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSAttributedString",
+                    "printedName": "Foundation.NSAttributedString",
+                    "usr": "c:objc(cs)NSAttributedString"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AutoheightComponents@objc(cs)AutoHeightTextView(py)attributedText",
+            "mangledName": "$s20AutoheightComponents18AutoHeightTextViewC010attributedE0So18NSAttributedStringCSgvp",
+            "moduleName": "AutoheightComponents",
+            "overriding": true,
+            "objc_name": "attributedText",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Foundation.NSAttributedString?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSAttributedString",
+                        "printedName": "Foundation.NSAttributedString",
+                        "usr": "c:objc(cs)NSAttributedString"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AutoheightComponents@objc(cs)AutoHeightTextView(im)attributedText",
+                "mangledName": "$s20AutoheightComponents18AutoHeightTextViewC010attributedE0So18NSAttributedStringCSgvg",
+                "moduleName": "AutoheightComponents",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "attributedText",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Foundation.NSAttributedString?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSAttributedString",
+                        "printedName": "Foundation.NSAttributedString",
+                        "usr": "c:objc(cs)NSAttributedString"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AutoheightComponents@objc(cs)AutoHeightTextView(im)setAttributedText:",
+                "mangledName": "$s20AutoheightComponents18AutoHeightTextViewC010attributedE0So18NSAttributedStringCSgvs",
+                "moduleName": "AutoheightComponents",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "setAttributedText:",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AutoheightComponents.AutoHeightTextView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AutoHeightTextView",
+                    "printedName": "AutoheightComponents.AutoHeightTextView",
+                    "usr": "c:@M@AutoheightComponents@objc(cs)AutoHeightTextView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AutoheightComponents@objc(cs)AutoHeightTextView(im)initWithCoder:",
+            "mangledName": "$s20AutoheightComponents18AutoHeightTextViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "AutoheightComponents",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "intrinsicContentSize",
+            "printedName": "intrinsicContentSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AutoheightComponents@objc(cs)AutoHeightTextView(py)intrinsicContentSize",
+            "mangledName": "$s20AutoheightComponents18AutoHeightTextViewC20intrinsicContentSizeSo6CGSizeVvp",
+            "moduleName": "AutoheightComponents",
+            "overriding": true,
+            "objc_name": "intrinsicContentSize",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AutoheightComponents@objc(cs)AutoHeightTextView(im)intrinsicContentSize",
+                "mangledName": "$s20AutoheightComponents18AutoHeightTextViewC20intrinsicContentSizeSo6CGSizeVvg",
+                "moduleName": "AutoheightComponents",
+                "overriding": true,
+                "objc_name": "intrinsicContentSize",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "attributedStringHeight",
+            "printedName": "attributedStringHeight(string:fittringWidth:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSAttributedString?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSAttributedString",
+                    "printedName": "Foundation.NSAttributedString",
+                    "usr": "c:objc(cs)NSAttributedString"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AutoheightComponents18AutoHeightTextViewC016attributedStringD06string13fittringWidth14CoreFoundation7CGFloatVSo012NSAttributedH0CSg_AItF",
+            "mangledName": "$s20AutoheightComponents18AutoHeightTextViewC016attributedStringD06string13fittringWidth12CoreGraphics7CGFloatVSo012NSAttributedH0CSg_AItF",
+            "moduleName": "AutoheightComponents",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AutoheightComponents@objc(cs)AutoHeightTextView",
+        "mangledName": "$s20AutoheightComponents18AutoHeightTextViewC",
+        "moduleName": "AutoheightComponents",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UITextView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UITextView",
+          "UIKit.UIScrollView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AutoheightComponents",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AutoheightComponents"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AutoresizableScrollStackView",
+        "printedName": "AutoresizableScrollStackView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "mStackView",
+            "printedName": "mStackView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIStackView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIStackView",
+                    "printedName": "UIKit.UIStackView",
+                    "usr": "c:objc(cs)UIStackView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20AutoheightComponents28AutoresizableScrollStackViewC01meF0So07UIStackF0CSgvp",
+            "mangledName": "$s20AutoheightComponents28AutoresizableScrollStackViewC01meF0So07UIStackF0CSgvp",
+            "moduleName": "AutoheightComponents",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIStackView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIStackView",
+                        "printedName": "UIKit.UIStackView",
+                        "usr": "c:objc(cs)UIStackView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AutoheightComponents28AutoresizableScrollStackViewC01meF0So07UIStackF0CSgvg",
+                "mangledName": "$s20AutoheightComponents28AutoresizableScrollStackViewC01meF0So07UIStackF0CSgvg",
+                "moduleName": "AutoheightComponents",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "contentInset",
+            "printedName": "contentInset",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIEdgeInsets",
+                "printedName": "UIKit.UIEdgeInsets",
+                "usr": "c:@S@UIEdgeInsets"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AutoheightComponents@objc(cs)AutoresizableScrollStackView(py)contentInset",
+            "mangledName": "$s20AutoheightComponents28AutoresizableScrollStackViewC12contentInsetSo12UIEdgeInsetsVvp",
+            "moduleName": "AutoheightComponents",
+            "overriding": true,
+            "objc_name": "contentInset",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIEdgeInsets",
+                    "printedName": "UIKit.UIEdgeInsets",
+                    "usr": "c:@S@UIEdgeInsets"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AutoheightComponents@objc(cs)AutoresizableScrollStackView(im)contentInset",
+                "mangledName": "$s20AutoheightComponents28AutoresizableScrollStackViewC12contentInsetSo12UIEdgeInsetsVvg",
+                "moduleName": "AutoheightComponents",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "contentInset",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIEdgeInsets",
+                    "printedName": "UIKit.UIEdgeInsets",
+                    "usr": "c:@S@UIEdgeInsets"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AutoheightComponents@objc(cs)AutoresizableScrollStackView(im)setContentInset:",
+                "mangledName": "$s20AutoheightComponents28AutoresizableScrollStackViewC12contentInsetSo12UIEdgeInsetsVvs",
+                "moduleName": "AutoheightComponents",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "setContentInset:",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AutoresizableScrollStackView",
+                "printedName": "AutoheightComponents.AutoresizableScrollStackView",
+                "usr": "c:@M@AutoheightComponents@objc(cs)AutoresizableScrollStackView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AutoheightComponents@objc(cs)AutoresizableScrollStackView(im)initWithFrame:",
+            "mangledName": "$s20AutoheightComponents28AutoresizableScrollStackViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "AutoheightComponents",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AutoheightComponents.AutoresizableScrollStackView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AutoresizableScrollStackView",
+                    "printedName": "AutoheightComponents.AutoresizableScrollStackView",
+                    "usr": "c:@M@AutoheightComponents@objc(cs)AutoresizableScrollStackView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AutoheightComponents@objc(cs)AutoresizableScrollStackView(im)initWithCoder:",
+            "mangledName": "$s20AutoheightComponents28AutoresizableScrollStackViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "AutoheightComponents",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "loadStackView",
+            "printedName": "loadStackView(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIStackView",
+                "printedName": "UIKit.UIStackView",
+                "usr": "c:objc(cs)UIStackView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AutoheightComponents28AutoresizableScrollStackViewC04loadeF05frameSo07UIStackF0CSo6CGRectV_tF",
+            "mangledName": "$s20AutoheightComponents28AutoresizableScrollStackViewC04loadeF05frameSo07UIStackF0CSo6CGRectV_tF",
+            "moduleName": "AutoheightComponents",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AutoheightComponents@objc(cs)AutoresizableScrollStackView(im)layoutSubviews",
+            "mangledName": "$s20AutoheightComponents28AutoresizableScrollStackViewC14layoutSubviewsyyF",
+            "moduleName": "AutoheightComponents",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "layoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "intrinsicContentSize",
+            "printedName": "intrinsicContentSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AutoheightComponents@objc(cs)AutoresizableScrollStackView(py)intrinsicContentSize",
+            "mangledName": "$s20AutoheightComponents28AutoresizableScrollStackViewC20intrinsicContentSizeSo6CGSizeVvp",
+            "moduleName": "AutoheightComponents",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "intrinsicContentSize",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AutoheightComponents@objc(cs)AutoresizableScrollStackView(im)intrinsicContentSize",
+                "mangledName": "$s20AutoheightComponents28AutoresizableScrollStackViewC20intrinsicContentSizeSo6CGSizeVvg",
+                "moduleName": "AutoheightComponents",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "intrinsicContentSize",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AutoheightComponents@objc(cs)AutoresizableScrollStackView",
+        "mangledName": "$s20AutoheightComponents28AutoresizableScrollStackViewC",
+        "moduleName": "AutoheightComponents",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIScrollView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIScrollView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AutoheightComponents",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AutoheightComponents"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AutoHeightCollectionView",
+        "printedName": "AutoHeightCollectionView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:collectionViewLayout:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AutoHeightCollectionView",
+                "printedName": "AutoheightComponents.AutoHeightCollectionView",
+                "usr": "c:@M@AutoheightComponents@objc(cs)AutoHeightCollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewLayout",
+                "printedName": "UIKit.UICollectionViewLayout",
+                "usr": "c:objc(cs)UICollectionViewLayout"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AutoheightComponents@objc(cs)AutoHeightCollectionView(im)initWithFrame:collectionViewLayout:",
+            "mangledName": "$s20AutoheightComponents24AutoHeightCollectionViewC5frame010collectionF6LayoutACSo6CGRectV_So012UICollectionfI0Ctcfc",
+            "moduleName": "AutoheightComponents",
+            "overriding": true,
+            "objc_name": "initWithFrame:collectionViewLayout:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "isScrollDisabledWhenHeightIsSufficient",
+            "printedName": "isScrollDisabledWhenHeightIsSufficient",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20AutoheightComponents24AutoHeightCollectionViewC020isScrollDisabledWhenD12IsSufficientSbvp",
+            "mangledName": "$s20AutoheightComponents24AutoHeightCollectionViewC020isScrollDisabledWhenD12IsSufficientSbvp",
+            "moduleName": "AutoheightComponents",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AutoheightComponents24AutoHeightCollectionViewC020isScrollDisabledWhenD12IsSufficientSbvg",
+                "mangledName": "$s20AutoheightComponents24AutoHeightCollectionViewC020isScrollDisabledWhenD12IsSufficientSbvg",
+                "moduleName": "AutoheightComponents",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AutoheightComponents24AutoHeightCollectionViewC020isScrollDisabledWhenD12IsSufficientSbvs",
+                "mangledName": "$s20AutoheightComponents24AutoHeightCollectionViewC020isScrollDisabledWhenD12IsSufficientSbvs",
+                "moduleName": "AutoheightComponents",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AutoheightComponents24AutoHeightCollectionViewC020isScrollDisabledWhenD12IsSufficientSbvM",
+                "mangledName": "$s20AutoheightComponents24AutoHeightCollectionViewC020isScrollDisabledWhenD12IsSufficientSbvM",
+                "moduleName": "AutoheightComponents",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AutoheightComponents.AutoHeightCollectionView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AutoHeightCollectionView",
+                    "printedName": "AutoheightComponents.AutoHeightCollectionView",
+                    "usr": "c:@M@AutoheightComponents@objc(cs)AutoHeightCollectionView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AutoheightComponents@objc(cs)AutoHeightCollectionView(im)initWithCoder:",
+            "mangledName": "$s20AutoheightComponents24AutoHeightCollectionViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "AutoheightComponents",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "maxHeight",
+            "printedName": "maxHeight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20AutoheightComponents24AutoHeightCollectionViewC03maxD014CoreFoundation7CGFloatVvp",
+            "mangledName": "$s20AutoheightComponents24AutoHeightCollectionViewC03maxD012CoreGraphics7CGFloatVvp",
+            "moduleName": "AutoheightComponents",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AutoheightComponents24AutoHeightCollectionViewC03maxD014CoreFoundation7CGFloatVvg",
+                "mangledName": "$s20AutoheightComponents24AutoHeightCollectionViewC03maxD012CoreGraphics7CGFloatVvg",
+                "moduleName": "AutoheightComponents",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AutoheightComponents24AutoHeightCollectionViewC03maxD014CoreFoundation7CGFloatVvs",
+                "mangledName": "$s20AutoheightComponents24AutoHeightCollectionViewC03maxD012CoreGraphics7CGFloatVvs",
+                "moduleName": "AutoheightComponents",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AutoheightComponents24AutoHeightCollectionViewC03maxD014CoreFoundation7CGFloatVvM",
+                "mangledName": "$s20AutoheightComponents24AutoHeightCollectionViewC03maxD012CoreGraphics7CGFloatVvM",
+                "moduleName": "AutoheightComponents",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "reloadData",
+            "printedName": "reloadData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AutoheightComponents@objc(cs)AutoHeightCollectionView(im)reloadData",
+            "mangledName": "$s20AutoheightComponents24AutoHeightCollectionViewC10reloadDatayyF",
+            "moduleName": "AutoheightComponents",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "reloadData",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "performBatchUpdates",
+            "printedName": "performBatchUpdates(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AutoheightComponents@objc(cs)AutoHeightCollectionView(im)performBatchUpdates:completion:",
+            "mangledName": "$s20AutoheightComponents24AutoHeightCollectionViewC19performBatchUpdates_10completionyyycSg_ySbcSgtF",
+            "moduleName": "AutoheightComponents",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "performBatchUpdates:completion:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "intrinsicContentSize",
+            "printedName": "intrinsicContentSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AutoheightComponents@objc(cs)AutoHeightCollectionView(py)intrinsicContentSize",
+            "mangledName": "$s20AutoheightComponents24AutoHeightCollectionViewC20intrinsicContentSizeSo6CGSizeVvp",
+            "moduleName": "AutoheightComponents",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "intrinsicContentSize",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AutoheightComponents@objc(cs)AutoHeightCollectionView(im)intrinsicContentSize",
+                "mangledName": "$s20AutoheightComponents24AutoHeightCollectionViewC20intrinsicContentSizeSo6CGSizeVvg",
+                "moduleName": "AutoheightComponents",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "intrinsicContentSize",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AutoheightComponents@objc(cs)AutoHeightCollectionView",
+        "mangledName": "$s20AutoheightComponents24AutoHeightCollectionViewC",
+        "moduleName": "AutoheightComponents",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UICollectionView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UICollectionView",
+          "UIKit.UIScrollView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AutoheightComponents",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AutoheightComponents"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AutoHeightTableView",
+        "printedName": "AutoHeightTableView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:style:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AutoHeightTableView",
+                "printedName": "AutoheightComponents.AutoHeightTableView",
+                "usr": "c:@M@AutoheightComponents@objc(cs)AutoHeightTableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Style",
+                "printedName": "UIKit.UITableView.Style",
+                "usr": "c:@E@UITableViewStyle"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AutoheightComponents@objc(cs)AutoHeightTableView(im)initWithFrame:style:",
+            "mangledName": "$s20AutoheightComponents19AutoHeightTableViewC5frame5styleACSo6CGRectV_So07UITableF5StyleVtcfc",
+            "moduleName": "AutoheightComponents",
+            "overriding": true,
+            "objc_name": "initWithFrame:style:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "isScrollDisabledWhenHeightIsSufficient",
+            "printedName": "isScrollDisabledWhenHeightIsSufficient",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20AutoheightComponents19AutoHeightTableViewC020isScrollDisabledWhenD12IsSufficientSbvp",
+            "mangledName": "$s20AutoheightComponents19AutoHeightTableViewC020isScrollDisabledWhenD12IsSufficientSbvp",
+            "moduleName": "AutoheightComponents",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AutoheightComponents19AutoHeightTableViewC020isScrollDisabledWhenD12IsSufficientSbvg",
+                "mangledName": "$s20AutoheightComponents19AutoHeightTableViewC020isScrollDisabledWhenD12IsSufficientSbvg",
+                "moduleName": "AutoheightComponents",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AutoheightComponents19AutoHeightTableViewC020isScrollDisabledWhenD12IsSufficientSbvs",
+                "mangledName": "$s20AutoheightComponents19AutoHeightTableViewC020isScrollDisabledWhenD12IsSufficientSbvs",
+                "moduleName": "AutoheightComponents",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AutoheightComponents19AutoHeightTableViewC020isScrollDisabledWhenD12IsSufficientSbvM",
+                "mangledName": "$s20AutoheightComponents19AutoHeightTableViewC020isScrollDisabledWhenD12IsSufficientSbvM",
+                "moduleName": "AutoheightComponents",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AutoheightComponents.AutoHeightTableView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AutoHeightTableView",
+                    "printedName": "AutoheightComponents.AutoHeightTableView",
+                    "usr": "c:@M@AutoheightComponents@objc(cs)AutoHeightTableView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AutoheightComponents@objc(cs)AutoHeightTableView(im)initWithCoder:",
+            "mangledName": "$s20AutoheightComponents19AutoHeightTableViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "AutoheightComponents",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "maxHeight",
+            "printedName": "maxHeight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20AutoheightComponents19AutoHeightTableViewC03maxD014CoreFoundation7CGFloatVvp",
+            "mangledName": "$s20AutoheightComponents19AutoHeightTableViewC03maxD012CoreGraphics7CGFloatVvp",
+            "moduleName": "AutoheightComponents",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AutoheightComponents19AutoHeightTableViewC03maxD014CoreFoundation7CGFloatVvg",
+                "mangledName": "$s20AutoheightComponents19AutoHeightTableViewC03maxD012CoreGraphics7CGFloatVvg",
+                "moduleName": "AutoheightComponents",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AutoheightComponents19AutoHeightTableViewC03maxD014CoreFoundation7CGFloatVvs",
+                "mangledName": "$s20AutoheightComponents19AutoHeightTableViewC03maxD012CoreGraphics7CGFloatVvs",
+                "moduleName": "AutoheightComponents",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AutoheightComponents19AutoHeightTableViewC03maxD014CoreFoundation7CGFloatVvM",
+                "mangledName": "$s20AutoheightComponents19AutoHeightTableViewC03maxD012CoreGraphics7CGFloatVvM",
+                "moduleName": "AutoheightComponents",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "reloadData",
+            "printedName": "reloadData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AutoheightComponents@objc(cs)AutoHeightTableView(im)reloadData",
+            "mangledName": "$s20AutoheightComponents19AutoHeightTableViewC10reloadDatayyF",
+            "moduleName": "AutoheightComponents",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "reloadData",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "endUpdates",
+            "printedName": "endUpdates()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AutoheightComponents@objc(cs)AutoHeightTableView(im)endUpdates",
+            "mangledName": "$s20AutoheightComponents19AutoHeightTableViewC10endUpdatesyyF",
+            "moduleName": "AutoheightComponents",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "endUpdates",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "performBatchUpdates",
+            "printedName": "performBatchUpdates(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AutoheightComponents@objc(cs)AutoHeightTableView(im)performBatchUpdates:completion:",
+            "mangledName": "$s20AutoheightComponents19AutoHeightTableViewC19performBatchUpdates_10completionyyycSg_ySbcSgtF",
+            "moduleName": "AutoheightComponents",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "performBatchUpdates:completion:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "invalidateIntrinsicContentSize",
+            "printedName": "invalidateIntrinsicContentSize()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AutoheightComponents@objc(cs)AutoHeightTableView(im)invalidateIntrinsicContentSize",
+            "mangledName": "$s20AutoheightComponents19AutoHeightTableViewC30invalidateIntrinsicContentSizeyyF",
+            "moduleName": "AutoheightComponents",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "invalidateIntrinsicContentSize",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "intrinsicContentSize",
+            "printedName": "intrinsicContentSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AutoheightComponents@objc(cs)AutoHeightTableView(py)intrinsicContentSize",
+            "mangledName": "$s20AutoheightComponents19AutoHeightTableViewC20intrinsicContentSizeSo6CGSizeVvp",
+            "moduleName": "AutoheightComponents",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "intrinsicContentSize",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AutoheightComponents@objc(cs)AutoHeightTableView(im)intrinsicContentSize",
+                "mangledName": "$s20AutoheightComponents19AutoHeightTableViewC20intrinsicContentSizeSo6CGSizeVvg",
+                "moduleName": "AutoheightComponents",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "intrinsicContentSize",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AutoheightComponents@objc(cs)AutoHeightTableView",
+        "mangledName": "$s20AutoheightComponents19AutoHeightTableViewC",
+        "moduleName": "AutoheightComponents",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UITableView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UITableView",
+          "UIKit.UIScrollView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoHeightTextView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 596,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoHeightTextView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 641,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoHeightTextView.swift",
+      "kind": "StringLiteral",
+      "offset": 839,
+      "length": 4,
+      "value": "\"39\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoHeightTextView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1086,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoHeightTextView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1234,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoHeightTextView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1359,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoHeightTextView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1440,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoHeightTextView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2478,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoHeightTextView.swift",
+      "kind": "StringLiteral",
+      "offset": 3624,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoHeightTextView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4672,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoHeightTextView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4739,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoHeightTextView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4744,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoHeightTextView.swift",
+      "kind": "FloatLiteral",
+      "offset": 4869,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoHeightTextView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5011,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoHeightTextView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5017,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoHeightTextView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5361,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoresizableScrollStackView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1003,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoresizableScrollStackView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1056,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoresizableScrollStackView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1156,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoresizableScrollStackView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1210,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoresizableScrollStackView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1643,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoresizableScrollStackView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2603,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoresizableScrollStackView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2666,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoresizableScrollStackView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2771,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoresizableScrollStackView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2816,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoresizableScrollStackView.swift",
+      "kind": "StringLiteral",
+      "offset": 2896,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoresizableScrollStackView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3233,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoresizableScrollStackView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3410,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoHeightCollectionView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 568,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoHeightCollectionView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 613,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoHeightCollectionView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 660,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoHeightCollectionView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1379,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoHeightCollectionView.swift",
+      "kind": "StringLiteral",
+      "offset": 1611,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoHeightCollectionView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1702,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoHeightCollectionView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1932,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoHeightCollectionView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2800,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoHeightCollectionView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2945,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoHeightCollectionView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2988,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoHeightCollectionView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3026,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoHeightTableView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 443,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoHeightTableView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 488,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoHeightTableView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 535,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoHeightTableView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1560,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoHeightTableView.swift",
+      "kind": "StringLiteral",
+      "offset": 1792,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoHeightTableView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1897,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoHeightTableView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2127,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/AutoheightComponents\/AutoheightComponents\/Classes\/AutoHeightTableView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3093,
+      "length": 1,
+      "value": "1"
+    }
+  ]
+}

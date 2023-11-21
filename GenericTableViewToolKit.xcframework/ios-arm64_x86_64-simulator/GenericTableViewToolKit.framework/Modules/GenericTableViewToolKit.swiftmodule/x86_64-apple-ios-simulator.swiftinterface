@@ -1,0 +1,78 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name GenericTableViewToolKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import ObjectiveC
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class GenericTableViewHeaderFooterView<ContainedType> : UIKit.UITableViewHeaderFooterView where ContainedType : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) open var contentInset: UIKit.UIEdgeInsets {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var mViewContent: ContainedType {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var backView: UIKit.UIView {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var backgroundColor: UIKit.UIColor? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func prepareForReuse()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(reuseIdentifier: Swift.String?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public var defaultGenericTableViewCellSeparatorColor: UIKit.UIColor
+public var defaultGenericTableViewCellBackViewColor: UIKit.UIColor
+@_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class GenericTableViewCell<T> : UIKit.UITableViewCell where T : UIKit.UIView {
+  public enum SeparatorStyle : Swift.Equatable {
+    case none
+    case top(metrics: UIKit.UIEdgeInsets = .init(top: 1/UIScreen.main.scale, left: 20, bottom: 1/UIScreen.main.scale, right: 20))
+    case bottom(metrics: UIKit.UIEdgeInsets = .init(top: 1/UIScreen.main.scale, left: 20, bottom: 1/UIScreen.main.scale, right: 20))
+    public static func == (a: GenericTableViewToolKit.GenericTableViewCell<T>.SeparatorStyle, b: GenericTableViewToolKit.GenericTableViewCell<T>.SeparatorStyle) -> Swift.Bool
+  }
+  @_Concurrency.MainActor(unsafe) dynamic public var separatorColor: UIKit.UIColor {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open class func appearance() -> Self
+  @_Concurrency.MainActor(unsafe) public var separatorStyle: GenericTableViewToolKit.GenericTableViewCell<T>.SeparatorStyle {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) open var contentInset: UIKit.UIEdgeInsets {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var mViewContent: T {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func updateConstraints()
+  public typealias SelectionBlock = ((_ cell: GenericTableViewToolKit.GenericTableViewCell<T>, _ selected: Swift.Bool, _ animated: Swift.Bool) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public func setSelectionBlock(_ block: GenericTableViewToolKit.GenericTableViewCell<T>.SelectionBlock?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func setSelected(_ selected: Swift.Bool, animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) public func setHighlightBlock(_ block: GenericTableViewToolKit.GenericTableViewCell<T>.SelectionBlock?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func setHighlighted(_ highlighted: Swift.Bool, animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func prepareForReuse()
+  @objc deinit
+}
+extension UIKit.UITableView {
+  @_Concurrency.MainActor(unsafe) public static var associatedKey: Foundation.NSString
+  @_Concurrency.MainActor(unsafe) public var setOfRegisteredClasses: Foundation.NSMutableSet {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public func dequeueReusableCell<T>(prefix: Swift.String = "", withClass mClass: T.Type, for indexPath: Foundation.IndexPath) -> T where T : UIKit.UITableViewCell
+  @_Concurrency.MainActor(unsafe) public func dequeueReusableHeaderFooterView<T>(prefix: Swift.String = "", withClass mClass: T.Type) -> T where T : UIKit.UITableViewHeaderFooterView
+}

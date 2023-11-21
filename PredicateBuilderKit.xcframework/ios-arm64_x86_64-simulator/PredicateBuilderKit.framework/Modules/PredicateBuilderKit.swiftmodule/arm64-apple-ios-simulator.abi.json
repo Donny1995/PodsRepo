@@ -1,0 +1,2020 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "PredicateBuilderKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PredicateBuilder",
+        "printedName": "PredicateBuilder",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(conjuction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PredicateBuilder",
+                "printedName": "PredicateBuilderKit.PredicateBuilder",
+                "usr": "s:19PredicateBuilderKit0aB0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogicalType",
+                "printedName": "Foundation.NSCompoundPredicate.LogicalType",
+                "hasDefaultArg": true,
+                "usr": "c:@E@NSCompoundPredicateType"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19PredicateBuilderKit0aB0C10conjuctionACSo010NSCompoundA4TypeV_tcfc",
+            "mangledName": "$s19PredicateBuilderKit0aB0C10conjuctionACSo010NSCompoundA4TypeV_tcfc",
+            "moduleName": "PredicateBuilderKit",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Relation",
+            "printedName": "Relation",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "equal",
+                "printedName": "equal",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PredicateBuilderKit.PredicateBuilder.Relation.Type) -> PredicateBuilderKit.PredicateBuilder.Relation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Relation",
+                        "printedName": "PredicateBuilderKit.PredicateBuilder.Relation",
+                        "usr": "s:19PredicateBuilderKit0aB0C8RelationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PredicateBuilderKit.PredicateBuilder.Relation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Relation",
+                            "printedName": "PredicateBuilderKit.PredicateBuilder.Relation",
+                            "usr": "s:19PredicateBuilderKit0aB0C8RelationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:19PredicateBuilderKit0aB0C8RelationO5equalyA2EmF",
+                "mangledName": "$s19PredicateBuilderKit0aB0C8RelationO5equalyA2EmF",
+                "moduleName": "PredicateBuilderKit"
+              },
+              {
+                "kind": "Var",
+                "name": "notEqual",
+                "printedName": "notEqual",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PredicateBuilderKit.PredicateBuilder.Relation.Type) -> PredicateBuilderKit.PredicateBuilder.Relation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Relation",
+                        "printedName": "PredicateBuilderKit.PredicateBuilder.Relation",
+                        "usr": "s:19PredicateBuilderKit0aB0C8RelationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PredicateBuilderKit.PredicateBuilder.Relation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Relation",
+                            "printedName": "PredicateBuilderKit.PredicateBuilder.Relation",
+                            "usr": "s:19PredicateBuilderKit0aB0C8RelationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:19PredicateBuilderKit0aB0C8RelationO8notEqualyA2EmF",
+                "mangledName": "$s19PredicateBuilderKit0aB0C8RelationO8notEqualyA2EmF",
+                "moduleName": "PredicateBuilderKit"
+              },
+              {
+                "kind": "Var",
+                "name": "less",
+                "printedName": "less",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PredicateBuilderKit.PredicateBuilder.Relation.Type) -> PredicateBuilderKit.PredicateBuilder.Relation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Relation",
+                        "printedName": "PredicateBuilderKit.PredicateBuilder.Relation",
+                        "usr": "s:19PredicateBuilderKit0aB0C8RelationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PredicateBuilderKit.PredicateBuilder.Relation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Relation",
+                            "printedName": "PredicateBuilderKit.PredicateBuilder.Relation",
+                            "usr": "s:19PredicateBuilderKit0aB0C8RelationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:19PredicateBuilderKit0aB0C8RelationO4lessyA2EmF",
+                "mangledName": "$s19PredicateBuilderKit0aB0C8RelationO4lessyA2EmF",
+                "moduleName": "PredicateBuilderKit"
+              },
+              {
+                "kind": "Var",
+                "name": "greater",
+                "printedName": "greater",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PredicateBuilderKit.PredicateBuilder.Relation.Type) -> PredicateBuilderKit.PredicateBuilder.Relation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Relation",
+                        "printedName": "PredicateBuilderKit.PredicateBuilder.Relation",
+                        "usr": "s:19PredicateBuilderKit0aB0C8RelationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PredicateBuilderKit.PredicateBuilder.Relation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Relation",
+                            "printedName": "PredicateBuilderKit.PredicateBuilder.Relation",
+                            "usr": "s:19PredicateBuilderKit0aB0C8RelationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:19PredicateBuilderKit0aB0C8RelationO7greateryA2EmF",
+                "mangledName": "$s19PredicateBuilderKit0aB0C8RelationO7greateryA2EmF",
+                "moduleName": "PredicateBuilderKit"
+              },
+              {
+                "kind": "Var",
+                "name": "lessOrEqual",
+                "printedName": "lessOrEqual",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PredicateBuilderKit.PredicateBuilder.Relation.Type) -> PredicateBuilderKit.PredicateBuilder.Relation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Relation",
+                        "printedName": "PredicateBuilderKit.PredicateBuilder.Relation",
+                        "usr": "s:19PredicateBuilderKit0aB0C8RelationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PredicateBuilderKit.PredicateBuilder.Relation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Relation",
+                            "printedName": "PredicateBuilderKit.PredicateBuilder.Relation",
+                            "usr": "s:19PredicateBuilderKit0aB0C8RelationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:19PredicateBuilderKit0aB0C8RelationO11lessOrEqualyA2EmF",
+                "mangledName": "$s19PredicateBuilderKit0aB0C8RelationO11lessOrEqualyA2EmF",
+                "moduleName": "PredicateBuilderKit"
+              },
+              {
+                "kind": "Var",
+                "name": "greaterOrEqual",
+                "printedName": "greaterOrEqual",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PredicateBuilderKit.PredicateBuilder.Relation.Type) -> PredicateBuilderKit.PredicateBuilder.Relation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Relation",
+                        "printedName": "PredicateBuilderKit.PredicateBuilder.Relation",
+                        "usr": "s:19PredicateBuilderKit0aB0C8RelationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PredicateBuilderKit.PredicateBuilder.Relation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Relation",
+                            "printedName": "PredicateBuilderKit.PredicateBuilder.Relation",
+                            "usr": "s:19PredicateBuilderKit0aB0C8RelationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:19PredicateBuilderKit0aB0C8RelationO14greaterOrEqualyA2EmF",
+                "mangledName": "$s19PredicateBuilderKit0aB0C8RelationO14greaterOrEqualyA2EmF",
+                "moduleName": "PredicateBuilderKit"
+              },
+              {
+                "kind": "Var",
+                "name": "in",
+                "printedName": "in",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PredicateBuilderKit.PredicateBuilder.Relation.Type) -> PredicateBuilderKit.PredicateBuilder.Relation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Relation",
+                        "printedName": "PredicateBuilderKit.PredicateBuilder.Relation",
+                        "usr": "s:19PredicateBuilderKit0aB0C8RelationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PredicateBuilderKit.PredicateBuilder.Relation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Relation",
+                            "printedName": "PredicateBuilderKit.PredicateBuilder.Relation",
+                            "usr": "s:19PredicateBuilderKit0aB0C8RelationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:19PredicateBuilderKit0aB0C8RelationO2inyA2EmF",
+                "mangledName": "$s19PredicateBuilderKit0aB0C8RelationO2inyA2EmF",
+                "moduleName": "PredicateBuilderKit"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Relation",
+                    "printedName": "PredicateBuilderKit.PredicateBuilder.Relation",
+                    "usr": "s:19PredicateBuilderKit0aB0C8RelationO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Relation",
+                    "printedName": "PredicateBuilderKit.PredicateBuilder.Relation",
+                    "usr": "s:19PredicateBuilderKit0aB0C8RelationO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:19PredicateBuilderKit0aB0C8RelationO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s19PredicateBuilderKit0aB0C8RelationO2eeoiySbAE_AEtFZ",
+                "moduleName": "PredicateBuilderKit",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:19PredicateBuilderKit0aB0C8RelationO9hashValueSivp",
+                "mangledName": "$s19PredicateBuilderKit0aB0C8RelationO9hashValueSivp",
+                "moduleName": "PredicateBuilderKit",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19PredicateBuilderKit0aB0C8RelationO9hashValueSivg",
+                    "mangledName": "$s19PredicateBuilderKit0aB0C8RelationO9hashValueSivg",
+                    "moduleName": "PredicateBuilderKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:19PredicateBuilderKit0aB0C8RelationO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s19PredicateBuilderKit0aB0C8RelationO4hash4intoys6HasherVz_tF",
+                "moduleName": "PredicateBuilderKit",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:19PredicateBuilderKit0aB0C8RelationO",
+            "mangledName": "$s19PredicateBuilderKit0aB0C8RelationO",
+            "moduleName": "PredicateBuilderKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "RelationForString",
+            "printedName": "RelationForString",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "contains",
+                "printedName": "contains",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PredicateBuilderKit.PredicateBuilder.RelationForString.Type) -> (Swift.Bool, Swift.Bool) -> PredicateBuilderKit.PredicateBuilder.RelationForString",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Bool, Swift.Bool) -> PredicateBuilderKit.PredicateBuilder.RelationForString",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RelationForString",
+                            "printedName": "PredicateBuilderKit.PredicateBuilder.RelationForString",
+                            "usr": "s:19PredicateBuilderKit0aB0C17RelationForStringO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(caseInsensitive: Swift.Bool, diacritic: Swift.Bool)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Bool",
+                                "printedName": "Swift.Bool",
+                                "usr": "s:Sb"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Bool",
+                                "printedName": "Swift.Bool",
+                                "usr": "s:Sb"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PredicateBuilderKit.PredicateBuilder.RelationForString.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RelationForString",
+                            "printedName": "PredicateBuilderKit.PredicateBuilder.RelationForString",
+                            "usr": "s:19PredicateBuilderKit0aB0C17RelationForStringO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:19PredicateBuilderKit0aB0C17RelationForStringO8containsyAESb_SbtcAEmF",
+                "mangledName": "$s19PredicateBuilderKit0aB0C17RelationForStringO8containsyAESb_SbtcAEmF",
+                "moduleName": "PredicateBuilderKit"
+              },
+              {
+                "kind": "Var",
+                "name": "like",
+                "printedName": "like",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PredicateBuilderKit.PredicateBuilder.RelationForString.Type) -> (Swift.Bool, Swift.Bool) -> PredicateBuilderKit.PredicateBuilder.RelationForString",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Bool, Swift.Bool) -> PredicateBuilderKit.PredicateBuilder.RelationForString",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RelationForString",
+                            "printedName": "PredicateBuilderKit.PredicateBuilder.RelationForString",
+                            "usr": "s:19PredicateBuilderKit0aB0C17RelationForStringO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(caseInsensitive: Swift.Bool, diacritic: Swift.Bool)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Bool",
+                                "printedName": "Swift.Bool",
+                                "usr": "s:Sb"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Bool",
+                                "printedName": "Swift.Bool",
+                                "usr": "s:Sb"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PredicateBuilderKit.PredicateBuilder.RelationForString.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RelationForString",
+                            "printedName": "PredicateBuilderKit.PredicateBuilder.RelationForString",
+                            "usr": "s:19PredicateBuilderKit0aB0C17RelationForStringO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:19PredicateBuilderKit0aB0C17RelationForStringO4likeyAESb_SbtcAEmF",
+                "mangledName": "$s19PredicateBuilderKit0aB0C17RelationForStringO4likeyAESb_SbtcAEmF",
+                "moduleName": "PredicateBuilderKit",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "beginsWith",
+                "printedName": "beginsWith",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PredicateBuilderKit.PredicateBuilder.RelationForString.Type) -> (Swift.Bool, Swift.Bool) -> PredicateBuilderKit.PredicateBuilder.RelationForString",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Bool, Swift.Bool) -> PredicateBuilderKit.PredicateBuilder.RelationForString",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RelationForString",
+                            "printedName": "PredicateBuilderKit.PredicateBuilder.RelationForString",
+                            "usr": "s:19PredicateBuilderKit0aB0C17RelationForStringO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(caseInsensitive: Swift.Bool, diacritic: Swift.Bool)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Bool",
+                                "printedName": "Swift.Bool",
+                                "usr": "s:Sb"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Bool",
+                                "printedName": "Swift.Bool",
+                                "usr": "s:Sb"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PredicateBuilderKit.PredicateBuilder.RelationForString.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RelationForString",
+                            "printedName": "PredicateBuilderKit.PredicateBuilder.RelationForString",
+                            "usr": "s:19PredicateBuilderKit0aB0C17RelationForStringO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:19PredicateBuilderKit0aB0C17RelationForStringO10beginsWithyAESb_SbtcAEmF",
+                "mangledName": "$s19PredicateBuilderKit0aB0C17RelationForStringO10beginsWithyAESb_SbtcAEmF",
+                "moduleName": "PredicateBuilderKit",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "endsWith",
+                "printedName": "endsWith",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PredicateBuilderKit.PredicateBuilder.RelationForString.Type) -> (Swift.Bool, Swift.Bool) -> PredicateBuilderKit.PredicateBuilder.RelationForString",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Bool, Swift.Bool) -> PredicateBuilderKit.PredicateBuilder.RelationForString",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RelationForString",
+                            "printedName": "PredicateBuilderKit.PredicateBuilder.RelationForString",
+                            "usr": "s:19PredicateBuilderKit0aB0C17RelationForStringO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(caseInsensitive: Swift.Bool, diacritic: Swift.Bool)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Bool",
+                                "printedName": "Swift.Bool",
+                                "usr": "s:Sb"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Bool",
+                                "printedName": "Swift.Bool",
+                                "usr": "s:Sb"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PredicateBuilderKit.PredicateBuilder.RelationForString.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RelationForString",
+                            "printedName": "PredicateBuilderKit.PredicateBuilder.RelationForString",
+                            "usr": "s:19PredicateBuilderKit0aB0C17RelationForStringO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:19PredicateBuilderKit0aB0C17RelationForStringO8endsWithyAESb_SbtcAEmF",
+                "mangledName": "$s19PredicateBuilderKit0aB0C17RelationForStringO8endsWithyAESb_SbtcAEmF",
+                "moduleName": "PredicateBuilderKit",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "matches",
+                "printedName": "matches",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PredicateBuilderKit.PredicateBuilder.RelationForString.Type) -> (Swift.Bool, Swift.Bool) -> PredicateBuilderKit.PredicateBuilder.RelationForString",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Bool, Swift.Bool) -> PredicateBuilderKit.PredicateBuilder.RelationForString",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RelationForString",
+                            "printedName": "PredicateBuilderKit.PredicateBuilder.RelationForString",
+                            "usr": "s:19PredicateBuilderKit0aB0C17RelationForStringO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(caseInsensitive: Swift.Bool, diacritic: Swift.Bool)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Bool",
+                                "printedName": "Swift.Bool",
+                                "usr": "s:Sb"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Bool",
+                                "printedName": "Swift.Bool",
+                                "usr": "s:Sb"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PredicateBuilderKit.PredicateBuilder.RelationForString.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RelationForString",
+                            "printedName": "PredicateBuilderKit.PredicateBuilder.RelationForString",
+                            "usr": "s:19PredicateBuilderKit0aB0C17RelationForStringO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:19PredicateBuilderKit0aB0C17RelationForStringO7matchesyAESb_SbtcAEmF",
+                "mangledName": "$s19PredicateBuilderKit0aB0C17RelationForStringO7matchesyAESb_SbtcAEmF",
+                "moduleName": "PredicateBuilderKit",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:19PredicateBuilderKit0aB0C17RelationForStringO",
+            "mangledName": "$s19PredicateBuilderKit0aB0C17RelationForStringO",
+            "moduleName": "PredicateBuilderKit",
+            "declAttributes": [
+              "AccessControl"
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Aggregation",
+            "printedName": "Aggregation",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "ANY",
+                "printedName": "ANY",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PredicateBuilderKit.PredicateBuilder.Aggregation.Type) -> PredicateBuilderKit.PredicateBuilder.Aggregation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Aggregation",
+                        "printedName": "PredicateBuilderKit.PredicateBuilder.Aggregation",
+                        "usr": "s:19PredicateBuilderKit0aB0C11AggregationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PredicateBuilderKit.PredicateBuilder.Aggregation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Aggregation",
+                            "printedName": "PredicateBuilderKit.PredicateBuilder.Aggregation",
+                            "usr": "s:19PredicateBuilderKit0aB0C11AggregationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:19PredicateBuilderKit0aB0C11AggregationO3ANYyA2EmF",
+                "mangledName": "$s19PredicateBuilderKit0aB0C11AggregationO3ANYyA2EmF",
+                "moduleName": "PredicateBuilderKit"
+              },
+              {
+                "kind": "Var",
+                "name": "SOME",
+                "printedName": "SOME",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PredicateBuilderKit.PredicateBuilder.Aggregation.Type) -> PredicateBuilderKit.PredicateBuilder.Aggregation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Aggregation",
+                        "printedName": "PredicateBuilderKit.PredicateBuilder.Aggregation",
+                        "usr": "s:19PredicateBuilderKit0aB0C11AggregationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PredicateBuilderKit.PredicateBuilder.Aggregation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Aggregation",
+                            "printedName": "PredicateBuilderKit.PredicateBuilder.Aggregation",
+                            "usr": "s:19PredicateBuilderKit0aB0C11AggregationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:19PredicateBuilderKit0aB0C11AggregationO4SOMEyA2EmF",
+                "mangledName": "$s19PredicateBuilderKit0aB0C11AggregationO4SOMEyA2EmF",
+                "moduleName": "PredicateBuilderKit"
+              },
+              {
+                "kind": "Var",
+                "name": "ALL",
+                "printedName": "ALL",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PredicateBuilderKit.PredicateBuilder.Aggregation.Type) -> PredicateBuilderKit.PredicateBuilder.Aggregation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Aggregation",
+                        "printedName": "PredicateBuilderKit.PredicateBuilder.Aggregation",
+                        "usr": "s:19PredicateBuilderKit0aB0C11AggregationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PredicateBuilderKit.PredicateBuilder.Aggregation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Aggregation",
+                            "printedName": "PredicateBuilderKit.PredicateBuilder.Aggregation",
+                            "usr": "s:19PredicateBuilderKit0aB0C11AggregationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:19PredicateBuilderKit0aB0C11AggregationO3ALLyA2EmF",
+                "mangledName": "$s19PredicateBuilderKit0aB0C11AggregationO3ALLyA2EmF",
+                "moduleName": "PredicateBuilderKit"
+              },
+              {
+                "kind": "Var",
+                "name": "NONE",
+                "printedName": "NONE",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PredicateBuilderKit.PredicateBuilder.Aggregation.Type) -> PredicateBuilderKit.PredicateBuilder.Aggregation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Aggregation",
+                        "printedName": "PredicateBuilderKit.PredicateBuilder.Aggregation",
+                        "usr": "s:19PredicateBuilderKit0aB0C11AggregationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PredicateBuilderKit.PredicateBuilder.Aggregation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Aggregation",
+                            "printedName": "PredicateBuilderKit.PredicateBuilder.Aggregation",
+                            "usr": "s:19PredicateBuilderKit0aB0C11AggregationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:19PredicateBuilderKit0aB0C11AggregationO4NONEyA2EmF",
+                "mangledName": "$s19PredicateBuilderKit0aB0C11AggregationO4NONEyA2EmF",
+                "moduleName": "PredicateBuilderKit"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PredicateBuilderKit.PredicateBuilder.Aggregation?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Aggregation",
+                        "printedName": "PredicateBuilderKit.PredicateBuilder.Aggregation",
+                        "usr": "s:19PredicateBuilderKit0aB0C11AggregationO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:19PredicateBuilderKit0aB0C11AggregationO8rawValueAESgSS_tcfc",
+                "mangledName": "$s19PredicateBuilderKit0aB0C11AggregationO8rawValueAESgSS_tcfc",
+                "moduleName": "PredicateBuilderKit",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:19PredicateBuilderKit0aB0C11AggregationO8rawValueSSvp",
+                "mangledName": "$s19PredicateBuilderKit0aB0C11AggregationO8rawValueSSvp",
+                "moduleName": "PredicateBuilderKit",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19PredicateBuilderKit0aB0C11AggregationO8rawValueSSvg",
+                    "mangledName": "$s19PredicateBuilderKit0aB0C11AggregationO8rawValueSSvg",
+                    "moduleName": "PredicateBuilderKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:19PredicateBuilderKit0aB0C11AggregationO",
+            "mangledName": "$s19PredicateBuilderKit0aB0C11AggregationO",
+            "moduleName": "PredicateBuilderKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "add",
+            "printedName": "add(key:subKey:relation:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Relation",
+                "printedName": "PredicateBuilderKit.PredicateBuilder.Relation",
+                "hasDefaultArg": true,
+                "usr": "s:19PredicateBuilderKit0aB0C8RelationO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19PredicateBuilderKit0aB0C3add3key6subKey8relation5valueACXDSS_SSSgAC8RelationOxSgts7CVarArgRzlF",
+            "mangledName": "$s19PredicateBuilderKit0aB0C3add3key6subKey8relation5valueACXDSS_SSSgAC8RelationOxSgts7CVarArgRzlF",
+            "moduleName": "PredicateBuilderKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.CVarArg>",
+            "sugared_genericSig": "<T where T : Swift.CVarArg>",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "add",
+            "printedName": "add(key:subKey:relation:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RelationForString",
+                "printedName": "PredicateBuilderKit.PredicateBuilder.RelationForString",
+                "usr": "s:19PredicateBuilderKit0aB0C17RelationForStringO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19PredicateBuilderKit0aB0C3add3key6subKey8relation5valueACXDSS_SSSgAC17RelationForStringOSStF",
+            "mangledName": "$s19PredicateBuilderKit0aB0C3add3key6subKey8relation5valueACXDSS_SSSgAC17RelationForStringOSStF",
+            "moduleName": "PredicateBuilderKit",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addAggregation",
+            "printedName": "addAggregation(aggregation:key:subKey:relation:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Aggregation",
+                "printedName": "PredicateBuilderKit.PredicateBuilder.Aggregation",
+                "hasDefaultArg": true,
+                "usr": "s:19PredicateBuilderKit0aB0C11AggregationO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Relation",
+                "printedName": "PredicateBuilderKit.PredicateBuilder.Relation",
+                "hasDefaultArg": true,
+                "usr": "s:19PredicateBuilderKit0aB0C8RelationO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19PredicateBuilderKit0aB0C14addAggregation11aggregation3key6subKey8relation5valueACXDAC0E0O_S2SSgAC8RelationOxSgts7CVarArgRzlF",
+            "mangledName": "$s19PredicateBuilderKit0aB0C14addAggregation11aggregation3key6subKey8relation5valueACXDAC0E0O_S2SSgAC8RelationOxSgts7CVarArgRzlF",
+            "moduleName": "PredicateBuilderKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.CVarArg>",
+            "sugared_genericSig": "<T where T : Swift.CVarArg>",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addRaw",
+            "printedName": "addRaw(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSPredicate",
+                "printedName": "Foundation.NSPredicate",
+                "usr": "c:objc(cs)NSPredicate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19PredicateBuilderKit0aB0C6addRawyACXDSo11NSPredicateCF",
+            "mangledName": "$s19PredicateBuilderKit0aB0C6addRawyACXDSo11NSPredicateCF",
+            "moduleName": "PredicateBuilderKit",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "wrapIntoSubquery",
+            "printedName": "wrapIntoSubquery(key:relation:count:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PredicateBuilder",
+                "printedName": "PredicateBuilderKit.PredicateBuilder",
+                "usr": "s:19PredicateBuilderKit0aB0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Relation",
+                "printedName": "PredicateBuilderKit.PredicateBuilder.Relation",
+                "hasDefaultArg": true,
+                "usr": "s:19PredicateBuilderKit0aB0C8RelationO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19PredicateBuilderKit0aB0C16wrapIntoSubquery3key8relation5countACSS_AC8RelationOSitF",
+            "mangledName": "$s19PredicateBuilderKit0aB0C16wrapIntoSubquery3key8relation5countACSS_AC8RelationOSitF",
+            "moduleName": "PredicateBuilderKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "wrapIntoNegation",
+            "printedName": "wrapIntoNegation()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PredicateBuilder",
+                "printedName": "PredicateBuilderKit.PredicateBuilder",
+                "usr": "s:19PredicateBuilderKit0aB0C"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19PredicateBuilderKit0aB0C16wrapIntoNegationACyF",
+            "mangledName": "$s19PredicateBuilderKit0aB0C16wrapIntoNegationACyF",
+            "moduleName": "PredicateBuilderKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19PredicateBuilderKit0aB0C",
+        "mangledName": "$s19PredicateBuilderKit0aB0C",
+        "moduleName": "PredicateBuilderKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "superclassUsr": "s:19PredicateBuilderKit09ImmutableaB0C",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "PredicateBuilderKit.ImmutablePredicateBuilder"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ImmutablePredicateBuilder",
+        "printedName": "ImmutablePredicateBuilder",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "build",
+            "printedName": "build()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSPredicate",
+                "printedName": "Foundation.NSPredicate",
+                "usr": "c:objc(cs)NSPredicate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19PredicateBuilderKit09ImmutableaB0C5buildSo11NSPredicateCyF",
+            "mangledName": "$s19PredicateBuilderKit09ImmutableaB0C5buildSo11NSPredicateCyF",
+            "moduleName": "PredicateBuilderKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "combining",
+            "printedName": "combining(conjunction:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PredicateBuilder",
+                "printedName": "PredicateBuilderKit.PredicateBuilder",
+                "usr": "s:19PredicateBuilderKit0aB0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogicalType",
+                "printedName": "Foundation.NSCompoundPredicate.LogicalType",
+                "usr": "c:@E@NSCompoundPredicateType"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImmutablePredicateBuilder",
+                "printedName": "PredicateBuilderKit.ImmutablePredicateBuilder",
+                "usr": "s:19PredicateBuilderKit09ImmutableaB0C"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19PredicateBuilderKit09ImmutableaB0C9combining11conjunction4withAA0aB0CSo010NSCompoundA4TypeV_ACtF",
+            "mangledName": "$s19PredicateBuilderKit09ImmutableaB0C9combining11conjunction4withAA0aB0CSo010NSCompoundA4TypeV_ACtF",
+            "moduleName": "PredicateBuilderKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "+",
+            "printedName": "+(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PredicateBuilder",
+                "printedName": "PredicateBuilderKit.PredicateBuilder",
+                "usr": "s:19PredicateBuilderKit0aB0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImmutablePredicateBuilder",
+                "printedName": "PredicateBuilderKit.ImmutablePredicateBuilder",
+                "usr": "s:19PredicateBuilderKit09ImmutableaB0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImmutablePredicateBuilder",
+                "printedName": "PredicateBuilderKit.ImmutablePredicateBuilder",
+                "usr": "s:19PredicateBuilderKit09ImmutableaB0C"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19PredicateBuilderKit09ImmutableaB0C1poiyAA0aB0CAC_ACtFZ",
+            "mangledName": "$s19PredicateBuilderKit09ImmutableaB0C1poiyAA0aB0CAC_ACtFZ",
+            "moduleName": "PredicateBuilderKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "||",
+            "printedName": "||(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PredicateBuilder",
+                "printedName": "PredicateBuilderKit.PredicateBuilder",
+                "usr": "s:19PredicateBuilderKit0aB0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImmutablePredicateBuilder",
+                "printedName": "PredicateBuilderKit.ImmutablePredicateBuilder",
+                "usr": "s:19PredicateBuilderKit09ImmutableaB0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImmutablePredicateBuilder",
+                "printedName": "PredicateBuilderKit.ImmutablePredicateBuilder",
+                "usr": "s:19PredicateBuilderKit09ImmutableaB0C"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19PredicateBuilderKit09ImmutableaB0C2oooiyAA0aB0CAC_ACtFZ",
+            "mangledName": "$s19PredicateBuilderKit09ImmutableaB0C2oooiyAA0aB0CAC_ACtFZ",
+            "moduleName": "PredicateBuilderKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "combine",
+            "printedName": "combine(conjunction:builders:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PredicateBuilder",
+                "printedName": "PredicateBuilderKit.PredicateBuilder",
+                "usr": "s:19PredicateBuilderKit0aB0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogicalType",
+                "printedName": "Foundation.NSCompoundPredicate.LogicalType",
+                "usr": "c:@E@NSCompoundPredicateType"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[PredicateBuilderKit.ImmutablePredicateBuilder]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImmutablePredicateBuilder",
+                    "printedName": "PredicateBuilderKit.ImmutablePredicateBuilder",
+                    "usr": "s:19PredicateBuilderKit09ImmutableaB0C"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19PredicateBuilderKit09ImmutableaB0C7combine11conjunction8buildersAA0aB0CSo010NSCompoundA4TypeV_SayACGtFZ",
+            "mangledName": "$s19PredicateBuilderKit09ImmutableaB0C7combine11conjunction8buildersAA0aB0CSo010NSCompoundA4TypeV_SayACGtFZ",
+            "moduleName": "PredicateBuilderKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19PredicateBuilderKit09ImmutableaB0C",
+        "mangledName": "$s19PredicateBuilderKit09ImmutableaB0C",
+        "moduleName": "PredicateBuilderKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 684,
+      "length": 4,
+      "value": "\"==\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 728,
+      "length": 4,
+      "value": "\"!=\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 768,
+      "length": 3,
+      "value": "\"<\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 810,
+      "length": 3,
+      "value": "\">\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 856,
+      "length": 4,
+      "value": "\"<=\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 906,
+      "length": 4,
+      "value": "\">=\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 944,
+      "length": 4,
+      "value": "\"IN\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1075,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1100,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1170,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1195,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1267,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1292,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1368,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1393,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1466,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1491,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 1661,
+      "length": 10,
+      "value": "\"CONTAINS\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 1783,
+      "length": 6,
+      "value": "\"LIKE\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 1907,
+      "length": 12,
+      "value": "\"BEGINSWITH\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 2035,
+      "length": 10,
+      "value": "\"ENDSWITH\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 2160,
+      "length": 9,
+      "value": "\"MATCHES\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 2752,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 2782,
+      "length": 3,
+      "value": "\"c\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 2815,
+      "length": 3,
+      "value": "\"d\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 2890,
+      "length": 6,
+      "value": "\"[%@]\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "Array",
+      "offset": 3423,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 3549,
+      "length": 4,
+      "value": "\"%K\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 3573,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 3578,
+      "length": 5,
+      "value": "\".%K\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 3639,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "Array",
+      "offset": 4447,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 4481,
+      "length": 4,
+      "value": "\"%K\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 4505,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 4510,
+      "length": 5,
+      "value": "\".%K\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 4537,
+      "length": 4,
+      "value": "\"%@\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 4561,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "Array",
+      "offset": 5133,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 5295,
+      "length": 29,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 5319,
+      "length": 1,
+      "value": "\" %K \""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 5347,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 5382,
+      "length": 32,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 5406,
+      "length": 1,
+      "value": "\" %K.%K \""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 5437,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6422,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 6522,
+      "length": 12,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 6533,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6574,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 6630,
+      "length": 46,
+      "value": "\"(\\w+(?:\\.[\\w]+)*)\\s+(>|>=|<|<=|!=|==|=|IN)\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "Array",
+      "offset": 6687,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "Array",
+      "offset": 6755,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6784,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6858,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6973,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 7054,
+      "length": 5,
+      "value": "\"$s.\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7116,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 7229,
+      "length": 68,
+      "value": "\"SUBQUERY(%K, $s, \""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 7264,
+      "length": 1,
+      "value": "\").@count \""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 7293,
+      "length": 1,
+      "value": "\" %d\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 7819,
+      "length": 4,
+      "value": "\"%@\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7863,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8008,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 8043,
+      "length": 6,
+      "value": "\"NULL\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 8239,
+      "length": 4,
+      "value": "\"%@\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 8403,
+      "length": 6,
+      "value": "\"%lld\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 8585,
+      "length": 4,
+      "value": "\"%@\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 8661,
+      "length": 4,
+      "value": "\"%@\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "Array",
+      "offset": 8892,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/PredicateBuilderKit\/PredicateBuilderKit\/Classes\/PredicateBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9294,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+framework module CoreDatabaseStorage {
+  header "CoreDatabaseStorage-Swift.h"
+  requires objc
+}
