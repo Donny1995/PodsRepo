@@ -6,51 +6,51 @@
 	<dict>
 		<key>Headers/CoreDatabaseStorage-Swift.h</key>
 		<data>
-		ui1ErWZxFVVH7vm3T0YhOu8bKrE=
+		LgAHo9U4KNBjWKkRXWm4g3mdgXU=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		RfSzS8HjOaychHhItsQHupBCxY4=
+		sIyl/Drac57l3lF6orWri6a1zU4=
 		</data>
 		<key>Modules/CoreDatabaseStorage.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		whRDOH91cmRrmywIEy93Db77iNM=
+		2g2wTULIvlQrSEfbt9JbI7yWRRI=
 		</data>
 		<key>Modules/CoreDatabaseStorage.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		DyvyUOp2Ch2BVSigWuUbp9VY2n0=
+		+70TSWDz9Gt5t4UDqSKbH339Q4E=
 		</data>
 		<key>Modules/CoreDatabaseStorage.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		JmFcqUS9akp3/8XGbDKWhlwNimE=
+		I7q3489mc7FcfWt6dbiS0QCjxf4=
 		</data>
 		<key>Modules/CoreDatabaseStorage.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		DyvyUOp2Ch2BVSigWuUbp9VY2n0=
+		+70TSWDz9Gt5t4UDqSKbH339Q4E=
 		</data>
 		<key>Modules/CoreDatabaseStorage.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		49VcAntWlmgU1gN2kZzZXux/R3k=
+		qxAiPnjun/txmEohMhjUEWjUmyo=
 		</data>
 		<key>Modules/CoreDatabaseStorage.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		whRDOH91cmRrmywIEy93Db77iNM=
+		2g2wTULIvlQrSEfbt9JbI7yWRRI=
 		</data>
 		<key>Modules/CoreDatabaseStorage.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		dX8bjY0PiV4KL4fyZf0wbTxdcuc=
+		eXymwuMhMy0Py3X/sD6s3u+NvTQ=
 		</data>
 		<key>Modules/CoreDatabaseStorage.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		6k2bxiTEEXfjxZbudI7zXQNA63E=
+		ffqO2NglRYV7HDR/wonvR2wfdx8=
 		</data>
 		<key>Modules/CoreDatabaseStorage.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		dX8bjY0PiV4KL4fyZf0wbTxdcuc=
+		eXymwuMhMy0Py3X/sD6s3u+NvTQ=
 		</data>
 		<key>Modules/CoreDatabaseStorage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		viEcr69ABL+wmw29S09I3fQnCcc=
+		ZOb+uahoQqx7UvYlUc7YriSBJFo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -63,77 +63,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			I/HpenuciviIJV043KdAVGzb1Hrgu+vAssfg+B/bLqY=
+			O/FZqtnwOuoYtHcR0WUw+ib8obYhPejaWnH7koDep0I=
 			</data>
 		</dict>
 		<key>Modules/CoreDatabaseStorage.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DKjPdkrr605DVMftxcfBVtwFaKmWA5ugwTHgOa7Sa+I=
+			1Q8n+DsC/q64ggfNtgO2WHLXQArV04y7nTSN1wxr/fA=
 			</data>
 		</dict>
 		<key>Modules/CoreDatabaseStorage.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XSs3lwYw0cNkUuUwv9CoX/wno1/Uz+XbaMpnr8vaZqs=
+			LAGWHxjRDbg/Ev5WSC2ieJfaYQCiA0I3iYY8uOmWm6A=
 			</data>
 		</dict>
 		<key>Modules/CoreDatabaseStorage.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			A7CoJ/EVCwLwYguCFOVU1zfhEr9Sbk39ZCo1GyLEg+s=
+			RB8PuD+bSop16O84I3K299xZ45BQNSgxjxwTm17lRDg=
 			</data>
 		</dict>
 		<key>Modules/CoreDatabaseStorage.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XSs3lwYw0cNkUuUwv9CoX/wno1/Uz+XbaMpnr8vaZqs=
+			LAGWHxjRDbg/Ev5WSC2ieJfaYQCiA0I3iYY8uOmWm6A=
 			</data>
 		</dict>
 		<key>Modules/CoreDatabaseStorage.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			X/oOwV8tI2Ydmz+cm9+PJHORTujaTDsvXwaHbyz0zhg=
+			TZT0+2czBcbfETle2j//cAmEPVxcRD9fjSu1Ghyt09E=
 			</data>
 		</dict>
 		<key>Modules/CoreDatabaseStorage.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DKjPdkrr605DVMftxcfBVtwFaKmWA5ugwTHgOa7Sa+I=
+			1Q8n+DsC/q64ggfNtgO2WHLXQArV04y7nTSN1wxr/fA=
 			</data>
 		</dict>
 		<key>Modules/CoreDatabaseStorage.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XZXgvy9+RiZt2kQugS+Ug9PzoPE9Cg39UGqGMWPiSW0=
+			dRugRgL3ErqLoOXu6u3EUXZWGV6PJhsqXK8+ddkvvP0=
 			</data>
 		</dict>
 		<key>Modules/CoreDatabaseStorage.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iLzrjh8HNL0TwNohJDiSntBR9atb/vO2MCm4sQY7pUE=
+			y0/s8iUwLnAdiLv7zGtLPtIIoecYQmMhFJkP77ABgbg=
 			</data>
 		</dict>
 		<key>Modules/CoreDatabaseStorage.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XZXgvy9+RiZt2kQugS+Ug9PzoPE9Cg39UGqGMWPiSW0=
+			dRugRgL3ErqLoOXu6u3EUXZWGV6PJhsqXK8+ddkvvP0=
 			</data>
 		</dict>
 		<key>Modules/CoreDatabaseStorage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5HHdtTPC7zQPY5We7h+pEc3Krb2GyKAZnvph+AkIDd8=
+			hvrZ4Ax9PyoSLuZ6QZekxGPZRjVU3FYDzBXjSLWHCD4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

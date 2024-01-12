@@ -1598,12 +1598,40 @@
           {
             "kind": "Function",
             "name": "write",
-            "printedName": "write(_:read:completion:)",
+            "printedName": "write(file:line:column:function:_:read:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeFunc",
@@ -1669,8 +1697,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:19CoreDatabaseStorage0B0C5write_4read10completionyyAC17WriteableAccessorCc_xAC08ReadableH0CcyxcSgtlF",
-            "mangledName": "$s19CoreDatabaseStorage0B0C5write_4read10completionyyAC17WriteableAccessorCc_xAC08ReadableH0CcyxcSgtlF",
+            "usr": "s:19CoreDatabaseStorage0B0C5write4file4line6column8function_4read10completionySS_S2iSSyAC17WriteableAccessorCcxAC08ReadableL0CcyxcSgtlF",
+            "mangledName": "$s19CoreDatabaseStorage0B0C5write4file4line6column8function_4read10completionySS_S2iSSyAC17WriteableAccessorCcxAC08ReadableL0CcyxcSgtlF",
             "moduleName": "CoreDatabaseStorage",
             "genericSig": "<τ_0_0>",
             "sugared_genericSig": "<T>",
@@ -1683,12 +1711,40 @@
           {
             "kind": "Function",
             "name": "write",
-            "printedName": "write(_:completion:)",
+            "printedName": "write(file:line:column:function:_:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeFunc",
@@ -1727,8 +1783,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:19CoreDatabaseStorage0B0C5write_10completionyyAC17WriteableAccessorCc_yyctF",
-            "mangledName": "$s19CoreDatabaseStorage0B0C5write_10completionyyAC17WriteableAccessorCc_yyctF",
+            "usr": "s:19CoreDatabaseStorage0B0C5write4file4line6column8function_10completionySS_S2iSSyAC17WriteableAccessorCcyyctF",
+            "mangledName": "$s19CoreDatabaseStorage0B0C5write4file4line6column8function_10completionySS_S2iSSyAC17WriteableAccessorCcyyctF",
             "moduleName": "CoreDatabaseStorage",
             "declAttributes": [
               "Final",
@@ -2909,7 +2965,8 @@
                 "sugared_genericSig": "<T where T : CoreData.NSManagedObject>",
                 "declAttributes": [
                   "Final",
-                  "AccessControl"
+                  "AccessControl",
+                  "RawDocComment"
                 ],
                 "funcSelfKind": "NonMutating"
               },
@@ -3135,7 +3192,6 @@
             ],
             "superclassUsr": "s:19CoreDatabaseStorage0B0C16ReadableAccessorC",
             "hasMissingDesignatedInitializers": true,
-            "inheritsConvenienceInitializers": true,
             "superclassNames": [
               "CoreDatabaseStorage.Database.ReadableAccessor"
             ]
@@ -4641,409 +4697,486 @@
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
-      "kind": "Array",
-      "offset": 7847,
-      "length": 2,
-      "value": "[]"
+      "kind": "StringLiteral",
+      "offset": 6713,
+      "length": 62,
+      "value": "\"call from \""
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
-      "kind": "Array",
-      "offset": 8252,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
-      "kind": "Array",
-      "offset": 8569,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
-      "kind": "Array",
-      "offset": 9787,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10060,
+      "kind": "StringLiteral",
+      "offset": 6731,
       "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10104,
-      "length": 1,
-      "value": "1"
+      "value": "\":\""
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 10313,
-      "length": 69,
-      "value": "\"🚨 CORE DATA ERROR: \""
+      "offset": 6741,
+      "length": 6,
+      "value": "\" column: \""
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 10363,
-      "length": 8,
-      "value": "\" Accessor:\""
-    },
-    {
-      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
-      "kind": "StringLiteral",
-      "offset": 10381,
+      "offset": 6759,
       "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
-      "kind": "Array",
-      "offset": 10614,
-      "length": 2,
-      "value": "[]"
+      "value": "\" in \""
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 11302,
-      "length": 69,
-      "value": "\"🚨 CORE DATA ERROR: \""
-    },
-    {
-      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
-      "kind": "StringLiteral",
-      "offset": 11352,
-      "length": 8,
-      "value": "\" Accessor:\""
-    },
-    {
-      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
-      "kind": "StringLiteral",
-      "offset": 11370,
+      "offset": 6774,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 11531,
+      "offset": 7749,
+      "length": 60,
+      "value": "\"call from \""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
+      "kind": "StringLiteral",
+      "offset": 7767,
+      "length": 1,
+      "value": "\":\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
+      "kind": "StringLiteral",
+      "offset": 7775,
+      "length": 6,
+      "value": "\" column: \""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
+      "kind": "StringLiteral",
+      "offset": 7793,
+      "length": 2,
+      "value": "\" in \""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
+      "kind": "StringLiteral",
+      "offset": 7808,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
+      "kind": "Array",
+      "offset": 8183,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
+      "kind": "Array",
+      "offset": 8588,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
+      "kind": "Array",
+      "offset": 8905,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
+      "kind": "Array",
+      "offset": 10123,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10396,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10440,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
+      "kind": "StringLiteral",
+      "offset": 10649,
+      "length": 69,
+      "value": "\"🚨 CORE DATA ERROR: \""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
+      "kind": "StringLiteral",
+      "offset": 10699,
+      "length": 8,
+      "value": "\" Accessor:\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
+      "kind": "StringLiteral",
+      "offset": 10717,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
+      "kind": "Array",
+      "offset": 10950,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
+      "kind": "StringLiteral",
+      "offset": 11638,
+      "length": 69,
+      "value": "\"🚨 CORE DATA ERROR: \""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
+      "kind": "StringLiteral",
+      "offset": 11688,
+      "length": 8,
+      "value": "\" Accessor:\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
+      "kind": "StringLiteral",
+      "offset": 11706,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
+      "kind": "StringLiteral",
+      "offset": 11867,
       "length": 5,
       "value": "\"idd\""
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "Array",
-      "offset": 11769,
+      "offset": 12105,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "BooleanLiteral",
-      "offset": 12218,
+      "offset": 12554,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 12671,
+      "offset": 13007,
       "length": 69,
       "value": "\"🚨 CORE DATA ERROR: \""
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 12721,
+      "offset": 13057,
       "length": 8,
       "value": "\" Accessor:\""
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 12739,
+      "offset": 13075,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "Array",
-      "offset": 12765,
+      "offset": 13101,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 13040,
+      "offset": 13376,
       "length": 7,
       "value": "\"count\""
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "IntegerLiteral",
-      "offset": 13198,
+      "offset": 13534,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 13942,
+      "offset": 14278,
       "length": 7,
       "value": "\"count\""
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 14093,
+      "offset": 14429,
       "length": 31,
       "value": "\"count:(\""
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 14122,
+      "offset": 14458,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "BooleanLiteral",
-      "offset": 14380,
+      "offset": 14716,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "BooleanLiteral",
-      "offset": 14441,
+      "offset": 14777,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "Array",
-      "offset": 14775,
+      "offset": 15111,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "Array",
-      "offset": 14984,
+      "offset": 15320,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "IntegerLiteral",
-      "offset": 15345,
+      "offset": 15681,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 15686,
+      "offset": 16022,
       "length": 69,
       "value": "\"🚨 CORE DATA ERROR: \""
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 15736,
+      "offset": 16072,
       "length": 8,
       "value": "\" Accessor:\""
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 15754,
+      "offset": 16090,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "Array",
-      "offset": 16008,
+      "offset": 16344,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "IntegerLiteral",
-      "offset": 16287,
+      "offset": 16623,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "BooleanLiteral",
-      "offset": 16378,
+      "offset": 16714,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 16562,
+      "offset": 16898,
       "length": 69,
       "value": "\"🚨 CORE DATA ERROR: \""
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 16612,
+      "offset": 16948,
       "length": 8,
       "value": "\" Accessor:\""
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 16630,
+      "offset": 16966,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "Array",
-      "offset": 16848,
+      "offset": 17184,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "IntegerLiteral",
-      "offset": 17124,
+      "offset": 17460,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "IntegerLiteral",
-      "offset": 17168,
+      "offset": 17504,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "BooleanLiteral",
-      "offset": 17258,
+      "offset": 17594,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "IntegerLiteral",
-      "offset": 17447,
+      "offset": 17783,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 17518,
+      "offset": 17854,
       "length": 69,
       "value": "\"🚨 CORE DATA ERROR: \""
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 17568,
+      "offset": 17904,
       "length": 8,
       "value": "\" Accessor:\""
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 17586,
+      "offset": 17922,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 20723,
+      "offset": 20785,
       "length": 51,
       "value": "\"🚨 CORE DATA ERROR: \""
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 20773,
+      "offset": 20835,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 24219,
+      "offset": 24307,
       "length": 69,
       "value": "\"🚨 CORE DATA ERROR: \""
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 24269,
+      "offset": 24357,
       "length": 8,
       "value": "\" Accessor:\""
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 24287,
+      "offset": 24375,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 25857,
+      "offset": 25957,
       "length": 69,
       "value": "\"🚨 CORE DATA ERROR: \""
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 25907,
+      "offset": 26007,
       "length": 8,
       "value": "\" Accessor:\""
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 25925,
+      "offset": 26025,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 27625,
+      "offset": 27737,
       "length": 69,
       "value": "\"🚨 CORE DATA ERROR: \""
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 27675,
+      "offset": 27787,
       "length": 8,
       "value": "\" Accessor:\""
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 27693,
+      "offset": 27805,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/CoreDatabase.swift",
+      "kind": "StringLiteral",
+      "offset": 19665,
+      "length": 17,
+      "value": "\"CoreDatabaseStorage.WriteableAccessor\""
     },
     {
       "filePath": "\/Users\/asivash\/Documents\/PersonalProjects\/PodsRepo\/Public\/CoreDatabaseStorage\/CoreDatabaseStorage\/Classes\/NSManagedObjectWriteable.swift",

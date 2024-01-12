@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
 // swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name CoreDatabaseStorage
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import CoreData
@@ -44,8 +44,8 @@ extension CoreDatabaseStorage.NSManagedObjectEditable {
   final public func erase(completion: @escaping (_ error: (any Swift.Error)?) -> Swift.Void)
   final public func read() -> CoreDatabaseStorage.Database.ReadableAccessor?
   final public func read<T>(_ block: @escaping (_ accessor: CoreDatabaseStorage.Database.ReadableAccessor) -> T, completion: ((_ readResult: T) -> Swift.Void)? = nil)
-  final public func write<T>(_ block: @escaping ((_ accessor: CoreDatabaseStorage.Database.WriteableAccessor) -> Swift.Void), read: @escaping ((_ accessor: CoreDatabaseStorage.Database.ReadableAccessor) -> T), completion: ((_ readResult: T) -> Swift.Void)? = nil)
-  final public func write(_ block: @escaping ((_ accessor: CoreDatabaseStorage.Database.WriteableAccessor) -> Swift.Void), completion: @escaping () -> Swift.Void)
+  final public func write<T>(file: Swift.String = #file, line: Swift.Int = #line, column: Swift.Int = #column, function: Swift.String = #function, _ block: @escaping ((_ accessor: CoreDatabaseStorage.Database.WriteableAccessor) -> Swift.Void), read: @escaping ((_ accessor: CoreDatabaseStorage.Database.ReadableAccessor) -> T), completion: ((_ readResult: T) -> Swift.Void)? = nil)
+  final public func write(file: Swift.String = #file, line: Swift.Int = #line, column: Swift.Int = #column, function: Swift.String = #function, _ block: @escaping ((_ accessor: CoreDatabaseStorage.Database.WriteableAccessor) -> Swift.Void), completion: @escaping () -> Swift.Void)
   @inlinable final public func controller<T>(ofType recordType: T.Type, withPredicate predicate: Foundation.NSPredicate? = nil, sortDescriptors descriptors: [Foundation.NSSortDescriptor] = [], sectionNameKeyPath keyPath: Swift.String? = nil) -> CoreData.NSFetchedResultsController<T>? where T : CoreData.NSManagedObject {
         return read()?.controller(ofType: recordType, withPredicate: predicate, sortDescriptors: descriptors, sectionNameKeyPath: keyPath)
     }
@@ -75,7 +75,7 @@ extension CoreDatabaseStorage.NSManagedObjectEditable {
     public func objectExists(ofType recordType: CoreData.NSManagedObject.Type, predicate: Foundation.NSPredicate? = nil, sortDescriptors descriptors: [Foundation.NSSortDescriptor] = []) -> Swift.Bool?
     @objc deinit
   }
-  @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class WriteableAccessor : CoreDatabaseStorage.Database.ReadableAccessor {
+  @_hasMissingDesignatedInitializers final public class WriteableAccessor : CoreDatabaseStorage.Database.ReadableAccessor {
     override final public var objectContext: CoreData.NSManagedObjectContext {
       get
     }
